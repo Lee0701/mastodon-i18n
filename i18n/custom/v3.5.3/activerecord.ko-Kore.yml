@@ -1,0 +1,31 @@
+ko-Kore:
+  activerecord:
+    attributes:
+      poll:
+        expires_at: 마감 期限
+        options: 選擇
+      user:
+        agreement: 利用約款
+        email: 이메일 住所
+        locale: 言語
+        password: 暗號
+      user/account:
+        username: 使用者名
+      user/invite_request:
+        text: 理由
+    errors:
+      models:
+        account:
+          attributes:
+            username:
+              invalid: 英文字, 數字, _만 使用 可能
+              reserved: 이미 豫約되어 있습니다
+        status:
+          attributes:
+            reblog:
+              taken: 이미 揭示物이 存在합니다
+        user:
+          attributes:
+            email:
+              blocked: 許容되지 않은 이메일 提供者입니다
+              unreachable: 存在하지 않는 것 같습니다

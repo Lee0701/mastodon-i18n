@@ -1,0 +1,234 @@
+ko-Kore:
+  simple_form:
+    hints:
+      account_alias:
+        acct: 移動하고자 하는 計定의 使用者이름@도메인을 設定하세요
+      account_migration:
+        acct: 移動하고자 하는 目的地 計定의 使用者이름@도메인을 設定하세요
+      account_warning_preset:
+        text: URL, 해시태그, 멘션과 같은 揭示物 文法을 使用할 수 있습니다
+        title: 選擇事項. 受信者에게는 보이지 않습니다
+      admin_account_action:
+        include_statuses: 使用者는 어떤 揭示物에 對해 警告나 措置가 取해졌는지 볼 수 있게 됩니다
+        send_email_notification: 使用者는 어떤 일이 일어났는 지에 對한 說明을 받게 됩니다
+        text_html: 選擇事項. 揭示物 文法을 使用할 수 있습니다. <a href="%{path}">警告 틀을 追加</a>하여 時間을
+          節約할 수 있습니다
+        type_html: "<strong>%{acct}</strong>에 對해 取할 行動 選擇"
+        types:
+          disable: 使用者가 計定을 使用하는 것을 막지만, 그의 揭示物을 削除하거나 숨기지는 않습니다.
+          none: 이것을 使用해서 어떤 動作도 하지 않고, 使用者에게 警告를 보냅니다.
+          sensitive: 이 使用者의 모든 미디어 添附를 敏感함으로 强制 設定합니다.
+          silence: 이 使用者가 公開 設定으로 揭示物을 作成할 수 없도록 하고, 그를 팔로우 하지 않는 사람에게는 이 使用者의 揭示物과
+            알림을 숨깁니다.
+          suspend: 이 計定과의 모든 相互作用을 막고 모든 內容을 削除합니다. 30日 以內에 되돌리기가 可能합니다.
+        warning_preset_id: 選擇事項. 틀의 마지막에 任意의 텍스트를 追加 할 수 있습니다
+      announcement:
+        all_day: 체크 되었을 境遇, 그 時間에 屬한 날짜들에만 表示됩니다
+        ends_at: 옵션입니다. 公知事項이 이 時間에 自動으로 發行 中止 됩니다
+        scheduled_at: 空白으로 두면 公知事項이 곧바로 發行 됩니다
+        starts_at: 公知事項이 特定한 時間에 從屬 될 때를 爲한 옵션입니다
+        text: 揭示物 文法을 使用할 수 있습니다. 公知事項은 使用者의 畵面 上段 空間을 차지한다는 것을 銘心하세요
+      appeal:
+        text: 處罰에 對해 단 한 番만 異議提起를 할 수 있습니다
+      defaults:
+        autofollow: 이 招待를 通해 加入하는 사람은 當身을 自動으로 팔로우 하게 됩니다
+        avatar: PNG, GIF 或은 JPG. 最大 %{size}. %{dimensions}px로 縮小 됨
+        bot: 이 計定이 大部分 自動으로 作業을 遂行하고 잘 確認하지 않는다는 것을 알립니다.
+        context: 필터를 適用할 한 個 以上의 컨텍스트
+        current_password: 保安을 爲해 現在 計定의 暗號를 入力해주세요
+        current_username: 確認을 爲해, 現在 計定의 使用者名을 入力해주세요
+        digest: 오랫동안 活動하지 않았을 때 받은 멘션들에 對한 要約 받기
+        discoverable: 推薦, 트렌드 및 其他 機能을 通해 낯선 사람이 貴下의 計定을 찾을 수 있도록 許容합니다
+        email: 當身은 確認 메일을 받게 됩니다
+        fields: 當身의 프로파일에 최대 4個까지 表 形式으로 나타낼 수 있습니다
+        header: PNG, GIF 或은 JPG. 最大 %{size}. %{dimensions}px로 縮小 됨
+        inbox_url: 使用할 릴레이 서버의 프론트페이지에서 URL을 複寫합니다
+        irreversible: 필터링 된 揭示物은 나중에 필터가 사라지더라도 돌아오지 않게 됩니다
+        locale: 使用者 인터페이스, 이메일, 푸시 알림 言語
+        locked: 팔로우 要請을 承認함으로써 누가 當身을 팔로우 할 수 있는지를 手動으로 制御합니다.
+        password: 最少 8글字
+        phrase: 揭示物 內容이나 閱覽注意 內容 안에서 大小文字 區分 없이 매칭 됩니다
+        scopes: 애플리케이션에 許容할 API들입니다. 最上位 스코프를 選擇하면 個別的인 것은 選擇하지 않아도 됩니다.
+        setting_aggregate_reblogs: 最近에 부스트 됐던 揭示物은 새로 부스트 되어도 보여주지 않기 (새로 받은 부스트에만
+          適用됩니다)
+        setting_always_send_emails: 基本的으로 마스토돈을 活動的으로 使用하고 있을 때에는 이메일 알림이 보내지지 않습니다
+        setting_default_sensitive: 敏感한 미디어는 基本的으로 가려져 있으며 클릭해서 볼 수 있습니다
+        setting_display_media_default: 敏感함으로 設定 된 미디어 가리기
+        setting_display_media_hide_all: 恒常 모든 미디어를 가리기
+        setting_display_media_show_all: 敏感함으로 設定 된 미디어를 恒常 보이기
+        setting_hide_network: 나를 팔로우 하는 사람들과 내가 팔로우 하는 사람들을 내 프로필에서 숨깁니다
+        setting_noindex: 公開 프로필 및 各 揭示物 페이지에 影響을 미칩니다
+        setting_show_application: 當身이 揭示物을 作成하는데에 使用한 앱이 揭示物의 詳細情報에 表示 됩니다
+        setting_use_blurhash: 그라디언트는 숨겨진 內容의 色相을 基盤으로 하지만 詳細 內容은 보이지 않게 합니다
+        setting_use_pending_items: 타임라인의 새 揭示物을 自動으로 보여 주는 代身, 클릭해서 나타내도록 합니다
+        username: 當身의 使用者名은 %{domain} 안에서 唯一해야 합니다
+        whole_word: 키워드가 英文과 數字로만 이루어 진 경우, 單語 全體에 매칭 되었을 때에만 作動하게 합니다
+      domain_allow:
+        domain: 이 도메인은 이 서버에서 데이터를 가져갈 수 있고 이 도메인에서 보내진 데이터는 處理되고 貯藏 됩니다
+      email_domain_block:
+        domain: 이메일에 表示되는 도메인 네임이거나 그것이 使用하는 MX 레코드일 수 있습니다. 加入時에 檢證됩니다.
+        with_dns_records: 入力한 도메인의 DNS를 照會를 試圖하여 나온 값도 遮斷됩니다
+      featured_tag:
+        name: '이것들을 使用하면 좋을 것 같습니다:'
+      form_challenge:
+        current_password: 當身은 保安 區域에 進入하고 있습니다
+      imports:
+        data: 다른 마스토돈 서버에서 抽出된 CSV 파일
+      invite_request:
+        text: 이 情報는 우리가 審査를 하는 데에 參考할 수 있습니다
+      ip_block:
+        comment: 必須 아님. 왜 이 規則을 追加했는지 記憶하세요.
+        expires_in: IP 住所는 限定된 資源입니다, 이것들은 가끔 共有 되거나 자주 所有者가 바뀌기도 합니다. 이런 理由로 因해,
+          IP 遮斷을 永久히 維持하는 것은 推薦하지 않습니다.
+        ip: IPv4 또는 IPv6 住所를 入力하세요. CIDR 文法을 使用해서 모든 範圍를 遮斷할 수도 있습니다. 自己 自身을 잠가버리지
+          않도록 注意하세요!
+        severities:
+          no_access: 모든 資源에 對한 接近 遮斷
+          sign_up_requires_approval: 새 加入이 承認을 必要로 하도록 합니다
+        severity: 該當 IP로부터의 要請에 對해 무엇이 일어나게 할 지 고르세요
+      rule:
+        text: 이 서버 使用者들이 지켜야 할 規則과 要求事項을 說明해주세요. 짧고 簡單하게 作成해주세요
+      sessions:
+        otp: '携帶電話에서 生成 된 2段階 認證 코드를 入力하거나, 復舊 코드 中 하나를 使用하세요:'
+        webauthn: USB 키라면 揷入했는지 確認하고, 必要하다면 누르세요.
+      tag:
+        name: 읽기 쉽게하기 위한 글字의 大小文字만 變更할 수 있습니다.
+      user:
+        chosen_languages: 체크하면, 選擇 된 言語로 作成된 揭示物들만 公開 타임라인에 보여집니다
+    labels:
+      account:
+        fields:
+          name: 라벨
+          value: 內容
+      account_alias:
+        acct: 旣存 計定의 핸들
+      account_migration:
+        acct: 새 計定의 핸들
+      account_warning_preset:
+        text: 프리셋 텍스트
+        title: 題目
+      admin_account_action:
+        include_statuses: 申告된 揭示物을 이메일에 包含
+        send_email_notification: 이메일로 使用者에게 알리기
+        text: 커스텀 警告
+        type: 措置
+        types:
+          disable: 非活性化
+          none: 아무 것도 하지 않기
+          sensitive: 敏感함
+          silence: 沈默
+          suspend: 停止하고 되돌릴 수 없는 데이터 削除
+        warning_preset_id: 警告 틀 使用하기
+      announcement:
+        all_day: 終日 日程
+        ends_at: 이벤트 終了
+        scheduled_at: 發行 日程
+        starts_at: 이벤트 始作
+        text: 公知事項
+      appeal:
+        text: 이 決定이 왜 飜覆되어야 하는지에 對해 說明해주세요
+      defaults:
+        autofollow: 招待를 通한 팔로우
+        avatar: 아바타
+        bot: 이것은 봇 計定입니다
+        chosen_languages: 言語 필터링
+        confirm_new_password: 暗號 다시 入力
+        confirm_password: 暗號 다시 入力
+        context: 필터 컨텍스트
+        current_password: 現在 暗號 入力
+        data: 데이터
+        discoverable: 計定을 다른 사람들에게 推薦하기
+        display_name: 表示되는 이름
+        email: 이메일 住所
+        expires_in: 滿了時刻
+        fields: 프로필 메타데이터
+        header: 헤더
+        honeypot: "%{label} (채우지 마시오)"
+        inbox_url: 릴레이 서버의 inbox URL
+        irreversible: 숨기는 代身 削除
+        locale: 인터페이스 言語
+        locked: 팔로우 要請 必要
+        max_uses: 使用 回數 制限
+        new_password: 새로운 暗號 入力
+        note: 自己紹介
+        otp_attempt: 2段階 認證 코드
+        password: 暗號
+        phrase: 키워드 또는 文章
+        setting_advanced_layout: 高級 웹 UI 活性化
+        setting_aggregate_reblogs: 타임라인의 부스트를 그룹化
+        setting_always_send_emails: 恒常 이메일 알림 보내기
+        setting_auto_play_gif: 애니메이션 GIF를 自動 再生
+        setting_boost_modal: 부스트 前 確認 窓을 表示
+        setting_crop_images: 擴張되지 않은 揭示物의 이미지를 16x9로 자르기
+        setting_default_language: 揭示物 言語
+        setting_default_privacy: 揭示物 프라이버시
+        setting_default_sensitive: 미디어를 언제나 敏感한 컨텐츠로 設定
+        setting_delete_modal: 揭示物 削除 前 確認 窓을 表示
+        setting_disable_swiping: 스와이프 모션 非活性化
+        setting_display_media: 미디어 表示
+        setting_display_media_default: 基本
+        setting_display_media_hide_all: 모두 가리기
+        setting_display_media_show_all: 모두 보이기
+        setting_expand_spoilers: 閱覽注意 툿을 恒常 펼치기
+        setting_hide_network: 내 人脈 숨기기
+        setting_noindex: 檢索엔진의 인덱싱을 拒絶
+        setting_reduce_motion: 애니메이션 줄이기
+        setting_show_application: 툿 作成에 使用한 앱을 公開
+        setting_system_font_ui: 시스템의 初期 設定 폰트를 使用
+        setting_theme: 사이트 테마
+        setting_trends: 오늘의 流行 보이기
+        setting_unfollow_modal: 언팔로우 前 언팔로우 確認 表示
+        setting_use_blurhash: 숨겨진 미디어에 對해 그라디언트 表示
+        setting_use_pending_items: 느린 모드
+        severity: 深刻度
+        sign_in_token_attempt: 保安 코드
+        type: 불러오기 種類
+        username: 使用者名
+        username_or_email: 使用者名 또는 이메일
+        whole_word: 單語 全體에 매칭
+      email_domain_block:
+        with_dns_records: 도메인의 IP와 MX 레코드 값을 包含
+      featured_tag:
+        name: 해시태그
+      interactions:
+        must_be_follower: 나를 팔로우 하지 않는 사람에게서 온 알림을 遮斷
+        must_be_following: 내가 팔로우 하지 않는 사람에게서 온 알림을 遮斷
+        must_be_following_dm: 내가 팔로우 하지 않은 사람에게서 오는 다이렉트메시지를 遮斷
+      invite:
+        comment: 註釋
+      invite_request:
+        text: 加入하려는 理由가 무엇인가요?
+      ip_block:
+        comment: 註釋
+        ip: IP
+        severities:
+          no_access: 接近 遮斷
+          sign_up_requires_approval: 加入 制限
+        severity: 規則
+      notification_emails:
+        appeal: 누군가가 仲裁者의 決定에 異議를 提起했을 때
+        digest: 要約 이메일 보내기
+        favourite: 누군가 내 狀態를 마음에 들어했을 때
+        follow: 누군가 나를 팔로우 했을 때
+        follow_request: 누군가 나를 팔로우 하길 願할 때
+        mention: 누군가 나를 言及했을 때
+        pending_account: 새 計定이 審査가 必要할 때
+        reblog: 누군가 내 툿을 부스트 했을 때
+        report: 새 申告가 接受되었을 때
+        trending_tag: 새 트렌드에 對한 리뷰가 必要할 때
+      rule:
+        text: 規則
+      tag:
+        listable: 이 해시태그가 檢索과 推薦에 보여지도록 許容
+        name: 해시태그
+        trendable: 이 해시태그가 流行에 보여지도록 許容
+        usable: 이 해시태그를 揭示物에 使用 可能하도록 許容
+    'no': 아니오
+    recommended: 推薦함
+    required:
+      mark: "*"
+      text: 必須 項目
+    title:
+      sessions:
+        webauthn: 로그인하기 爲해서 保安 키를 使用해 주세요
+    'yes': 네

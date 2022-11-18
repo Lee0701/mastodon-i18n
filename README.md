@@ -1,5 +1,5 @@
-# MediaWiki-i18n
-Korean Hangul-Hanja mixed script (韓國語 國漢文混用) localization for MediaWiki
+# mastodon-i18n
+Korean Hangul-Hanja mixed script (韓國語 國漢文混用) localization for mastodon
 
 ## scripts
 Updating locale file(s) on new version release

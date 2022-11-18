@@ -1,0 +1,190 @@
+ko-Kore:
+  activerecord:
+    attributes:
+      doorkeeper/application:
+        name: 애플리케이션 이름
+        redirect_uri: 리디렉션 URI
+        scopes: 範圍
+        website: 애플리케이션 웹사이트
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri:
+              fragment_present: fragment를 包含할 수 없습니다
+              invalid_uri: 올바른 URI여야 합니다.
+              relative_uri: 絶對經路 URI여야 합니다
+              secured_uri: HTTPS/SSL URI여야 합니다.
+  doorkeeper:
+    applications:
+      buttons:
+        authorize: 承認
+        cancel: 取消
+        destroy: 除去
+        edit: 修正
+        submit: 提出
+      confirmations:
+        destroy: 確實합니까?
+      edit:
+        title: 애플리케이션 修正
+      form:
+        error: 이런! 에러를 確認하세요
+      help:
+        native_redirect_uri: "%{native_redirect_uri}를 利用해 로컬 테스트를 할 수 있습니다"
+        redirect_uri: 한 줄에 하나의 URI를 作成하세요
+        scopes: 스페이스로 範圍를 區分하세요. 빈 칸으로 놔두면 基本 範圍를 使用합니다.
+      index:
+        application: 애플리케이션
+        callback_url: 콜백 URL
+        delete: 削除
+        empty: 어플리케이션이 없습니다.
+        name: 이름
+        new: 새 애플리케이션
+        scopes: 範圍
+        show: 表示
+        title: 當身의 애플리케이션들
+      new:
+        title: 새 애플리케이션
+      show:
+        actions: 動作
+        application_id: 클라이언트 키
+        callback_urls: 콜백 URL
+        scopes: 範圍
+        secret: 클라이언트 秘密키
+        title: '애플리케이션: %{name}'
+    authorizations:
+      buttons:
+        authorize: 承認
+        deny: 拒否
+      error:
+        title: 에러가 發生하였습니다
+      new:
+        prompt_html: "%{client_name}이 當身의 計定에 對한 接近 權限을 要請합니다. 이것은 弟3者의 應用프로그램입니다.\
+          \ <strong>이것을 信賴하지 않는다면, 權限을 承認하지 말아야 합니다.</strong>"
+        review_permissions: 權限 檢討
+        title: 承認 必要
+      show:
+        title: 이 承認 코드를 複寫하여 애플리케이션에 붙여넣으세요
+    authorized_applications:
+      buttons:
+        revoke: 削除
+      confirmations:
+        revoke: 確實합니까?
+      index:
+        authorized_at: "%{date}에 承認됨"
+        description_html: 當身의 計定에 API를 通해 接近 可能한 應用프로그램의 目錄입니다. 알 수 없는 應用프로그램, 혹은
+          잘못된 行動을 하고 있는 應用프로그램이 있다면, 權限을 取消할 수 있습니다.
+        last_used_at: "%{date}에 마지막으로 使用됨"
+        never_used: 使用되지 않음
+        scopes: 權限
+        superapp: 內部
+        title: 當身의 承認된 애플리케이션들
+    errors:
+      messages:
+        access_denied: 리소스 所有者 또는 權限 附與 서버가 要請을 拒否했습니다.
+        credential_flow_not_configured: Doorkeeper.configure.resource_owner_from_credentials의
+          設定이 되어있지 않아 리소스 所有者 패스워드 資格證明이 失敗하였습니다.
+        invalid_client: 알 수 없는 클라이언트이기 때문에 클라이언트 認證이 失敗하였습니다, 클라이언트 資格證明이 包含되지 않았거나,
+          支援 되지 않는 메소드입니다.
+        invalid_grant: 提供된 權限 附與가 잘못되거나, 滿了되었거나, 取消되었거나, 權限 附與 要請에 使用된 리디렉션 URI가 一致하지
+          않거나, 다른 클라이언트에 指定되었습니다.
+        invalid_redirect_uri: 리디렉션 URI가 올바르지 않습니다
+        invalid_request:
+          missing_param: '必須 媒介變數 漏落: %{value}.'
+          request_not_authorized: 認證이 必要한 要請입니다. 認證 要請에 必要한 必須 媒介 因子가 없거나 올바르지 않습니다.
+          unknown: 要請에 必要한 媒介變數가 없거나, 支援 되지 않는 媒介變數가 있거나, 形式이 잘못되었습니다.
+        invalid_resource_owner: 提供 된 리소스 所有者 資格證明이 올바르지 않거나 리소스 所有者를 찾을 수 없습니다
+        invalid_scope: 要請한 範圍가 올바르지 않거나, 알 수 없거나, 잘못 된 形式입니다.
+        invalid_token:
+          expired: 액세스 토큰이 滿了되었습니다.
+          revoked: 액세스 토큰이 削除되었습니다.
+          unknown: 액세스 토큰이 잘못되었습니다.
+        resource_owner_authenticator_not_configured: Doorkeeper.configure.resource_owner_authenticator가
+          設定되지 않아 리소스 所有者 찾기가 失敗하였습니다.
+        server_error: 權限 附與 서버에 豫期치 않은 狀態가 發生하여, 要請을 遂行할 수 없습니다.
+        temporarily_unavailable: 權限 附與 서버가 一時的인 過負荷 또는 維持 管理로 인해 要請을 現在 處理할 수 없습니다.
+        unauthorized_client: 클라이언트가 이 方法을 使用하여 該當 要請을 實行하도록 許容되지 않았습니다.
+        unsupported_grant_type: 權限 附與 有形이 權限 附與 서버에 의해 支援되지 않습니다.
+        unsupported_response_type: 權限 附與 서버가 이 應答 有形을 支援하지 않습니다.
+    flash:
+      applications:
+        create:
+          notice: 애플리케이션이 生成 되었습니다.
+        destroy:
+          notice: 애플리케이션이 削除 되었습니다.
+        update:
+          notice: 애플리케이션이 更新 되었습니다.
+      authorized_applications:
+        destroy:
+          notice: 애플리케이션이 削除되었습니다.
+    grouped_scopes:
+      access:
+        read: 읽기 專用 權限
+        read/write: 읽기/쓰기 權限
+        write: 쓰기 專用 權限
+      title:
+        accounts: 計定
+        admin/accounts: 計定 管理
+        admin/all: 모든 管理者 機能
+        admin/reports: 申告 管理
+        all: 全體
+        blocks: 遮斷
+        bookmarks: 북마크
+        conversations: 對話
+        crypto: 終端間 暗號化
+        favourites: 좋아요
+        filters: 필터
+        follow: 關係
+        follows: 팔로우
+        lists: 리스트
+        media: 添附된 미디어
+        mutes: 뮤트
+        notifications: 알림
+        push: 푸시 알림
+        reports: 申告
+        search: 檢索
+        statuses: 揭示物
+    layouts:
+      admin:
+        nav:
+          applications: 애플리케이션
+          oauth2_provider: OAuth2 提供者
+      application:
+        title: OAuth 認證이 必要합니다
+    scopes:
+      admin:read: 서버의 모든 데이터 읽기
+      admin:read:accounts: 모든 計定의 敏感한 情報 읽기
+      admin:read:reports: 申告와 申告 된 計定의 敏感한 情報 읽기
+      admin:write: 서버의 모든 데이터 修正
+      admin:write:accounts: 計定에 모더레이션 措置 취하기
+      admin:write:reports: 申告에 모더레이션 措置 취하기
+      crypto: 終端間 暗號化 使用
+      follow: 計定의 關係를 修正
+      push: 푸시 알림을 받기
+      read: 計定의 모든 데이터를 읽기
+      read:accounts: 計定의 情報를 보기
+      read:blocks: 遮斷을 보기
+      read:bookmarks: 내 保管函 보기
+      read:favourites: 關心글을 보기
+      read:filters: 필터를 보기
+      read:follows: 팔로우를 보기
+      read:lists: 리스트를 보기
+      read:mutes: 뮤트를 보기
+      read:notifications: 알림 보기
+      read:reports: 申告 보기
+      read:search: 當身의 權限으로 檢索
+      read:statuses: 揭示物 모두 보기
+      write: 計定 情報 修正
+      write:accounts: 프로필 修正
+      write:blocks: 計定이나 도메인 遮斷
+      write:bookmarks: 揭示글을 保管函에 넣기
+      write:conversations: 뮤트와 對話 削除
+      write:favourites: 關心글 指定
+      write:filters: 필터 만들기
+      write:follows: 사람을 팔로우
+      write:lists: 리스트 만들기
+      write:media: 미디어 파일 업로드
+      write:mutes: 사람이나 대화 뮤트
+      write:notifications: 알림 모두 지우기
+      write:reports: 다른 사람을 申告
+      write:statuses: 揭示物 揭示

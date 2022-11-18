@@ -1,0 +1,1791 @@
+ko-Kore:
+  about:
+    about_hashtag_html: "<strong>#%{hashtag}</strong> 해시태그가 붙은 公開 揭示物입니다. 같은 聯合에 屬한\
+      \ 任意의 인스턴스에 計定을 生成하면 當身도 對話에 參與할 수 있습니다."
+    about_mastodon_html: 마스토돈은 <em>오픈 소스 基盤의</em> 소셜 네트워크 서비스 입니다. 商用 플랫폼의 代替로서 <em>分散形
+      構造</em>를 採擇해, 여러분의 對話가 한 會社에 獨占되는 것을 防止합니다. 信賴할 수 있는 인스턴스를 選擇하세요 &mdash; 어떤
+      인스턴스를 고르더라도, 누구와도 對話할 수 있습니다. 누구나 自身만의 마스토돈 인스턴스를 만들 수 있으며, 아주 매끄럽게 <em>소셜 네트워크</em>에
+      參加할 수 있습니다.
+    about_this: 이 인스턴스에 對해서
+    active_count_after: 活性 使用者
+    active_footnote: 月間 活性 使用者
+    administered_by: '管理者:'
+    api: API
+    apps: 모바일 앱
+    apps_platforms: 마스토돈을 iOS, 안드로이드, 다른 플랫폼들에서도 使用하세요
+    browse_directory: 프로필 冊子를 둘러보고 關心事 찾기
+    browse_local_posts: 이 서버의 公開글 實時間 스트림을 둘러보기
+    browse_public_posts: 마스토돈의 公開 라이브 스트림을 둘러보기
+    contact: 連絡處
+    contact_missing: 未設定
+    contact_unavailable: 없음
+    continue_to_web: 웹앱에서 繼續하기
+    discover_users: 使用者 發見하기
+    documentation: 文書
+    federation_hint_html: "%{instance}에 計定을 만드는 것으로 모든 마스토돈 서버, 그리고 互換 되는 모든 서버의 使用者를\
+      \ 팔로우 할 수 있습니다."
+    get_apps: 모바일 앱 使用해 보기
+    hosted_on: "%{domain}에서 호스팅 되는 마스토돈"
+    instance_actor_flash: |-
+      이 計定은 假想의 actor로서 個人 使用者가 아닌 서버 自體를 나타냅니다.
+      이것은 페더레이션을 目的으로 使用되며 인스턴스 全體를 遮斷하려 하지 않는 以上 遮斷하지 않아야 합니다, 그 境遇에는 도메인 遮斷을 使用하세요.
+    learn_more: 仔細히
+    logged_in_as_html: 現在 %{username}으로 로그인 했습니다.
+    logout_before_registering: 이미 로그인 했습니다.
+    privacy_policy: 個人情報 政策
+    rules: 서버 規則
+    rules_html: '아래의 글은 이 마스토돈 서버에 計定이 있다면 따라야 할 規則의 要約입니다:'
+    see_whats_happening: 무슨 일이 일어나는 지 보기
+    server_stats: '서버 統計:'
+    source_code: 소스 코드
+    status_count_after:
+      other: 個
+    status_count_before: 揭示物 數
+    tagline: 親舊들을 팔로우하고 새로운 사람들도 만나기
+    terms: 利用約款
+    unavailable_content: 利用 不可能한 컨텐츠
+    unavailable_content_description:
+      domain: 서버
+      reason: 理由
+      rejecting_media: 이 서버의 미디어 파일들은 處理되지 않고 썸네일또한 보이지 않게 됩니다. 手動으로 클릭하여 該當 서버로 가게
+        됩니다.
+      rejecting_media_title: 필터링 된 미디어
+      silenced: 이 서버의 揭示物은 作成者를 팔로우 한 境遇에만 홈 피드에 나타나며 이를 除外한 어디에도 나타나지 않습니다.
+      silenced_title: 沈默 된 서버들
+      suspended: 이 서버의 아무도 팔로우 할 수 없으며, 어떤 데이터도 處理되거나 貯藏 되지 않고 데이터가 交換 되지도 않습니다.
+      suspended_title: 禁止된 서버들
+    unavailable_content_html: 마스토돈은 一般的으로 聯合宇宙에 있는 어떤 서버의 使用者와도 揭示物을 보고 應答을 할 수 있도록
+      許容합니다. 다음 項目들은 特定한 서버에 對해 만들어 진 例外事項입니다.
+    user_count_after:
+      other: 名
+    user_count_before: 使用者 數
+    what_is_mastodon: 마스토돈이란?
+  accounts:
+    choices_html: "%{name}의 推薦:"
+    endorsements_hint: 내가 팔로우 하고 있는 사람들을 여기에 推薦할 수 있습니다.
+    featured_tags_hint: 特定한 해시태그들을 여기에 表示되도록 할 수 있습니다.
+    follow: 팔로우
+    followers:
+      other: 팔로워
+    following: 팔로잉
+    instance_actor_flash: 이 計定은 서버 自身을 나타내기 위한 假想의 計定이며 個人 使用者가 아닙니다. 이 計定은 聯合을 爲해
+      使用되며 停止되지 않아야 합니다.
+    joined: "%{date}에 加入함"
+    last_active: 最近 活動
+    link_verified_on: "%{date}에 이 링크의 所有가 確認되었습니다"
+    media: 미디어
+    moved_html: "%{name}은 %{new_profile_link}으로 移動되었습니다:"
+    network_hidden: 이 情報는 使用할 수 없습니다
+    nothing_here: 아무 것도 없습니다!
+    people_followed_by: "%{name} 님이 팔로우 中인 計定"
+    people_who_follow: "%{name} 님을 팔로우 中인 計定"
+    pin_errors:
+      following: 推薦하려는 사람을 팔로우 하고 있어야 합니다
+    posts:
+      other: 揭示物
+    posts_tab_heading: 揭示物
+    posts_with_replies: 揭示物과 答狀
+    roles:
+      admin: 管理者
+      bot: 봇
+      group: 그룹
+      moderator: 仲裁者
+    unavailable: 프로필 使用 不可
+    unfollow: 팔로우 解除
+  admin:
+    account_actions:
+      action: 措置 취하기
+      title: "%{acct} 計定에 仲裁 취하기"
+    account_moderation_notes:
+      create: 仲裁 記錄 作成하기
+      created_msg: 仲裁 記錄이 成功的으로 作成되었습니다!
+      destroyed_msg: 仲裁 記錄이 成功的으로 削除되었습니다!
+    accounts:
+      add_email_domain_block: 이 이메일 도메인을 遮斷하기
+      approve: 承認
+      approved_msg: 成功的으로 %{username}의 加入 申請書를 承認했습니다
+      are_you_sure: 정말로 實行하시겠습니까?
+      avatar: 아바타
+      by_domain: 도메인
+      change_email:
+        changed_msg: 이메일이 成功的으로 바뀌었습니다!
+        current_email: 現在 이메일 住所
+        label: 이메일 住所 變更
+        new_email: 새 이메일 住所
+        submit: 이메일 住所 變更
+        title: "%{username}의 이메일 住所 變更"
+      confirm: 確認
+      confirmed: 確認됨
+      confirming: 確認 中
+      custom: 使用者 指定
+      delete: 데이터 削除
+      deleted: 削除됨
+      demote: 降等
+      destroyed_msg: "%{username}의 데이터는 곧 削除되도록 待機列에 들어갔습니다"
+      disable: 非活性化
+      disable_sign_in_token_auth: 이메일 토큰 認證 非活性化
+      disable_two_factor_authentication: 2段階 認證을 非活性化
+      disabled: 非活性化된
+      display_name: 이름
+      domain: 도메인
+      edit: 編輯
+      email: 이메일
+      email_status: 이메일 狀態
+      enable: 活性化
+      enable_sign_in_token_auth: 이메일 토큰 認證 活性化
+      enabled: 活性
+      enabled_msg: "%{username}의 計定을 成功的으로 얼리기 解除하였습니다"
+      followers: 팔로워
+      follows: 팔로잉
+      header: 헤더
+      inbox_url: 受信函 URL
+      invite_request_text: 加入 하려는 理由
+      invited_by: 招待者
+      ip: IP
+      joined: 加入
+      location:
+        all: 全體
+        local: 로컬
+        remote: 리모트
+        title: 位置
+      login_status: 로그인 狀態
+      media_attachments: 添附된 미디어
+      memorialize: 追慕碑로 轉換
+      memorialized: 追慕碑化 됨
+      memorialized_msg: 成功的으로 %{username}를 追慕碑 計定으로 轉換하였습니다
+      moderation:
+        active: 活動
+        all: 全體
+        pending: 待機中
+        suspended: 停止 中
+        title: 仲裁
+      moderation_notes: 仲裁 記錄
+      most_recent_activity: 最近 活動
+      most_recent_ip: 最近 IP
+      no_account_selected: 아무 計定도 選擇 되지 않아 아무 것도 變更 되지 않았습니다
+      no_limits_imposed: 制限 없음
+      not_subscribed: 購讀하지 않음
+      pending: 審査 待機
+      perform_full_suspension: 停止시키기
+      previous_strikes: 以前의 處罰들
+      previous_strikes_description_html:
+        other: 이 計定은 <strong>%{count}</strong> 番의 處罰이 있었습니다.
+      promote: 昇級
+      protocol: 프로토콜
+      public: 公開
+      push_subscription_expires: PuSH 구독 期間 滿了
+      redownload: 프로필 업데이트
+      redownloaded_msg: 成功的으로 %{username}의 프로필을 原本으로부터 업데이트 하였습니다
+      reject: 拒否
+      rejected_msg: 成功的으로 %{username}의 加入 申請書를 返戾하였습니다
+      remove_avatar: 아바타 지우기
+      remove_header: 헤더 削除
+      removed_avatar_msg: 成功的으로 %{username}의 아바타 이미지를 削除하였습니다
+      removed_header_msg: 成功的으로 %{username}의 헤더 이미지를 削除하였습니다
+      resend_confirmation:
+        already_confirmed: 이 使用者는 이미 確認되었습니다
+        send: 確認 메일 다시 보내기
+        success: 確認 이메일이 傳送되었습니다!
+      reset: 初期化
+      reset_password: 暗號 初期化
+      resubscribe: 다시 購讀
+      role: 權限
+      roles:
+        admin: 管理者
+        moderator: 仲裁者
+        staff: 스태프
+        user: 使用者
+      search: 檢索
+      search_same_email_domain: 같은 이메일 도메인을 가진 다른 使用者들
+      search_same_ip: 같은 IP의 다른 使用者들
+      security_measures:
+        only_password: 暗號만
+        password_and_2fa: 暗號와 2段階 認證
+      sensitive: 敏感함
+      sensitized: 敏感함으로 設定됨
+      shared_inbox_url: 共有된 inbox URL
+      show:
+        created_reports: 이 計定에서 提出된 申告
+        targeted_reports: 이 計定에 對한 申告
+      silence: 沈默
+      silenced: 沈默 됨
+      statuses: 揭示物
+      strikes: 以前의 處罰들
+      subscribe: 購讀하기
+      suspend: 停止
+      suspended: 停止 됨
+      suspension_irreversible: 이 計定의 데이터는 復舊할 수 없도록 削除되었습니다. 計定을 停止 解除함으로서 計定을 다시
+        使用 可能하게 할 수 있지만 以前에 削除한 어떤 데이터도 復舊되지 않습니다.
+      suspension_reversible_hint_html: 計定이 停止되었습니다, 그리고 %{date}에 데이터가 完全히 削除될 것입니다.
+        그 때까지는 어떤 안 좋은 效果 없이 計定이 復舊 될 수 있습니다. 萬若 只今 當場 計定의 모든 데이터를 削除하고 싶다면, 아래에서
+        行할 수 있습니다.
+      title: 計定
+      unblock_email: 이메일 住所 遮斷 解除
+      unblocked_email_msg: "%{username}의 이메일 住所를 成功的으로 遮斷 解除했습니다"
+      unconfirmed_email: 未確認 된 이메일 住所
+      undo_sensitized: 敏感함으로 設定 取消
+      undo_silenced: 沈默 解除
+      undo_suspension: 停止 解除
+      unsilenced_msg: 成功的으로 %{username} 計定을 制限 解除했습니다
+      unsubscribe: 구독 解除
+      unsuspended_msg: 成功的으로 %{username} 計定을 停止 解除했습니다
+      username: 아이디
+      view_domain: 도메인의 要約 보기
+      warn: 警告
+      web: 웹
+      whitelisted: 許容 目錄
+    action_logs:
+      action_types:
+        approve_appeal: 異議提起 承認
+        approve_user: 使用者 承認
+        assigned_to_self_report: 申告 맡기
+        change_email_user: 使用者의 이메일 變更
+        confirm_user: 使用者 確認
+        create_account_warning: 警告 生成
+        create_announcement: 公知事項 生成
+        create_custom_emoji: 커스텀 에모지 生成
+        create_domain_allow: 도메인 許容 生成
+        create_domain_block: 도메인 遮斷 追加
+        create_email_domain_block: 이메일 도메인 遮斷 生成
+        create_ip_block: IP 規則 만들기
+        create_unavailable_domain: 使用 不可能한 도메인 生成
+        demote_user: 使用者 降等
+        destroy_announcement: 公知事項 削除
+        destroy_custom_emoji: 커스텀 에모지 削除
+        destroy_domain_allow: 도메인 許容 削除
+        destroy_domain_block: 도메인 遮斷 削除
+        destroy_email_domain_block: 이메일 도메인 遮斷 削除
+        destroy_instance: 도메인 除去
+        destroy_ip_block: IP 規則 削除
+        destroy_status: 揭示物 削除
+        destroy_unavailable_domain: 使用 不可能한 도메인 除去
+        disable_2fa_user: 2段階 認證 非活性化
+        disable_custom_emoji: 커스텀 繪文字 非活性化
+        disable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 非活性化
+        disable_user: 使用者 非活性化
+        enable_custom_emoji: 커스텀 繪文字 活性化
+        enable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 活性化
+        enable_user: 使用者 活性化
+        memorialize_account: 追慕計定으로 轉換
+        promote_user: 使用者 昇級
+        reject_appeal: 異議提起 拒絶
+        reject_user: 使用者 拒否
+        remove_avatar_user: 아바타 지우기
+        reopen_report: 申告 다시 열기
+        reset_password_user: 暗號 再設定
+        resolve_report: 申告 處理
+        sensitive_account: 當身의 計定의 미디어를 敏感함으로 表示
+        silence_account: 計定 沈默
+        suspend_account: 計定 停止
+        unassigned_report: 申告 맡기 取消
+        unblock_email_account: 이메일 住所 遮斷 解除
+        unsensitive_account: 當身의 計定의 미디어를 敏感함으로 表示하지 않음
+        unsilence_account: 計定 沈默 取消
+        unsuspend_account: 計定 停止 取消
+        update_announcement: 公知事項 업데이트
+        update_custom_emoji: 커스텀 繪文字 업데이트
+        update_domain_block: 도메인 遮斷 更新
+        update_status: 揭示物 揭示
+      actions:
+        approve_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 承認했습니다"
+        approve_user_html: "%{name} 님이 %{target}의 加入을 承認했습니다"
+        assigned_to_self_report_html: "%{name} 님이 申告 %{target}을 自身에게 割當했습니다"
+        change_email_user_html: "%{name} 님이 使用者 %{target}의 이메일 住所를 變更했습니다"
+        confirm_user_html: "%{name} 님이 使用者 %{target}의 이메일 住所를 承認했습니다"
+        create_account_warning_html: "%{name} 님이 %{target}에게 警告를 보냈습니다"
+        create_announcement_html: "%{name} 님이 새 公知 %{target}을 만들었습니다"
+        create_custom_emoji_html: "%{name} 님이 새로운 繪文字 %{target}를 업로드 했습니다"
+        create_domain_allow_html: "%{name} 님이 %{target} 도메인을 許容리스트에 넣었습니다"
+        create_domain_block_html: "%{name} 님이 도메인 %{target}를 遮斷했습니다"
+        create_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}를 遮斷했습니다"
+        create_ip_block_html: "%{name} 님이 IP 規則 %{target}을 만들었습니다"
+        create_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 對한 傳達을 中止했습니다"
+        demote_user_html: "%{name} 님이 使用者 %{target} 님을 降等했습니다"
+        destroy_announcement_html: "%{name} 님이 公知 %{target}을 削除했습니다"
+        destroy_custom_emoji_html: "%{name} 님이 %{target} 에모지를 削除했습니다"
+        destroy_domain_allow_html: "%{name} 님이 %{target} 도메인과의 聯合을 禁止했습니다"
+        destroy_domain_block_html: "%{name} 님이 도메인 %{target}의 遮斷을 解除했습니다"
+        destroy_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}을 遮斷 解除하였습니다"
+        destroy_instance_html: "%{name} 님이 도메인 %{target}를 除去했습니다"
+        destroy_ip_block_html: "%{name} 님이 IP 規則 %{target}을 削除하였습니다"
+        destroy_status_html: "%{name} 님이 %{target}의 揭示物을 削除했습니다"
+        destroy_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 對한 傳達을 再開"
+        disable_2fa_user_html: "%{name} 님이 使用者 %{target}의 2FA를 非活性化 했습니다"
+        disable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 非活性化 했습니다"
+        disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을\
+          \ 非活性化 했습니다"
+        disable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 非活性化 했습니다"
+        enable_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 活性化 했습니다"
+        enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 活性化\
+          \ 했습니다"
+        enable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 活性化 했습니다"
+        memorialize_account_html: "%{name} 님이 %{target}의 計定을 追慕碑 페이지로 轉換했습니다"
+        promote_user_html: "%{name} 님이 使用者 %{target}를 昇級시켰습니다"
+        reject_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 拒絶했습니다"
+        reject_user_html: "%{name} 님이 %{target}의 加入을 拒否했습니다"
+        remove_avatar_user_html: "%{name} 님이 %{target}의 아바타를 지웠습니다"
+        reopen_report_html: "%{name} 님이 申告 %{target}을 다시 열었습니다"
+        reset_password_user_html: "%{name} 님이 使用者 %{target}의 暗號를 初期化했습니다"
+        resolve_report_html: "%{name} 님이 申告 %{target}를 處理됨으로 變更하였습니다"
+        sensitive_account_html: "%{name} 님이 %{target}의 미디어를 敏感함으로 表示했습니다"
+        silence_account_html: "%{name} 님이 %{target}의 計定을 沈默시켰습니다"
+        suspend_account_html: "%{name} 님이 %{target}의 計定을 停止시켰습니다"
+        unassigned_report_html: "%{name} 님이 申告 %{target}을 割當 解除했습니다"
+        unblock_email_account_html: "%{name} 님이 %{target}의 이메일 住所를 遮斷 解除했습니다."
+        unsensitive_account_html: "%{name} 님이 %{target}의 미디어를 敏感하지 않음으로 表示했습니다"
+        unsilence_account_html: "%{name} 님이 %{target}의 計定에 對한 沈默을 解除했습니다"
+        unsuspend_account_html: "%{name} 님이 %{target}의 計定에 對한 停止를 解除했습니다"
+        update_announcement_html: "%{name} 님이 公知事項 %{target}을 更新했습니다"
+        update_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 업데이트 했습니다"
+        update_domain_block_html: "%{name} 님이 %{target}에 對한 도메인 遮斷을 更新했습니다"
+        update_status_html: "%{name} 님이 %{target}의 揭示物을 업데이트 했습니다"
+      deleted_status: "(削除된 揭示物)"
+      empty: 로그를 찾을 수 없습니다
+      filter_by_action: 行動으로 거르기
+      filter_by_user: 使用者로 거르기
+      title: 監査 記錄
+    announcements:
+      destroyed_msg: 公知가 成功的으로 削除되었습니다!
+      edit:
+        title: 公知事項 修正
+      empty: 公知를 찾을 수 없습니다.
+      live: 進行 中
+      new:
+        create: 公知事項 生成
+        title: 새 公知事項
+      publish: 揭示
+      published_msg: 公知가 成功的으로 發行되었습니다!
+      scheduled_for: "%{time}에 豫約됨"
+      scheduled_msg: 公知의 發行이 豫約되었습니다!
+      title: 公知事項
+      unpublish: 揭示 取消
+      unpublished_msg: 公知가 成功的으로 發行 取消되었습니다!
+      updated_msg: 公知가 成功的으로 업데이트되었습니다!
+    custom_emojis:
+      assign_category: 分類 指定
+      by_domain: 도메인
+      copied_msg: 成功的으로 繪文字의 로컬 複寫本을 生成했습니다
+      copy: 複寫
+      copy_failed_msg: 에모지의 로컬 複寫本을 만드는 데 失敗하였습니다
+      create_new_category: 分類 生成
+      created_msg: 에모지가 成功的으로 生成되었습니다!
+      delete: 削除
+      destroyed_msg: 에모지가 成功的으로 削除되었습니다!
+      disable: 非活性化
+      disabled: 非活性
+      disabled_msg: 成功的으로 非活性化하였습니다
+      emoji: 繪文字
+      enable: 活性化
+      enabled: 活性됨
+      enabled_msg: 成功的으로 活性化하였습니다
+      image_hint: "%{size} 以下의 PNG 또는 GIF"
+      list: 目錄에 追加
+      listed: 目錄에 실림
+      new:
+        title: 새 커스텀 繪文字 追加
+      not_permitted: 이 作業을 遂行할 權限이 없습니다
+      overwrite: 덮어쓰기
+      shortcode: 짧은 코드
+      shortcode_hint: 最少 2글字, 英文字, 數字, _만 使用 可能
+      title: 커스텀 繪文字
+      uncategorized: 分類되지 않음
+      unlist: 目錄에서 除去
+      unlisted: 目錄에 없음
+      update_failed_msg: 繪文字를 업데이트 할 수 없습니다
+      updated_msg: 繪文字가 成功的으로 업데이트 되었습니다!
+      upload: 업로드
+    dashboard:
+      active_users: 活性 使用者
+      interactions: 相互 作用
+      media_storage: 미디어 貯藏所
+      new_users: 새로운 使用者
+      opened_reports: 申告 열림
+      pending_appeals_html:
+        other: "<strong>%{count}</strong> 個의 待機 中인 異議提起"
+      pending_reports_html:
+        other: "<strong>%{count}</strong> 件의 待機 中인 申告"
+      pending_tags_html:
+        other: "<strong>%{count}</strong> 個의 待機 中인 해시태그"
+      pending_users_html:
+        other: "<strong>%{count}</strong> 名의 待機 中인 使用者"
+      resolved_reports: 申告 解決됨
+      software: 소프트웨어
+      sources: 加入 出處
+      space: 디스크 使用量
+      title: 대시보드
+      top_languages: 上位 活性 言語
+      top_servers: 上位 活性 서버
+      website: 웹사이트
+    disputes:
+      appeals:
+        empty: 異議提起 없음.
+        title: 異議提起
+    domain_allows:
+      add_new: 도메인 許容
+      created_msg: 도메인이 成功的으로 許容 目錄에 追加되었습니다
+      destroyed_msg: 도메인이 許容 目錄에서 除去되었습니다
+      undo: 許容 目錄에서 除外
+    domain_blocks:
+      add_new: 도메인 遮斷 追加하기
+      created_msg: 도메인 遮斷 處理를 完了했습니다
+      destroyed_msg: 도메인 遮斷이 解除되었습니다
+      domain: 도메인
+      edit: 도메인 遮斷 修正
+      existing_domain_block_html: 이미 %{name}에 對한 더 强力한 制限이 걸려 있습니다, <a href="%{unblock_url}">遮斷
+        解除</a>를 먼저 해야 합니다.
+      new:
+        create: 遮斷 追加
+        hint: 도메인 遮斷은 內部 데이터베이스에 計定이 生成되는 것까지는 막을 수 없지만, 그 도메인에서 生成된 計定에 自動的으로 特定한
+          仲裁 規則을 適用하게 할 수 있습니다.
+        severity:
+          desc_html: |-
+            <strong>沈默</strong>은 計定을 팔로우 하지 않고 있는 사람들에겐 計定의 揭示物을 보이지 않게 합니다. <strong>停止</strong>는 計定의 컨텐츠, 미디어, 프로필 데이터를 削除합니다.
+            미디어 파일만을 拒否하고 싶다면 <strong>없음</strong>으로 두세요.
+          noop: 없음
+          silence: 沈默
+          suspend: 停止
+        title: 새로운 도메인 遮斷
+      obfuscate: 도메인 이름 難讀化
+      obfuscate_hint: 도메인 制限 目錄을 公開하는 境遇 도메인 이름의 一部를 難讀化 합니다
+      private_comment: 非公開 註釋
+      private_comment_hint: 이 도메인 制限에 對한 註釋은 仲裁者를 爲해 內部的으로 使用 됩니다.
+      public_comment: 公開 註釋
+      public_comment_hint: 이 도메인 制限에 對한 公開的인 註釋, 도메인 制限 公開를 活性化 한 境遇 보여집니다.
+      reject_media: 미디어 파일 拒否하기
+      reject_media_hint: 로컬에 貯藏된 미디어 파일을 削除하고, 以後로도 다운로드를 拒否합니다. 停止와는 關係 없습니다
+      reject_reports: 申告 拒否
+      reject_reports_hint: 이 도메인으로부터의 모든 申告를 無視합니다. 停止와는 無關합니다
+      undo: 도메인 遮斷 取消
+      view: 도메인 遮斷 보기
+    email_domain_blocks:
+      add_new: 새로 追加
+      attempts_over_week:
+        other: 지난 週 동안 %{count} 件의 加入 試圖가 있었습니다
+      created_msg: 이메일 도메인 遮斷 規則을 生成했습니다
+      delete: 削除
+      dns:
+        types:
+          mx: MX 레코드
+      domain: 도메인
+      new:
+        create: 遮斷 規則 生成
+        resolve: 도메인 解決
+        title: 새 이메일 도메인 遮斷
+      no_email_domain_block_selected: 아무 것도 選擇되지 않아 어떤 이메일 도메인 遮斷도 變更되지 않았습니다
+      resolved_dns_records_hint_html: 도메인 네임은 다음의 MX 도메인으로 連結되어 있으며, 이메일을 받는데 必須的입니다.
+        MX 도메인을 遮斷하면 같은 MX 도메인을 使用하는 어떤 이메일이라도 加入할 수 없게 되며, 보여지는 도메인이 다르더라도 適用됩니다.
+        <strong>主要 이메일 提供者를 遮斷하지 않도록 操心하세요.</strong>
+      resolved_through_html: "%{domain}을 通해 解決됨"
+      title: Email 도메인 遮斷
+    follow_recommendations:
+      description_html: "<strong>팔로우 推薦은 새 使用者들이 關心 가는 콘텐트를 빠르게 찾을 수 있도록 도와줍니다</strong>.\
+        \ 使用者가 個人化 된 팔로우 推薦이 만들어지기 위한 充分한 相互作用을 하지 않은 境遇, 이 計定들이 代身 推薦 됩니다. 이들은 該當\
+        \ 言語에 對해 많은 關心을 갖거나 많은 로컬 팔로워를 가지고 있는 計定들을 섞어서 날마다 다시 計算 됩니다."
+      language: 言語 필터
+      status: 狀態
+      suppress: 팔로우 推薦 숨기기
+      suppressed: 숨겨짐
+      title: 팔로우 推薦
+      unsuppress: 팔로우 推薦 復元
+    instances:
+      availability:
+        description_html:
+          other: 도메인에 對한 傳達이 成功 없이 <strong>%{count}</strong>日 失敗한다면, 以後의 傳達 試圖는 該當
+            도메인<em>에서</em> 傳達이 오기 前까지는 만들어지지 않습니다.
+        failure_threshold_reached: "%{date}에 失敗 臨界點에 到達했습니다."
+        failures_recorded:
+          other: 失敗한 傳達 試圖 總 %{count}日.
+        no_failures_recorded: 失敗 記錄이 없습니다.
+        title: 可用性
+        warning: 이 서버에 對한 마지막 連結 試圖가 成功的이지 않았습니다
+      back_to_all: 全體
+      back_to_limited: 制限됨
+      back_to_warning: 警告
+      by_domain: 도메인
+      confirm_purge: 정말로 이 도메인의 데이터를 永久的으로 削除하길 願하십니까?
+      content_policies:
+        comment: 內部 參考事項
+        description_html: 이 도메인과 下位 도메인의 모든 計定에 適用될 콘텐츠 政策을 定義할 수 있습니다.
+        policies:
+          reject_media: 미디어 拒否
+          reject_reports: 申告 拒否
+          silence: 制限
+          suspend: 停止
+        policy: 政策
+        reason: 公開的인 事由
+        title: 콘텐츠 政策
+      dashboard:
+        instance_accounts_dimension: 第一 많이 팔로우된 計定
+        instance_accounts_measure: 保管된 計定
+        instance_followers_measure: 우리를 팔로우 하는 저쪽의 팔로워 數
+        instance_follows_measure: 저쪽을 팔로우 하는 우리의 팔로워 數
+        instance_languages_dimension: 上位 言語
+        instance_media_attachments_measure: 保管된 미디어 添附파일
+        instance_reports_measure: 이들에 對한 申告
+        instance_statuses_measure: 保管된 揭示物
+      delivery:
+        all: 全體
+        clear: 傳達 에러 初期化
+        failing: 失敗中
+        restart: 傳達 再始作
+        stop: 傳達 中止
+        unavailable: 使用不可
+      delivery_available: 傳送 可能
+      delivery_error_days: 傳達 에러가 난 날짜들
+      delivery_error_hint: 萬若 %{count}日동안 傳達이 不可能하다면, 自動으로 傳達不可로 表示됩니다.
+      destroyed_msg: "%{domain}의 데이터는 곧바로 지워지도록 待機列에 들어갔습니다."
+      empty: 도메인이 하나도 없습니다.
+      known_accounts:
+        other: "%{count} 個의 알려진 計定"
+      moderation:
+        all: 모두
+        limited: 制限됨
+        title: 仲裁
+      private_comment: 非公開 註釋
+      public_comment: 公開 註釋
+      purge: 除去
+      purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 생각되면 스토리지에서 이 도메인의 모든 計定 레코드와
+        關聯 데이터를 削除할 수 있습니다. 이 作業은 時間이 좀 걸릴 수 있습니다.
+      title: 聯合
+      total_blocked_by_us: 우리에게 遮斷 됨
+      total_followed_by_them: 우리를 팔로우
+      total_followed_by_us: 우리가 한 팔로우
+      total_reported: 이들에 對한 申告
+      total_storage: 미디어 添附
+      totals_time_period_hint_html: 아래에 表示된 總計에는 모든 時間에 對한 데이터가 包含됩니다.
+    invites:
+      deactivate_all: 全部 非活性化
+      filter:
+        all: 모두
+        available: 使用可能
+        expired: 滿了됨
+        title: 필터
+      title: 招待
+    ip_blocks:
+      add_new: 規則 만들기
+      created_msg: 成功的으로 새 IP 規則을 만들었습니다
+      delete: 削除
+      expires_in:
+        '1209600': 2 周
+        '15778476': 6 달
+        '2629746': 1 달
+        '31556952': 1 年
+        '86400': 1 日
+        '94670856': 3 年
+      new:
+        title: 새 IP 規則 만들기
+      no_ip_block_selected: 아무 것도 選擇 되지 않아 어떤 IP 規則도 變更 되지 않았습니다
+      title: IP 規則들
+    relationships:
+      title: "%{acct}의 關係"
+    relays:
+      add_new: 릴레이 追加
+      delete: 削除
+      description_html: "<strong>聯合 릴레이</strong>는 서버들 사이에서 많은 量의 公開 揭示物을 구독하고 仲介하는\
+        \ 서버입니다. <strong>이것은 中小 規模의 서버에서 聯合宇宙를 發見하는 데에 도움을 줄 수 있습니다</strong>, 이제 로컬\
+        \ 使用者들이 다른 서버의 使用者들을 手動으로 팔로우 하지 않아도 됩니다."
+      disable: 非活性化
+      disabled: 非活性化 됨
+      enable: 活性化
+      enable_hint: 活性化 되면, 이 릴레이의 모든 公開 揭示物을 구독하고 이 서버의 公開 揭示物을 傳送하게 됩니다.
+      enabled: 活性化 됨
+      inbox_url: 릴레이 URL
+      pending: 릴레이의 承認 대기중
+      save_and_enable: 貯藏하고 活性化
+      setup: 릴레이 連結 設定
+      signatures_not_enabled: 시큐어모드나 制限된 페더레이션 모드를 使用하고 있다면 릴레이는 제대로 動作하지 않을 것입니다
+      status: 狀態
+      title: 릴레이
+    report_notes:
+      created_msg: 리포트 노트가 成功的으로 作成되었습니다!
+      destroyed_msg: 리포트 노트가 成功的으로 削除되었습니다!
+      today_at: 오늘 %{time}
+    reports:
+      account:
+        notes:
+          other: "%{count}個의 記錄"
+      action_log: 監査 記錄
+      action_taken_by: 申告 處理者
+      actions:
+        delete_description_html: 申告된 揭示物은 削除될 것이며 이 處罰記錄은 같은 計定의 向後 規定 違反에 對해 參考事項으로
+          쓰일 수 있도록 貯藏됩니다.
+        mark_as_sensitive_description_html: 申告된 揭示物의 미디어는 敏感함으로 表示될 것이며 이 處罰記錄은 같은
+          計定의 向後 規定 違反에 對해 參考事項으로 쓰일 수 있도록 貯藏됩니다.
+        other_description_html: 計定 動作을 制御하고 申告된 計定과의 意思疏通을 使用者 指定하기 爲한 追加 옵션을 봅니다.
+        resolve_description_html: 申告된 計定에 對해 아무런 動作도 취하지 않으며, 處罰記錄이 남지 않으며, 申告는 處理됨으로
+          變更됩니다.
+        silence_description_html: 이미 팔로우 하고 있는 사람이나 手動으로 찾아보는 사람에게만 프로필이 보여지고, 到達
+          範圍를 掩擊하게 制限합니다. 언제든지 되돌릴 수 있습니다.
+        suspend_description_html: 프로필과 모든 컨텐츠가 最終的으로 削除될 때까지 接近 不可狀態가 됩니다. 이 計定과의
+          相互作用은 不可能해집니다. 30日 以內에 되돌릴 수 있습니다.
+      actions_description_html: 이 報告書를 解決하기 爲해 취해야 할 措置를 指定해주세요. 申告된 計定에 對해 處罰 措置를
+        취하면 <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 이메일 알림이 해당 計定으로 傳送됩니다.
+      add_to_report: 申告에 더 追加하기
+      are_you_sure: 正말로 實行하시겠습니까?
+      assign_to_self: 나에게 割當하기
+      assigned: 割當 된 仲裁者
+      by_target_domain: 申告된 計定의 도메인
+      category: 카테고리
+      category_description_html: 이 計定 또는 揭示物이 申告된 理由는 申告된 計定과의 意思疏通 過程에 引用됩니다
+      comment:
+        none: 없음
+      comment_description_html: '더 많은 情報를 爲해, %{name} 님이 作成했습니다:'
+      created_at: 리포트 時刻
+      delete_and_resolve: 揭示物 削除
+      forwarded: 傳達됨
+      forwarded_to: "%{domain}에게 傳達됨"
+      mark_as_resolved: 解決 完了 處理
+      mark_as_sensitive: 敏感함으로 設定
+      mark_as_unresolved: 未解決로 表示
+      no_one_assigned: 아무도 없음
+      notes:
+        create: 記錄 追加
+        create_and_resolve: 記錄을 作成하고 解決됨으로 表示
+        create_and_unresolve: 記錄 作成과 함께 未解決로 表示
+        delete: 削除
+        placeholder: 이 리포트에 對한 措置, 其他 關聯 된 事項에 對해 說明합니다…
+        title: 노트
+      notes_description_html: 確認하고 다른 仲裁者나 未來의 自身을 爲해 記錄을 作成합니다
+      quick_actions_description_html: '報告된 콘텐츠를 보려면 빠른 措置를 취하거나 아래로 스크롤하세요:'
+      remote_user_placeholder: "%{instance}의 리모트 使用者"
+      reopen: 리포트 다시 열기
+      report: '申告 #%{id}'
+      reported_account: 申告 對象 計定
+      reported_by: 申告者
+      resolved: 解決됨
+      resolved_msg: 리포트가 成功的으로 解決되었습니다!
+      skip_to_actions: 作業으로 건너뛰기
+      status: 狀態
+      statuses: 申告된 컨텐츠
+      statuses_description_html: 問題가 되는 컨텐츠는 申告된 計定에게 引用되어 傳達됩니다
+      target_origin: 申告된 計定의 所屬
+      title: 申告
+      unassign: 割當 解除
+      unresolved: 未解決
+      updated_at: 업데이트 時刻
+      view_profile: 프로필 보기
+    rules:
+      add_new: 規則 追加
+      delete: 削除
+      description_html: 大部分의 境遇 사람들이 利用約款을 반드시 읽고 同意하도록 하지만, 普通의 사람들은 問題가 일어나기 前까지는
+        읽지 않습니다. <strong>여러분의 서버 規則을 目錄으로 整理해서 한 番에 읽기 쉽게 만드세요.</strong> 規則 各各을 짧고
+        單純하게 만들고, 하나를 여러 個로 쪼개지도 마세요.
+      edit: 規則 修正
+      empty: 아직 正義된 서버 規則이 없습니다.
+      title: 서버 規則
+    settings:
+      activity_api_enabled:
+        desc_html: 週別 로컬에 揭示된 글, 活性 使用者 및 새로운 加入者 數
+        title: 使用者 活動에 對한 統計 發行
+      bootstrap_timeline_accounts:
+        desc_html: 콤마로 여러 使用者名을 區分. 이 計定들은 팔로우 推薦에 반드시 나타나게 됩니다
+        title: 새로운 使用者들에게 推薦할 計定들
+      contact_information:
+        email: 公開할 메일 住所를 入力
+        username: 連絡 받을 管理者 使用者名
+      custom_css:
+        desc_html: 모든 페이지에 適用할 CSS
+        title: 커스텀 CSS
+      default_noindex:
+        desc_html: 이 設定을 바꾸지 않은 모든 使用者들에게 適用 됩니다
+        title: 使用者들이 基本的으로 檢索엔진에 인덱싱 되지 않도록 합니다
+      domain_blocks:
+        all: 모두에게
+        disabled: 아무에게도 안 함
+        title: 도메인 遮斷 보여주기
+        users: 로그인 한 使用者에게
+      domain_blocks_rationale:
+        title: 事由 보여주기
+      hero:
+        desc_html: 프론트페이지에 表示 됩니다. 最小 600x100픽셀을 勸奬합니다. 萬若 設定되지 않았다면, 서버의 썸네일이 使用
+          됩니다
+        title: 히어로 이미지
+      mascot:
+        desc_html: 여러 페이지에서 보여집니다. 最小 293x205px을 推薦합니다. 設定 되지 않은 境遇, 基本 마스코트가 使用 됩니다
+        title: 마스코트 이미지
+      peers_api_enabled:
+        desc_html: 이 서버가 페디버스에서 만났던 도메인 네임들
+        title: 發見 된 서버들의 리스트 發行
+      preview_sensitive_media:
+        desc_html: 敏感한 미디어로 設定되었더라도 다른 웹사이트에서 링크 미리보기에 썸네일을 보여줍니다
+        title: 敏感한 미디어를 오픈그래프 미리보기에 보여주기
+      profile_directory:
+        desc_html: 使用者들이 發見 될 수 있도록 許容
+        title: 프로필 冊子 活性化
+      registrations:
+        closed_message:
+          desc_html: 新規 登錄을 받지 않을 때 프론트 페이지에 表示됩니다. HTML 태그를 使用할 수 있습니다
+          title: 新規 登錄 停止 時 메시지
+        deletion:
+          desc_html: 使用者가 自身의 計定을 削除할 수 있도록 許容합니다
+          title: 計定 削除를 許可함
+        min_invite_role:
+          disabled: 아무도 못 하게
+          title: 招待링크를 만들 수 있는 權限
+        require_invite_text:
+          desc_html: 加入이 手動 承認을 必要로 할 때, "왜 加入하려고 하나요?" 項目을 選擇事項으로 두는 것보다는 必須로 두는
+            것이 낫습니다
+          title: 새 使用者가 招待 要請 글을 作成해야 하도록
+      registrations_mode:
+        modes:
+          approved: 加入하려면 承認이 必要함
+          none: 아무도 加入 할 수 없음
+          open: 누구나 加入 할 수 있음
+        title: 加入 모드
+      show_known_fediverse_at_about_page:
+        desc_html: 活性化 되면 프리뷰 페이지에서 페디버스의 모든 揭示物을 表示합니다. 非活性化時 로컬에 있는 揭示物만 表示 됩니다.
+        title: 타임라인 프리뷰에 알려진 페디버스 表示하기
+      show_staff_badge:
+        desc_html: 使用者 페이지에 스태프 배지를 表示합니다
+        title: 스태프 배지 表示
+      site_description:
+        desc_html: API의 紹介文에 使用 됩니다.이 마스토돈 서버의 特別한 點 등을 說明하세요. HTML 태그, 주로 <code>&lt;a&gt;</code>,
+          <code>&lt;em&gt;</code> 같은 것을 使用 可能합니다.
+        title: 서버 說明
+      site_description_extended:
+        desc_html: 規則, 가이드라인 등을 作成하기 좋은 곳입니다. HTML 태그를 使用할 수 있습니다
+        title: 사이트 詳細 說明
+      site_short_description:
+        desc_html: 사이드바와 메타 태그에 나타납니다. 마스토돈이 무엇이고 이 서버의 特徵은 무엇인지 한 文章으로 說明하세요.
+        title: 짧은 서버 說明
+      site_terms:
+        desc_html: 當身은 獨自的인 個人情報 取扱 方針이나 利用約款, 그 外의 法的 根據를 作成할 수 있습니다. HTML태그를 使用할
+          수 있습니다
+        title: 커스텀 서비스 利用 約款
+      site_title: 서버 이름
+      thumbnail:
+        desc_html: OpenGraph와 API의 미리보기로 使用 됩니다. 1200x630px을 勸奬합니다
+        title: 서버 썸네일
+      timeline_preview:
+        desc_html: 랜딩 페이지에 公開 타임라인을 表示합니다
+        title: 타임라인 프리뷰
+      title: 사이트 設定
+      trendable_by_default:
+        desc_html: 以前에 拒否되지 않은 해시태그들에 影響을 미칩니다
+        title: 해시태그가 事前 리뷰 없이 트렌드에 올라갈 수 있도록 許容
+      trends:
+        desc_html: 리뷰를 거친 해시태그를 流行하는 해시태그에 公開的으로 보여줍니다
+        title: 流行하는 해시태그
+    site_uploads:
+      delete: 업로드한 파일 削除
+      destroyed_msg: 사이트 업로드를 成功的으로 削除했습니다!
+    statuses:
+      back_to_account: 計定으로 돌아가기
+      back_to_report: 申告 페이지로 돌아가기
+      batch:
+        remove_from_report: 申告에서 除去
+        report: 申告
+      deleted: 削除됨
+      media:
+        title: 미디어
+      no_status_selected: 아무 揭示物도 選擇 되지 않아 아무 것도 바뀌지 않았습니다
+      title: 計定 揭示物
+      with_media: 미디어 있음
+    strikes:
+      actions:
+        delete_statuses: "%{name} 님이 %{target}의 揭示物을 지웠습니다"
+        disable: "%{name} 님이 %{target}의 計定을 凍結시켰습니다"
+        mark_statuses_as_sensitive: "%{name} 님이 %{target}의 揭示物을 敏感함으로 表示했습니다"
+        none: "%{name} 님이 %{target}에게 警告를 보냈습니다"
+        sensitive: "%{name} 님이 %{target}의 計定을 敏感함으로 表示했습니다"
+        silence: "%{name} 님이 %{target}의 計定을 制限시켰습니다"
+        suspend: "%{name} 님이 %{target}의 計定을 停止시켰습니다"
+      appeal_approved: 異議提起됨
+      appeal_pending: 異議提起 待機中
+    system_checks:
+      database_schema_check:
+        message_html: 데이터베이스 마이그레이션이 待機中입니다. 응용프로그램이 豫想한대로 動作할 수 있도록 마이그레이션을 實行해 주세요
+      elasticsearch_running_check:
+        message_html: Elasticsearch에 連結할 수 없습니다. 實行中인지 確認하거나, 專門檢索을 非活性化하세요
+      elasticsearch_version_check:
+        message_html: '互換되지 않는 Elasticsearch 버전: %{value}'
+        version_comparison: Elasticsearch %{required_version}버전이 必要하지만 %{running_version}버전이
+          實行 中입니다.
+      rules_check:
+        action: 서버 規則 管理
+        message_html: 아직 서버規則을 定하지 않았습니다.
+      sidekiq_process_check:
+        message_html: "%{value} 큐에 對한 사이드킥 프로세스가 發見되지 않았습니다. 사이드킥 設定을 檢討해주세요"
+    tags:
+      review: 審査 狀態
+      updated_msg: 해시태그 設定이 成功的으로 更新되었습니다
+    title: 管理
+    trends:
+      allow: 許容
+      approved: 承認됨
+      disallow: 拒否
+      links:
+        allow: 링크 許容하기
+        allow_provider: 出處 許容하기
+        description_html: 現在 서버에서 揭示物을 볼 수 있는 計定에서 많이 共有되고 있는 링크들입니다. 使用者가 世上 돌아가는
+          狀況을 把握하는 데 도움이 됩니다. 出處를 承認할 때까지 링크는 公開的으로 揭示되지 않습니다. 각각의 링크를 個別的으로 許容하거나
+          拒否할 수도 있습니다.
+        disallow: 링크 拒否하기
+        disallow_provider: 出處 拒否하기
+        shared_by_over_week:
+          other: 지난 周 동안 %{count} 名의 사람들이 共有했습니다
+        title: 流行하는 링크
+        usage_comparison: 오늘은 %{today}回 共有되었고, 어제는 %{yesterday}回 共有되었습니다
+      only_allowed: 許容된 것만
+      pending_review: 審査 待機
+      preview_card_providers:
+        allowed: 이 出處의 링크는 流行 目錄에 실릴 수 있습니다
+        description_html: 當身의 서버에서 많은 링크가 共有되고 있는 도메인들입니다. 링크의 도메인이 承認되기 前까지는 링크들은
+          公開的으로 트렌드에 揭示되지 않습니다. 當身의 承認(또는 拒絶)은 서브도메인까지 擴張됩니다.
+        rejected: 이 出處의 링크는 流行 目錄에 실릴 수 없습니다
+        title: 出處
+      rejected: 拒否됨
+      statuses:
+        allow: 揭示物 許容
+        allow_account: 作成者 許容
+        description_html: 當身의 서버가 알기로 現在 많은 數의 共有와 좋아요가 되고 있는 揭示物들입니다. 새로운 使用者나 돌아오는
+          使用者들이 팔로우 할 사람들을 찾는 데 도움이 될 수 있습니다. 作成者를 承認하고, 作成者가 그들의 計定이 다른 計定에게 探索되도록
+          設定하지 않는 한 揭示物들은 公開的으로 表示되지 않습니다. 또한 각각의 揭示物을 別個로 拒絶할 數도 있습니다.
+        disallow: 揭示物 不許
+        disallow_account: 作成者 不許
+        not_discoverable: 作成者가 發見되기를 원치 않습니다
+        shared_by:
+          other: "%{friendly_count} 番 共有되고 마음에 들어했습니다"
+        title: 流行하는 揭示物
+      tags:
+        current_score: 現在 %{score}點
+        dashboard:
+          tag_accounts_measure: 固有한 使用
+          tag_languages_dimension: 上位 言語
+          tag_servers_dimension: 上位 서버
+          tag_servers_measure: 다른 서버들
+          tag_uses_measure: 總 使用
+        description_html: 現在 서버에서 볼 수 있는 揭示物에서 많이 共有되고 있는 해시태그들입니다. 現在 사람들이 무슨 이야기를
+          하고 있는지 使用者들이 把握할 수 있도록 도움이 됩니다. 承認하지 않는 한 해시태그는 公開的으로 揭示되지 않습니다.
+        listable: 推薦될 수 있습니다
+        not_listable: 推薦될 수 없습니다
+        not_trendable: 流行 目錄에 나타나지 않습니다
+        not_usable: 使用不可
+        peaked_on_and_decaying: "%{date}에 高點을 찍고, 떨어지고 있습니다"
+        title: 流行하는 해시태그
+        trendable: 流行 目綠에 나타날 수 있습니다
+        trending_rank: "#%{rank}位로 流行 中"
+        usable: 使用 可能
+        usage_comparison: 오늘은 %{today}回 使用되었고, 어제는 %{yesterday}回 使用되었습니다
+        used_by_over_week:
+          other: 지난 週 동안 %{count} 名의 사람들이 使用했습니다
+      title: 流行
+      trending: 流行中
+    warning_presets:
+      add_new: 새로 追加
+      delete: 削除
+      edit_preset: 警告 틀 修正
+      empty: 아직 어떤 警告 틀도 定義되지 않았습니다.
+      title: 警告 틀 管理
+  admin_mailer:
+    new_appeal:
+      actions:
+        delete_statuses: 揭示物을 削除하는 것
+        disable: 計定을 凍結시키는 것
+        mark_statuses_as_sensitive: 揭示物을 敏感함으로 表示하는 것
+        none: 警告
+        sensitive: 計定을 敏感함으로 表示하는 것
+        silence: 計定을 制限하는 것
+        suspend: 計定을 停止하는 것
+      body: "%{target} 님이 %{action_taken_by} 님에 의해 %{date}에 決定된 仲裁 決定에 對한 異議를 提起했습니다,\
+        \ 決定된 事項은 %{type}이었습니다. 作成內容은 다음과 같습니다:"
+      next_steps: 仲裁 決定事項을 되돌리기 爲해서 上疏를 承認하거나, 無視할 수 있습니다.
+      subject: "%{username} 님이 %{instance}에서 發生한 仲裁 決定에 對해 疏明을 提出했습니다"
+    new_pending_account:
+      body: 아래에 새 計定에 對한 詳細情報가 있습니다. 이 加入을 承認하거나 拒否할 수 있습니다.
+      subject: "%{instance}의 새 計定(%{username})에 對한 審査가 待機中입니다"
+    new_report:
+      body: "%{reporter} 가 %{target} 를 申告했습니다"
+      body_remote: "%{domain}의 누군가가 %{target}을 申告했습니다"
+      subject: "%{instance} 에 새 申告 登錄됨 (#%{id})"
+    new_trends:
+      body: '아래에 있는 項目들은 公開的으로 보여지기 前에 檢討를 거쳐야 합니다:'
+      new_trending_links:
+        no_approved_links: 現在 承認된 流行 中인 링크가 없습니다.
+        requirements: '이 候補들 中 어떤 것이라도 #%{rank}位의 承認된 遊行 中인 링크를 앞지를 수 있으며, 이것은 現在
+          "%{lowest_link_title}"이고 %{lowest_link_score}點을 記錄하고 있습니다.'
+        title: 流行하는 링크
+      new_trending_statuses:
+        no_approved_statuses: 現在 承認된 流行 中인 揭示物이 없습니다.
+        requirements: '이 候補들 중 어떤 것이라도 #%{rank}位의 承認된 流行 中인 揭示物을 앞지를 수 있으며, 이것은 現在
+          %{lowest_status_url}이고 %{lowest_status_score}點을 記錄하고 있습니다.'
+        title: 流行하는 揭示物
+      new_trending_tags:
+        no_approved_tags: 現在 承認된 流行 中인 해시태그가 없습니다.
+        requirements: '이 候補들 中 어떤 것이라도 #%{rank}位의 承認된 流行 中인 해시태그를 앞지를 수 있으며, 이것은 現在
+          #%{lowest_tag_name}이고 %{lowest_tag_score}點을 기록하고 있습니다.'
+        title: 流行하는 해시태그
+      subject: 새 트렌드가 %{instance}에서 審査 待機 中입니다
+  aliases:
+    add_new: 別稱 만들기
+    created_msg: 새 別稱이 成功的으로 만들어졌습니다. 이제 旣存 計定에서 移住를 始作할 수 있습니다.
+    deleted_msg: 成功的으로 別稱을 削除했습니다. 該當 計定에서 이 計定으로의 移住는 더以上 可能하지 않습니다.
+    empty: 別稱이 없습니다.
+    hint_html: 다른 計定에서 이 計定으로 옮기길 원하는 境遇, 여기에서 別稱을 만들 수 있습니다, 旣存 計定의 팔로워를 이쪽으로 옮기고
+      싶은 境遇 必要한 過程입니다. 이 行動 自體는 <strong>害롭지 않고 되돌리기가 可能합니다</strong>.<strong>計定 移住는
+      以前 計定에서 着手하게 됩니다</strong>
+    remove: 別稱 連結 끊기
+  appearance:
+    advanced_web_interface: 高級 웹 인터페이스
+    advanced_web_interface_hint: '畵面의 가로폭을 가득 채우고 싶다면, 高級 웹 인터페이스는 한 番에 여러 情報를 볼 수
+      있도록 여러 컬럼을 設定할 수 있도록 합니다: 홈, 알림, 聯合타임라인, 리스트, 해시태그 등'
+    animations_and_accessibility: 애니메이션과 接近性
+    confirmation_dialogs: 確認 對話箱子
+    discovery: 發見하기
+    localization:
+      body: 마스토돈은 自願奉仕者들에 의해 飜譯되었습니다.
+      guide_link: https://crowdin.com/project/mastodon
+      guide_link_text: 누구나 寄與할 수 있습니다.
+    sensitive_content: 敏感한 內容
+    toot_layout: 揭示物 레이아웃
+  application_mailer:
+    notification_preferences: 메일 設定 變更
+    salutation: "%{name} 님,"
+    settings: '메일 設定을 變更: %{link}'
+    view: '보기:'
+    view_profile: 프로필 보기
+    view_status: 揭示物 보기
+  applications:
+    created: 애플리케이션이 成功的으로 生成되었습니다
+    destroyed: 애플리케이션이 成功的으로 削除되었습니다
+    invalid_url: 올바르지 않은 URL입니다
+    regenerate_token: 토큰 再生成
+    token_regenerated: 액세스 토큰이 成功的으로 再生成되었습니다
+    warning: 이 데이터를 操心히 다뤄 주세요. 다른 사람들과 絶對로 共有하지 마세요!
+    your_token: 액세스 토큰
+  auth:
+    apply_for_account: 加入 要請하기
+    change_password: 패스워드
+    checkbox_agreement_html: <a href="%{rules_path}" target="_blank">서버 規則</a>과 <a
+      href="%{terms_path}" target="_blank">利用約款</a>에 동의합니다
+    checkbox_agreement_without_rules_html: <a href="%{terms_path}" target="_blank">利用
+      約款</a>에 同意합니다
+    delete_account: 計定 削除
+    delete_account_html: 計定을 削除하고 싶은 境遇, <a href="%{path}">여기서</a> 削除할 수 있습니다. 削除
+      前 確認 畵面이 表示됩니다.
+    description:
+      prefix_invited_by_user: "@%{name} 님이 當身을 이 마스토돈 서버로 招待했습니다!"
+      prefix_sign_up: 마스토돈에 加入하세요!
+      suffix: 計定 하나로 사람들을 팔로우 하고, 揭示物을 作成하며 마스토돈을 包含한 다른 어떤 서버의 使用者와도 메시지를 주고 받을 수
+        있습니다!
+    didnt_get_confirmation: 確認 메일을 받지 못하셨습니까?
+    dont_have_your_security_key: 保安 키가 없습니까?
+    forgot_password: 秘密番號를 잊어버리셨습니까?
+    invalid_reset_password_token: 暗號 리셋 토큰이 올바르지 못하거나 期間이 滿了되었습니다. 다시 要請해주세요.
+    link_to_otp: 携帶폰의 2차 코드 혹은 復舊 키를 入力해 주세요
+    link_to_webauth: 保安 키 裝置 使用
+    log_in_with: 다음으로 로그인
+    login: 로그인
+    logout: 로그아웃
+    migrate_account: 計定 옮기기
+    migrate_account_html: 이 計定을 다른 計定으로 리디렉션 하길 願하는 境遇 <a href="%{path}">여기</a>에서
+      設定할 수 있습니다.
+    or_log_in_with: 다른 方法으로 로그인 하려면
+    providers:
+      cas: CAS
+      saml: SAML
+    register: 登錄하기
+    registration_closed: "%{instance}는 새로운 加入을 받지 않고 있습니다"
+    resend_confirmation: 確認 메일을 다시 보내기
+    reset_password: 暗號 再設定
+    security: 保安
+    set_new_password: 새 暗號
+    setup:
+      email_below_hint_html: 아래의 이메일 計定이 올바르지 않을 境遇, 여기서 變更하고 새 確認 메일을 받을 수 있습니다.
+      email_settings_hint_html: 確認 메일이 %{email}로 보내졌습니다. 이메일 住所가 올바르지 않은 境遇, 計定 設定에서
+        變更하세요.
+      title: 設定
+    status:
+      account_status: 計定 狀態
+      confirming: 이메일 確認 過程이 完了되기를 기다리는 중.
+      functional: 計定이 完璧히 作動합니다.
+      pending: 當身의 加入 申請은 스태프의 檢査를 爲해 待機中입니다. 이것은 時間이 多少 所要됩니다. 加入 申請이 承認 될 境遇 이메일을
+        받게 됩니다.
+      redirecting_to: 計定이 %{acct}로 리다이렉트 中이기 때문에 非活性 狀態입니다.
+      view_strikes: 내 計定에 對한 過去 仲裁 記錄 보기
+    too_fast: 너무 빠르게 樣式이 提出되었습니다, 다시 試圖하세요.
+    trouble_logging_in: 로그인 하는데 問題가 있나요?
+    use_security_key: 保安 키 使用
+  authorize_follow:
+    already_following: 이미 이 計定을 팔로우 하고 있습니다
+    already_requested: 이미 이 計定에게 팔로우 要請을 보냈습니다
+    error: 리모트 計定을 確認하는 途中 誤謬가 發生했습니다
+    follow: 팔로우
+    follow_request: '當身은 다음 計定에 팔로우 申請을 했습니다:'
+    following: '成功! 當身은 다음 計定을 팔로우 하고 있습니다:'
+    post_follow:
+      close: 혹은, 當身은 이 윈도우를 닫을 수 있습니다.
+      return: 使用者 프로필 보기
+      web: 웹으로 가기
+    title: "%{acct} 를 팔로우"
+  challenge:
+    confirm: 繼續
+    hint_html: "<strong>팁:</strong> 한 時間 동안 다시 暗號를 묻지 않을 것입니다."
+    invalid_password: 잘못된 暗號
+    prompt: 繼續하려면 暗號 確認
+  crypto:
+    errors:
+      invalid_key: 有效하지 않은 Ed25519 또는 Curve25519 키
+      invalid_signature: 有效하지 않은 Ed25519 署名
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      with_month_name: "%Y年 %B %d日"
+  datetime:
+    distance_in_words:
+      about_x_hours: "%{count}時間"
+      about_x_months: "%{count}月"
+      about_x_years: "%{count}年"
+      almost_x_years: "%{count}年"
+      half_a_minute: 只今
+      less_than_x_minutes: "%{count}分"
+      less_than_x_seconds: 只今
+      over_x_years: "%{count}年"
+      x_days: "%{count}日"
+      x_minutes: "%{count}分"
+      x_months: "%{count}月"
+      x_seconds: "%{count}秒"
+  deletes:
+    challenge_not_passed: 入力한 情報가 올바르지 않습니다
+    confirm_password: 本人 確認을 爲해 現在 使用 中인 暗號를 入力해 주십시오
+    confirm_username: 節次를 進行하려면 當身의 使用者名을 入力하세요
+    proceed: 計定 削除
+    success_msg: 計定이 成功的으로 削除되었습니다
+    warning:
+      before: '進行하기 前, 注意事項을 꼼꼼히 읽어보세요:'
+      caches: 다른 서버에 캐싱 된 情報들은 남아있을 수 있습니다
+      data_removal: 當身의 揭示物과 다른 情報들은 永久的으로 削除 됩니다
+      email_change_html: 計定을 지우지 않고도 <a href="%{path}">이메일 住所를 修正할 수 있습니다</a>
+      email_contact_html: 아직 到着하지 않았다면, <a href="mailto:%{email}">%{email}</a>에 메일을
+        보내 도움을 要請할 수 있습니다
+      email_reconfirmation_html: 아직 確認 메일이 到着하지 않은 境遇, <a href="%{path}">다시 要請할 수
+        있습니다</a>
+      irreversible: 計定을 復舊하거나 다시 使用할 수 없게 됩니다
+      more_details_html: 더 仔細한 情報는, <a href="%{terms_path}">個人情報 政策</a>을 參考하세요.
+      username_available: 當身의 計定名은 다시 使用할 수 있게 됩니다
+      username_unavailable: 當身의 計定名은 앞으로 使用할 수 없습니다
+  directories:
+    directory: 프로필 冊子
+    explanation: 關心事에 對한 使用者들을 發見합니다
+    explore_mastodon: "%{title} 探査하기"
+  disputes:
+    strikes:
+      action_taken: 내려진 懲戒
+      appeal: 異議提起
+      appeal_approved: 이 仲裁記錄은 疏明이 받아들여졌으며 더以上 有效하지 않습니다
+      appeal_rejected: 疏明이 棄却되었습니다
+      appeal_submitted_at: 異議提起 接受됨
+      appealed_msg: 當身의 異議提起가 接受되었습니다. 萬若 承認된다면, 알림을 받게 될 것입니다.
+      appeals:
+        submit: 異議 提出
+      approve_appeal: 異議提起 承認
+      associated_report: 關聯된 申告
+      created_at: 날짜
+      description_html: 이 決定事項들은 當身에 計定에 對해 行해졌고 %{instance}의 스태프에 의해 警告가 發送되었습니다.
+      recipient: 受信者
+      reject_appeal: 異議提起 拒絶
+      status: '揭示物 #%{id}'
+      status_removed: 揭示物이 이미 시스템에서 지워졌습니다
+      title: "%{action} (%{date}에)"
+      title_actions:
+        delete_statuses: 揭示物 削除
+        disable: 計定 凍結
+        mark_statuses_as_sensitive: 揭示物을 敏感함으로 表示
+        none: 警告
+        sensitive: 計定을 敏感함으로 表示
+        silence: 計定의 制限
+        suspend: 計定 停止
+      your_appeal_approved: 當身의 疏明이 받아들여졌습니다
+      your_appeal_pending: 疏明을 提出했습니다
+      your_appeal_rejected: 當身의 疏明이 棄却되었습니다
+  domain_validator:
+    invalid_domain: 올바른 도메인 네임이 아닙니다
+  errors:
+    '400': 提出한 要請이 올바르지 않습니다.
+    '403': 이 페이지를 表示할 權限이 없습니다.
+    '404': 當身이 찾으려는 페이지는 存在하지 않습니다.
+    '406': 이 페이지는 要請한 資料形으로 提供되지 않습니다.
+    '410': 當身이 보려는 페이지는 더以上 여기에 存在하지 않습니다.
+    '422':
+      content: 保安 認證에 失敗했습니다. 쿠키를 遮斷하고 있진 않습니까?
+      title: 保安 認證 失敗
+    '429': 要請 回數 制限에 到達했습니다
+    '500':
+      content: 罪悚합니다, 뭔가 잘못 되었습니다.
+      title: 이 페이지는 잘못되었습니다
+    '503': 이 페이지는 臨時的인 서버 問題로 인해 提供 될 수 없습니다.
+    noscript_html: 마스토돈을 使用하기 爲해서는 자바스크립트를 켜 주십시오. 아니면 <a href="%{apps_path}">네이티브
+      앱</a> 중 하나를 使用할 수 있습니다.
+  existing_username_validator:
+    not_found: 該當 使用者名에 對한 로컬 유저를 찾을 수 없습니다
+    not_found_multiple: "%{usernames}를 찾을 수 없습니다"
+  exports:
+    archive_takeout:
+      date: 날짜
+      download: 아카이브 다운로드
+      hint_html: 當身의 <strong>揭示物과 업로드 된 미디어</strong>의 아카이브를 要請할 수 있습니다. 내보내지는 데이터는
+        ActivityPub 포맷입니다. 互換 되는 모든 소프트웨어에서 읽을 수 있습니다. 7日마다 새로운 아카이브를 要請할 수 있습니다.
+      in_progress: 當身의 아카이브를 컴파일 中입니다…
+      request: 아카이브 要請하기
+      size: 크기
+    blocks: 遮斷
+    bookmarks: 保管函
+    csv: CSV
+    domain_blocks: 도메인 遮斷
+    lists: 리스트
+    mutes: 뮤트
+    storage: 미디어
+  featured_tags:
+    add_new: 追加
+    errors:
+      limit: 이미 推薦 해시태그의 個數가 最大입니다
+    hint_html: "<strong>推薦 해시태그가 무엇이죠?</strong> 當身의 公開 프로필 페이지에 눈에 띄게 表現 되며 사람들이 그\
+      \ 해시태그를 包含한 當身의 글을 찾아 볼 수 있도록 합니다. 創作活動이나 긴 期間을 가지는 프로젝트를 쭉 따라가기에 좋은 道具입니다."
+  filters:
+    contexts:
+      account: 프로필
+      home: 홈 타임라인
+      notifications: 알림
+      public: 퍼블릭 타임라인
+      thread: 對話
+    edit:
+      title: 필터 編輯
+    errors:
+      invalid_context: 컨텍스트가 없거나 올바르지 않습니다
+      invalid_irreversible: 되돌릴 수 없는 필터링은 홈 타임라인과 알림에서만 動作합니다
+    index:
+      delete: 削除
+      empty: 필터가 없습니다.
+      title: 필터
+    new:
+      title: 필터 追加
+  footer:
+    developers: 開發者
+    more: 더 보기…
+    resources: 리소스
+    trending_now: 只今 流行中
+  generic:
+    all: 모두
+    changes_saved_msg: 正常的으로 變更되었습니다!
+    copy: 複寫
+    delete: 削除
+    none: 없음
+    order_by: 順序
+    save_changes: 變更 事項을 貯藏
+    today: 오늘
+    validation_errors:
+      other: 誤謬가 發生했습니다. 아래 %{count}個 誤謬를 確認해 주십시오
+  html_validator:
+    invalid_markup: '올바르지 않은 HTML 마크업을 包含하고 있습니다: %{error}'
+  imports:
+    errors:
+      over_rows_processing_limit: "%{count}個 以上의 列을 包含합니다"
+    modes:
+      merge: 倂合
+      merge_long: 旣存 것을 그대로 둔 채 새로 追加
+      overwrite: 덮어쓰기
+      overwrite_long: 旣存 것을 모두 지우고 새로 追加
+    preface: 다른 서버에서 내보내기 한 파일에서 팔로우 / 遮斷 情報를 이 計定으로 불러올 수 있습니다.
+    success: 파일이 正常的으로 업로드 되었으며, 現在 處理 中입니다
+    types:
+      blocking: 遮斷한 計定 目錄
+      bookmarks: 保管函
+      domain_blocking: 도메인 遮斷 目錄
+      following: 팔로우 中인 計定 目錄
+      muting: 뮤트 中인 計定 目錄
+    upload: 업로드
+  in_memoriam_html: 故人의 計定입니다.
+  invites:
+    delete: 非活性化
+    expired: 滿了됨
+    expires_in:
+      '1800': 30 分
+      '21600': 6 時間
+      '3600': 1 時間
+      '43200': 12 時間
+      '604800': 1週日
+      '86400': 하루
+    expires_in_prompt: 永遠히
+    generate: 生成
+    invited_by: '當身을 招待한 사람:'
+    max_uses:
+      other: "%{count} 回"
+    max_uses_prompt: 制限 없음
+    prompt: 이 서버에 對한 招待 링크를 만들고 共有합니다
+    table:
+      expires_at: 滿了
+      uses: 使用됨
+    title: 招待
+  lists:
+    errors:
+      limit: 리스트 最大値에 到達했습니다
+  login_activities:
+    authentication_methods:
+      otp: 2段階 認證 앱
+      password: 暗號
+      sign_in_token: 이메일 保安 코드
+      webauthn: 保安 키
+    description_html: 確認되지 않은 活動이 보인다면, 暗號를 바꾸거나 2段階 認證을 活性化 하는 것을 考慮해 보세요.
+    empty: 認證 履歷이 存在하지 않습니다
+    failed_sign_in_html: 失敗한 로그인 試圖 %{method} %{ip} (%{browser})
+    successful_sign_in_html: 成功한 로그인 試圖 %{method} %{ip} (%{browser})
+    title: 認證 履歷
+  media_attachments:
+    validations:
+      images_and_video: 이미 寫眞이 添附 된 揭示物엔 動映像을 添附 할 수 없습니다
+      not_ready: 處理가 끝나지 않은 파일은 添附할 수 없습니다. 잠시 후에 다시 試圖해 주세요!
+      too_many: 最大 4個까지 添附할 수 있습니다
+  migrations:
+    acct: 새 計定의 username@domain
+    cancel: 리디렉션 取消
+    cancel_explanation: 리다이렉트를 取消하면 現在 計定이 다시 活性化 됩니다, 새 計定으로 移動한 팔로워를 되찾을 수는 없습니다.
+    cancelled_msg: 리다이렉트를 成功적으로 取消했습니다.
+    errors:
+      already_moved: 이미 移動한 計定과 同一합니다
+      missing_also_known_as: 이 計定을 逆으로 參照하지 않고 있습니다
+      move_to_self: 現在 計定은 使用할 수 없습니다
+      not_found: 찾을 수 없습니다
+      on_cooldown: 休息期間입니다
+    followers_count: 移住 될 팔로워들
+    incoming_migrations: 다른 計定으로부터 옮기기
+    incoming_migrations_html: 다른 計定을 이 計定으로 移住하고 싶은 境遇, 먼저 <a href="%{path}">計定 別稱을
+      만들어야 합니다</a>.
+    moved_msg: 當身의 計定은 %{acct}로 리다이렉트 되고 있으며 팔로워들은 移住 될 것입니다.
+    not_redirecting: 現在 이 計定은 어디로도 리다이렉트 되고 있지 않습니다.
+    on_cooldown: 當身은 最近에 이미 計定을 移動했습니다. 이 機能은 %{count}日 後에 다시 利用 可能합니다.
+    past_migrations: 過去 移住
+    proceed_with_move: 팔로워 移動
+    redirected_msg: 當身의 計定은 이제 %{acct} 로 리다이렉트됩니다.
+    redirecting_to: 當身의 計定은 %{acct} 로 리다이렉트됩니다.
+    set_redirect: 리디렉션 設定
+    warning:
+      backreference_required: 새 計定은 이 計定으로 逆參照를 하도록 設定되어 있어야 합니다
+      before: '進行하기 前, 主義事項을 꼼꼼히 읽어보세요:'
+      cooldown: 移住 뒤에는 새로운 移住를 하지 못하는 休息期間이 存在합니다
+      disabled_account: 이 計定은 完全한 使用이 不可能하게 됩니다. 하지만, 데이터 내보내기나 再活性化를 爲해 接近할 수 있습니다.
+      followers: 이 行動은 現在 計定의 모든 팔로워를 새 計定으로 移動시킵니다
+      only_redirect_html: 代身, <a href="%{path}">프로필에 리디렉션만 表示</a>할 수 있습니다.
+      other_data: 다른 어떤 데이터도 自動的으로 옮겨지지 않을 것입니다
+      redirect: 現在 計定 프로필은 리다이렉트 알림과 함께 업데이트 되며 檢索에서 除外 됩니다
+  moderation:
+    title: 仲裁
+  move_handler:
+    carry_blocks_over_text: 이 使用者는 當身이 遮斷한 %{acct}로부터 移住 했습니다.
+    carry_mutes_over_text: 이 使用者는 當身이 뮤트한 %{acct}로부터 移住 했습니다.
+    copy_account_note_text: '이 使用者는 %{acct}로부터 移動하였습니다. 當身의 以前 노트는 이렇습니다:'
+  notification_mailer:
+    admin:
+      sign_up:
+        subject: "%{name} 님이 加入했습니다"
+    digest:
+      action: 모든 알림 보기
+      body: 마지막 로그인(%{since}) 以後로 일어난 일들에 關한 要約
+      mention: "%{name} 님이 나를 言及했습니다:"
+      new_followers_summary:
+        other: 게다가, 接續하지 않은 동안 %{count} 名의 팔로워가 생겼습니다!
+      subject:
+        other: 마지막 訪問 以後로 %{count} 件의 새로운 알림
+      title: 當身이 없는 동안에...
+    favourite:
+      body: '當身의 揭示物을 %{name} 님이 마음에 들어했습니다:'
+      subject: "%{name} 님이 내 揭示物을 마음에 들어했습니다"
+      title: 새 좋아요
+    follow:
+      body: "%{name} 님이 나를 팔로우 했습니다!"
+      subject: "%{name} 님이 나를 팔로우 했습니다"
+      title: 새 팔로워
+    follow_request:
+      action: 팔로우 要請 管理
+      body: "%{name} 님이 내게 팔로우 要請을 보냈습니다"
+      subject: "%{name} 님이 보낸 팔로우 要請"
+      title: 새 팔로우 要請
+    mention:
+      action: 答狀
+      body: "%{name} 님이 나를 言及했습니다:"
+      subject: "%{name} 님이 나를 言及했습니다"
+      title: 새 멘션
+    poll:
+      subject: "%{name}의 投票가 終了되었습니다"
+    reblog:
+      body: '當身의 揭示物을 %{name} 님이 부스트 했습니다:'
+      subject: "%{name} 님이 내 揭示物을 부스트 했습니다"
+      title: 새 부스트
+    status:
+      subject: "%{name} 님이 方今 揭示物을 올렸습니다"
+    update:
+      subject: "%{name} 님이 揭示物을 修正했습니다"
+  notifications:
+    email_events: 이메일 알림에 對한 이벤트
+    email_events_hint: '알림 받을 이벤트를 選擇해주세요:'
+    other_settings: 其他 알림 設定
+  number:
+    human:
+      decimal_units:
+        format: "%n%u"
+        units:
+          billion: B
+          million: M
+          quadrillion: Q
+          thousand: K
+          trillion: T
+  otp_authentication:
+    code_hint: 確認을 爲해 認證 애플리케이션에 生成된 코드를 入力해 주십시오
+    description_html: 認證器 앱으로 <strong>2段階 認證</strong>을 活性化 하면 로그인 時 入力할 토큰을 生成해 주는
+      電話機가 必要합니다.
+    enable: 活性化
+    instructions_html: "<strong>Google Authenticator, 또는 他 TOTP 애플리케이션에서 이 QR 코드를\
+      \ 스캔해 주십시오.</strong> 以後 로그인 時에는 이 애플리케이션에서 生成되는 코드가 必要합니다."
+    manual_instructions: 'QR 코드를 스캔할 수 없어 手動으로 登錄을 원하시는 경우 이 秘密 코드를 使用해 주십시오:'
+    setup: 設定
+    wrong_code: 코드가 올바르지 않습니다! 서버와 携帶電話 間의 時刻이 一致하나요?
+  pagination:
+    newer: 最近
+    next: 다음
+    older: 以前
+    prev: 以前
+    truncate: "&hellip;"
+  polls:
+    errors:
+      already_voted: 이미 投票에 參與하셨습니다
+      duplicate_options: 重複된 項目이 있습니다
+      duration_too_long: 너무 먼 未來입니다
+      duration_too_short: 너무 가깝습니다
+      expired: 投票가 이미 끝났습니다
+      invalid_choice: 選擇한 投票 項目이 存在하지 않습니다
+      over_character_limit: 各各 %{max} 글字를 넘을 수 없습니다
+      too_few_options: 한가지 以上의 項目을 包含해야 합니다
+      too_many_options: 項目은 %{max}個를 넘을 수 없습니다
+  preferences:
+    other: 其他
+    posting_defaults: 揭示物 基本設定
+    public_timelines: 公開 타임라인
+  reactions:
+    errors:
+      limit_reached: 다른 리액션 制限에 到達했습니다
+      unrecognized_emoji: 認識 되지 않은 繪文字입니다
+  relationships:
+    activity: 計定 活動
+    dormant: 休眠
+    follow_selected_followers: 選擇한 팔로워들을 팔로우
+    followers: 팔로워
+    following: 팔로잉
+    invited: 招待됨
+    last_active: 마지막 活動
+    most_recent: 가장 最近
+    moved: 移動함
+    mutual: 相互 팔로우
+    primary: 主 計定
+    relationship: 關係
+    remove_selected_domains: 選擇한 도메인의 모든 팔로워 削除
+    remove_selected_followers: 選擇한 팔로워 削除
+    remove_selected_follows: 選擇한 使用者들을 팔로우 解除
+    status: 計定 狀態
+  remote_follow:
+    acct: 當身이 使用하는 아이디@도메인을 入力해 주십시오
+    missing_resource: 리디렉션 對象을 찾을 수 없습니다
+    no_account_html: 計定이 없나요? <a href='%{sign_up_path}' target='_blank'>여기에서 加入 할
+      수 있습니다</a>
+    proceed: 팔로우 하기
+    prompt: '팔로우 하려 하고 있습니다:'
+    reason_html: "<strong>왜 이 過程이 必要하죠?</strong><code>%{instance}</code>는 當身이 加入한\
+      \ 서버가 아닐 것입니다, 당신의 홈 서버로 먼저 가야 합니다."
+  remote_interaction:
+    favourite:
+      proceed: 좋아요 進行
+      prompt: '이 揭示物을 좋아요 하려고 합니다:'
+    reblog:
+      proceed: 부스트 進行
+      prompt: '이 揭示物을 부스트 하려 합니다:'
+    reply:
+      proceed: 答狀 進行
+      prompt: '이 揭示物에 答狀을 하려 합니다:'
+  reports:
+    errors:
+      invalid_rules: 올바른 規則을 包含하지 않습니다
+  rss:
+    content_warning: '閱覽 注意:'
+    descriptions:
+      account: "@%{acct}의 公開 揭示物"
+      tag: "#%{hashtag} 해시태그가 붙은 公開 揭示物"
+  scheduled_statuses:
+    over_daily_limit: 그 날짜에 對한 %{limit}個의 豫約 揭示物 制限을 超過합니다
+    over_total_limit: 豫約 揭示物 制限 %{limit}을 超過합니다
+    too_soon: 豫約 날짜는 未來여야 합니다
+  sessions:
+    activity: 마지막 活動
+    browser: 브라우저
+    browsers:
+      alipay: 알리페이
+      blackberry: 블랙베리
+      chrome: 크롬
+      edge: 마이크로소프트 엣지
+      electron: 일렉트론
+      firefox: 파이어폭스
+      generic: 알 수 없는 브라우저
+      ie: 인터넷 익스플로러
+      micro_messenger: 마이크로메신저
+      nokia: Nokia S40 Ovi 브라우저
+      opera: 오페라
+      otter: Otter
+      phantom_js: 팬텀JS
+      qq: QQ 브라우저
+      safari: 사파리
+      uc_browser: UC브라우저
+      weibo: 웨이보
+    current_session: 現在 세션
+    description: "%{platform}의 %{browser}"
+    explanation: 내 마스토돈 計定에 現在 로그인 中인 웹 브라우저 目錄입니다.
+    ip: IP
+    platforms:
+      adobe_air: 어도비 Air
+      android: 안드로이드
+      blackberry: 블랙베리
+      chrome_os: 크롬OS
+      firefox_os: 파이어폭스OS
+      ios: iOS
+      linux: 리눅스
+      mac: 맥OS
+      other: 알 수 없는 플랫폼
+      windows: 윈도우즈
+      windows_mobile: 윈도우즈 모바일
+      windows_phone: 윈도우즈 폰
+    revoke: 削除
+    revoke_success: 세션이 成功的으로 削除되었습니다
+    title: 세션
+    view_authentication_history: 내 計定에 對한 認證 履歷 보기
+  settings:
+    account: 計定
+    account_settings: 計定 設定
+    aliases: 計定 別名
+    appearance: 外觀
+    authorized_apps: 認證된 애플리케이션
+    back: 돌아가기
+    delete: 計定 削除
+    development: 開發
+    edit_profile: 프로필 編輯
+    export: 데이터 내보내기
+    featured_tags: 推薦 해시태그
+    import: 데이터 가져오기
+    import_and_export: 가져오기 / 내보내기
+    migrate: 計定 移動
+    notifications: 알림
+    preferences: 使用者 設定
+    profile: 프로필
+    relationships: 팔로잉과 팔로워
+    statuses_cleanup: 揭示物 自動 削除
+    strikes: 仲裁 記錄
+    two_factor_authentication: 2段階 認證
+    webauthn_authentication: 保安 키
+  statuses:
+    attached:
+      audio:
+        other: "%{count}個의 오디오"
+      description: '添附: %{attached}'
+      image:
+        other: "%{count} 이미지"
+      video:
+        other: "%{count}個의 映像"
+    boosted_from_html: "%{acct_link}의 글을 부스트"
+    content_warning: '閱覽 注意: %{warning}'
+    default_language: 畵面 表示 言語와 同一하게
+    disallowed_hashtags:
+      other: '許容되지 않은 해시태그를 包含하고 있습니다: %{tags}'
+    edited_at_html: "%{date}에 編輯됨"
+    errors:
+      in_reply_not_found: 答狀하려는 揭示物이 存在하지 않습니다.
+    open_in_web: Web으로 열기
+    over_character_limit: 最大 %{max}字까지 入力할 수 있습니다
+    pin_errors:
+      direct: 멘션된 使用者들에게만 보이는 揭示物은 固定될 수 없습니다
+      limit: 이미 너무 많은 揭示物을 固定했습니다
+      ownership: 다른 사람의 揭示物은 固定될 수 없습니다
+      reblog: 부스트는 固定될 수 없습니다
+    poll:
+      total_people:
+        other: "%{count}名"
+      total_votes:
+        other: "%{count}名 投票함"
+      vote: 投票
+    show_more: 더 보기
+    show_newer: 새로운 것 表示
+    show_older: 오래된 것 表示
+    show_thread: 글타래 보기
+    sign_in_to_participate: 로그인 하여 이 對話에 參與하기
+    title: '%{name}: "%{quote}"'
+    visibilities:
+      direct: 다이렉트
+      private: 非公開
+      private_long: 팔로워에게만 公開됩니다
+      public: 公開
+      public_long: 누구나 볼 수 있으며, 公開 타임라인에 表示됩니다
+      unlisted: 公開 타임라인 非公開
+      unlisted_long: 누구나 볼 수 있지만, 公開 타임라인에는 表示되지 않습니다
+  statuses_cleanup:
+    enabled: 오래된 揭示物 自動 削除
+    enabled_hint: 아래의 例外 目錄에 該當하지 않는다면, 明示된 期限 以後 當身의 揭示物을 自動으로 削除합니다
+    exceptions: 例外
+    explanation: 揭示物 削除는 많은 性能이 必要하기 때문에, 서버에서 바쁘지 않을 때 時間을 들여서 천천히 進行합니다. 이런 理由로,
+      當身의 揭示物은 아마도 定해진 期間보다 좀 더 時間이 지난 以後에 削除될 것입니다.
+    ignore_favs: 좋아요 無視
+    ignore_reblogs: 부스트 無視
+    interaction_exceptions: 相互作用에 基盤한 例外들
+    interaction_exceptions_explanation: 좋아요나 부스트 數가 設定한 값을 넘은 後 다시 낮아진 境遇에는 揭示物이 削除되는
+      것을 保障하지 못합니다.
+    keep_direct: 다이렉트 메시지 維持
+    keep_direct_hint: 다이렉트 메시지를 削除하지 않습니다
+    keep_media: 미디어가 있는 揭示物 維持
+    keep_media_hint: 미디어가 添附된 揭示物을 削除하지 않습니다
+    keep_pinned: 固定된 揭示物 維持
+    keep_pinned_hint: 固定 揭示物을 削除하지 않습니다
+    keep_polls: 投票 維持
+    keep_polls_hint: 投票를 削除하지 않습니다
+    keep_self_bookmark: 북마크된 揭示物 維持
+    keep_self_bookmark_hint: 내 스스로 북마크한 本人의 揭示物을 削除하지 않습니다
+    keep_self_fav: 마음에 들어한 揭示物 維持
+    keep_self_fav_hint: 내 스스로 마음에  들어한 本人의 揭示物을 削除하지 않습니다
+    min_age:
+      '1209600': 2 週
+      '15778476': 6 個月
+      '2629746': 1 個月
+      '31556952': 1 年
+      '5259492': 2 個月
+      '604800': 1週日
+      '63113904': 2 年
+      '7889238': 3 個月
+    min_age_label: 期限
+    min_favs: 該當 回數 以上 좋아요된 揭示物 維持
+    min_favs_hint: 이 回數 以上의 좋아요가 된 揭示物은 削除하지 않습니다. 좋아요 數와 關係없이 揭示物을 지우고 싶다면 空白으로 두세요
+    min_reblogs: 該當 回數 以上 부스트된 揭示物 維持
+    min_reblogs_hint: 이 回數 以上의 부스트가 된 揭示物은 削除하지 않습니다. 부스트 數와 關係없이 揭示物을 지우고 싶다면 空白으로
+      두세요
+  stream_entries:
+    pinned: 固定된 揭示物
+    reblogged: 님이 부스트 했습니다
+    sensitive_content: 敏感한 컨텐츠
+  strikes:
+    errors:
+      too_late: 異議를 提起하기에 너무 늦었습니다
+  tags:
+    does_not_match_previous_name: 以前 이름과 맞지 않습니다
+  terms:
+    body_html: |
+      <h2>개인정보 정책</h2>
+      <h3 id="collect">우리가 어떤 정보를 수집하나요?</h3>
+
+      <ul>
+      <li><em>기본 계정 정보</em>: 이 서버에 가입하실 때 사용자명, 이메일 주소, 패스워드 등을 입력 받게 됩니다. 추가적으로 표시되는 이름이나 자기소개, 프로필 이미지, 헤더 이미지 등의 프로필 정보를 입력하게 됩니다. 사용자명, 표시되는 이름, 자기소개, 프로필 이미지와 헤더 이미지는 언제나 공개적으로 게시됩니다.</li>
+      <li><em>게시물, 팔로잉, 기타 공개된 정보</em>: 당신이 팔로우 하는 사람들의 리스트는 공개됩니다. 당신을 팔로우 하는 사람들도 마찬가지입니다. 당신이 게시물을 작성하는 경우, 응용프로그램이 메시지를 받았을 때의 날짜와 시간이 기록 됩니다. 게시물은 그림이나 영상 등의 미디어를 포함할 수 있습니다. 퍼블릭과 미표시(unlisted) 게시물은 공개적으로 접근이 가능합니다. 프로필에 게시물을 고정하는 경우 마찬가지로 공개적으로 접근 가능한 정보가 됩니다. 당신의 게시물들은 당신의 팔로워들에게 전송 됩니다. 몇몇 경우 이것은 다른 서버에 전송되고 그곳에 사본이 저장 됩니다. 당신이 게시물을 삭제하는 경우 이 또한 당신의 팔로워들에게 전송 됩니다. 다른 게시물을 리블로깅 하거나 좋아요 하는 경우 이는 언제나 공개적으로 제공 됩니다.</li>
+      <li><em>DM, 팔로워 공개 게시물</em>: 모든 게시물들은 서버에서 처리되고 저장됩니다. 팔로워 공개 게시물은 당신의 팔로워와 멘션 된 사람들에게 전달이 됩니다. 다이렉트 메시지는 멘션 된 사람들에게만 전송 됩니다. 몇몇 경우 이것은 다른 서버에 전송 되고 그곳에 사본이 저장됨을 의미합니다. 우리는 이 게시물들이 권한을 가진 사람들만 열람이 가능하도록 노력을 할 것이지만 다른 서버에서는 이것이 실패할 수도 있습니다. 그러므로 당신의 팔로워들이 속한 서버를 재확인하는 것이 중요합니다. 당신은 새 팔로워를 수동으로 승인하거나 거절하도록 설정을 변경할 수 있습니다. <em>해당 서버의 운영자는 서버가 받는 메시지를 열람할 수 있다는 것을 항상 염두해 두세요</em>, 그리고 수신자들은 스크린샷을 찍거나 복사하는 등의 방법으로 다시 공유할 수 있습니다. <em>위험한 정보를 마스토돈을 통해 공유하지 마세요.</em></li>
+      <li><em>IP와 기타 메타데이터</em>: 당신이 로그인 하는 경우 IP 주소와 브라우저의 이름을 저장합니다. 모든 세션은 당신이 검토하고 취소할 수 있도록 설정에서 제공 됩니다. 마지막으로 사용 된 IP 주소는 최대 12개월 간 저장됩니다. 또한, 모든 요청에 대해 IP주소를 포함한 정보를 로그에 저장할 수 있습니다.</li>
+      </ul>
+
+      <hr class="spacer" />
+
+      <h3 id="use">우리가 당신의 정보를 어디에 쓰나요?</h3>
+
+      <p>당신에게서 수집한 정보는 다음과 같은 곳에 사용 됩니다:</p>
+
+      <ul>
+      <li>마스토돈의 주요 기능 제공. 다른 사람의 게시물에 상호작용 하거나 자신의 게시물을 작성하기 위해서는 로그인을 해야 합니다. 예를 들어, 다른 사람의 게시물을 자신만의 홈 타임라인에서 모아 보기 위해 팔로우를 할 수 있습니다.</li>
+      <li>커뮤니티의 중재를 위해, 예를 들어 당신의 IP 주소와 기타 사항을 비교하여 금지를 우회하거나 다른 규칙을 위반하는지 판단하는 데에 사용할 수 있습니다.</li>
+      <li>당신이 제공한 이메일 주소를 통해 정보, 다른 사람들의 반응이나 받은 메시지에 대한 알림, 기타 요청 등에 관한 응답 요청 등을 보내는 데에 활용됩니다.</li>
+      </ul>
+
+      <hr class="spacer" />
+
+      <h3 id="protect">어떻게 당신의 정보를 보호하나요?</h3>
+
+      <p>우리는 당신이 입력, 전송, 접근하는 개인정보를 보호하기 위해 다양한 보안 대책을 적용합니다. 당신의 브라우저 세션, 당신의 응용프로그램과의 통신, API는 SSL로 보호 되며 패스워드는 강력한 단방향 해시 알고리즘을 사용합니다. 계정의 더 나은 보안을 위해 2단계 인증을 활성화 할 수 있습니다.</p>
+
+      <hr class="spacer" />
+
+      <h3 id="data-retention">자료 저장 정책은 무엇이죠?</h3>
+
+      <p>우리는 다음을 위해 노력을 할 것입니다:</p>
+
+      <ul>
+      <li>IP를 포함해 이 서버에 전송 되는 모든 요청에 대한 로그는 90일을 초과하여 저장되지 않습니다.</li>
+      <li>가입 된 사용자의 IP 정보는 12개월을 초과하여 저장 되지 않습니다.</li>
+      </ul>
+
+      <p>당신은 언제든지 게시물, 미디어 첨부, 프로필 이미지, 헤더 이미지를 포함한 당신의 컨텐트에 대한 아카이브를 요청하고 다운로드 할 수 있습니다.</p>
+
+      <p>언제든지 계정을 완전히 삭제할 수 있습니다.</p>
+
+      <hr class="spacer"/>
+
+      <h3 id="cookies">쿠키를 사용하나요?</h3>
+
+      <p>네. 쿠키는 (당신이 허용한다면) 당신의 웹 브라우저를 통해 서버에서 당신의 하드드라이브에 저장하도록 전송하는 작은 파일들입니다. 이 쿠키들은 당신의 브라우저를 인식하고, 계정이 있는 경우 이와 연결하는 것을 가능하게 합니다.</p>
+
+      <p>당신의 환경설정을 저장하고 다음 방문에 활용하기 위해 쿠키를 사용합니다.</p>
+
+      <hr class="spacer" />
+
+      <h3 id="disclose">외부에 정보를 공개하나요?</h3>
+
+      <p>우리는 당신을 식별 가능한 개인정보를 외부에 팔거나 제공하거나 전송하지 않습니다. 이는 당사의 사이트를 운영하기 위한, 기밀 유지에 동의하는, 신뢰 가능한 서드파티를 포함하지 않습니다. 또한 법률 준수, 사이트 정책 시행, 또는 당사나 타인에 대한 권리, 재산, 또는 안전보호를 위해 적절하다고 판단되는 경우 당신의 정보를 공개할 수 있습니다.</p>
+
+      <p>당신의 공개 게시물은 네트워크에 속한 다른 서버가 다운로드 할 수 있습니다. 당신의 팔로워나 수신자가 이 서버가 아닌 다른 곳에 존재하는 경우 당신의 공개, 팔로워 공개 게시물은 당신의 팔로워가 존재하는 서버로 전송되며, 다이렉트메시지는 수신자가 존재하는 서버로 전송 됩니다.</p>
+
+      <p>당신이 계정을 사용하기 위해 응용프로그램을 승인하는 경우 당신이 허용한 권한에 따라 응용프로그램은 당신의 공개 계정정보, 팔로잉 리스트, 팔로워 리스트, 게시물, 좋아요 등에 접근이 가능해집니다. 응용프로그램은 절대로 당신의 이메일 주소나 패스워드에 접근할 수 없습니다.</p>
+
+      <hr class="spacer" />
+
+      <h3 id="children">어린이의 사이트 사용</h3>
+
+      <p>이 서버가 EU나 EEA에 속해 있다면: 당사의 사이트, 제품과 서비스는 16세 이상인 사람들을 위해 제공됩니다. 당신이 16세 미만이라면 GDPR(<a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">General Data Protection Regulation</a>)의 요건에 따라 이 사이트를 사용할 수 없습니다.</p>
+
+      <p>이 서버가 미국에 속해 있다면: 당사의 사이트, 제품과 서비스는 13세 이상인 사람들을 위해 제공됩니다. 당신이 13세 미만이라면 COPPA (<a href="https://en.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act">Children's Online Privacy Protection Act</a>)의 요건에 따라 이 사이트를 사용할 수 없습니다.</p>
+
+      <p>이 서버가 있는 관할권에 따라 법적 요구가 달라질 수 있습니다.</p>
+
+      <hr class="spacer" />
+
+      <h3 id="changes">개인정보 정책의 변경</h3>
+
+      <p>만약 우리의 개인정보 정책이 바뀐다면, 이 페이지에 바뀐 정책이 게시됩니다.</p>
+
+      <p>이 문서는 CC-BY-SA 라이센스입니다. 마지막 업데이트는 2018년 3월 7일입니다.</p>
+
+      <p>Originally adapted from the <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
+    title: "%{instance} 利用約款과 個人情報 取扱 方針"
+  themes:
+    contrast: 마스토돈 (高對比)
+    default: 마스토돈 (어두움)
+    mastodon-light: 마스토돈 (밝음)
+  time:
+    formats:
+      default: "%Y年 %m月 %d日 %H:%M"
+      month: "%Y年 %b"
+      time: "%H:%M"
+  two_factor_authentication:
+    add: 追加
+    disable: 非活性化
+    disabled_success: 2段階 認證이 非活性化 되었습니다.
+    edit: 編輯
+    enabled: 2段階 認證이 活性化 되어 있습니다
+    enabled_success: 2段階 認證이 活性化 되었습니다
+    generate_recovery_codes: 復舊 코드 生成
+    lost_recovery_codes: 復舊 코드를 使用하면 携帶電話를 紛失한 境遇에도 計定에 接近할 수 있게 됩니다. 復舊 코드를 紛失한 境遇에도
+      여기서 다시 生成할 수 있지만, 예전 復舊 코드는 非活性化 됩니다.
+    methods: 2段階 認證
+    otp: 認證 앱
+    recovery_codes: 復舊 코드
+    recovery_codes_regenerated: 復舊 코드가 다시 生成되었습니다
+    recovery_instructions_html: 携帶電話를 紛失한 境遇, 아래 復舊 코드 中 하나를 使用해 計定에 接近할 수 있습니다. <strong>復舊
+      코드는 安全하게 保管해 주십시오.</strong> 이 코드를 印刷해 重要한 書類와 함께 保管하는 것도 좋습니다.
+    webauthn: 保安 키
+  user_mailer:
+    appeal_approved:
+      action: 내 計定으로 가기
+      explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했으며 承諾되었습니다.\
+        \ 當身의 計定은 正常的인 狀態로 돌아왔습니다."
+      subject: "%{date}에 作成한 疏明이 承認되었습니다"
+      title: 疏明이 받아들여짐
+    appeal_rejected:
+      explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했지만 拒絶되었습니다."
+      subject: "%{date}에 作成한 疏明이 拒絶되었습니다"
+      title: 異議提起가 拒絶되었습니다
+    backup_ready:
+      explanation: 當身이 要請한 計定의 풀 백업이 이제 다운로드 可能합니다!
+      subject: 當身의 아카이브를 다운로드 可能합니다
+      title: 아카이브 테이크 아웃
+    suspicious_sign_in:
+      change_password: 暗號 變更
+      details: '로그인에 對한 詳細 情報입니다:'
+      explanation: 새로운 IP 住所에서 내 計定에 로그인한 것을 感知했습니다.
+      further_actions_html: 直接 로그인한 것이 아니라면, 只今 바로 %{action}과 2段階 認證을 活性化하여 計定을 安全하게
+        保護하시길 勸해드립니다.
+      subject: 計定이 새로운 IP에서 接近됨
+      title: 새로운 로그인
+    warning:
+      appeal: 異議 提出하기
+      appeal_description: 이것이 誤謬라고 생각한다면, %{instance}의 仲裁者에게 異議申請을 할 수 있습니다.
+      categories:
+        spam: 스팸
+        violation: 컨텐츠가 다음의 커뮤니티 規定을 違反합니다
+      explanation:
+        delete_statuses: 귀하의 揭示物 중 一部가 하나 以上의 커뮤니티 가이드라인을 違反한 것으로 確認되어 %{instance}
+          모더레이터에 依해 削除되었습니다.
+        disable: 當身은 더以上 當身의 計定을 使用할 수 없습니다, 하지만 프로필과 다른 데이터들은 如前히 그대로 남아있습니다. 當身의
+          데이터에 對한 백업을 要請하거나, 計定 設定을 變更 또는 計定을 削除할 수 있습니다.
+        mark_statuses_as_sensitive: 當身의 몇몇 揭示物들은 %{instance}의 仲裁者에 依해 敏感함으로 設定되었습니다.
+          이것은 사람들이 미리보기를 보기 前에 미디어를 한番 눌러야 함을 意味합니다. 當身은 스스로도 自身의 揭示物을 作成할 때 미디어를
+          敏感함으로 設定할 수 있습니다.
+        sensitive: 只今부터는, 當身이 업로드한 미디어 파일들은 敏感함 標示가 뜨게 되고 클릭해야만 볼 수 있다는 警告文 뒤에 가려지게
+          됩니다.
+        silence: 當身은 如前히 當身의 計定을 使用할 수 있지만 當身을 팔로우 하고 있는 사람들만 當身의 揭示物을 볼 수 있으며, 여러가지
+          探索 機能에서 除外됩니다. 하지만, 如前히 다른 사람들은 手動으로 當身을 팔로우 할 수 있습니다.
+        suspend: 當身은 더以上 當身의 計定을 使用할 수 없으며, 프로필과 데이터는 接近 不可能하게 됩니다. 데이터가 完全히 削除되기
+          前인 30日동안은 如前히 백업을 要請하기 爲해 로그인 할 수 있습니다, 하지만 計定 停止를 回避하는 것을 防止하기 爲하여 몇 가지
+          情報는 維持됩니다.
+      reason: '事由:'
+      statuses: '引用된 揭示物:'
+      subject:
+        delete_statuses: 當身의 計定 %{acct}에서 作成한 揭示物이 削除되었습니다
+        disable: 當身의 計定 %{acct}가 凍結 되었습니다
+        mark_statuses_as_sensitive: "%{acct}로 作成한 當身의 揭示物은 敏感한 것으로 標示되었습니다"
+        none: "%{acct}에게의 警告"
+        sensitive: "%{acct}로 作成되는 當身의 揭示物은 이제부터 敏感한 것으로 標示됩니다"
+        silence: 當身의 計定 %{acct}가 制限 되었습니다
+        suspend: 當身의 計定 %{acct}가 停止 되었습니다
+      title:
+        delete_statuses: 揭示物 削除됨
+        disable: 計定 凍結 됨
+        mark_statuses_as_sensitive: 揭示物이 敏感함으로 標示됨
+        none: 警告
+        sensitive: 計定이 敏感함으로 標示됨
+        silence: 計定 制限 됨
+        suspend: 計定 停止 됨
+    welcome:
+      edit_profile_action: 프로필 設定
+      edit_profile_step: 아바타, 헤더를 업로드하고, 사람들에게 表示 될 이름을 바꾸는 것으로 當身의 프로필을 커스텀 할 수 있습니다.
+        사람들이 當身을 팔로우 하기 前에 리뷰를 거치게 하고 싶다면 計定을 잠그면 됩니다.
+      explanation: 始作하기 前에 몇가지 팁들을 準備했습니다
+      final_action: 포스팅 始作하기
+      final_step: '포스팅을 始作하세요! 팔로워가 없더라도 퍼블릭 메시지는 다른 사람들이 볼 수 있습니다, 例를 들면 로컬 타임라인이나
+        해시태그에서요. 사람들에게 自身을 紹介하고 싶다면 #introductions 해시태그를 利用해보세요.'
+      full_handle: 當身의 풀 핸들
+      full_handle_hint: 이것을 當身의 親舊들에게 알려주면 다른 서버에서 팔로우 하거나 메시지를 보낼 수 있습니다.
+      review_preferences_action: 設定 바꾸기
+      review_preferences_step: 當身의 設定을 確認하세요. 어떤 이메일로 알림을 받을 것인지, 基本的으로 어떤 프라이버시 設定을
+        使用할 것인지, 멀미가 없다면 GIF를 自動 再生하도록 設定할 수도 있습니다.
+      subject: 마스토돈에 오신 것을 歡迎합니다
+      tip_federated_timeline: 聯合 타임라인은 마스토돈 네트워크의 消防호스입니다. 다만 여기엔 當身의 이웃들이 購讀 中인 것만
+        뜹니다, 모든 것이 다 오는 것은 아니예요.
+      tip_following: 基本的으로 서버의 管理者를 팔로우 하도록 되어 있습니다. 興味로운 사람들을 더 찾으려면 로컬과 聯合 타임라인을
+        確認해 보세요.
+      tip_local_timeline: 로컬 타임라인은 %{instance}의 消防호스입니다. 여기 있는 사람들은 當身의 이웃들이에요!
+      tip_mobile_webapp: 모바일 브라우저가 홈 스크린에 바로가기를 追加해 줬다면 푸시 알림도 받을 수 있습니다. 이건 거의 네이티브
+        앱처럼 作動해요!
+      tips: 팁
+      title: 歡迎합니다 %{name} 님!
+  users:
+    follow_limit_reached: 當身은 %{limit}名의 사람을 넘어서 팔로우 할 수 없습니다
+    invalid_otp_token: 2段階 認證 코드가 올바르지 않습니다
+    otp_lost_help_html: 만약 兩쪽 모두를 잃어버렸다면 %{email}을 통해 復舊할 수 있습니다
+    seamless_external_login: 外部 서비스를 利用해 로그인 했습니다, 패스워드와 이메일 設定을 할 수 없습니다.
+    signed_in_as: '다음과 같이 로그인 中:'
+  verification:
+    explanation_html: '當身은 <strong>프로필 메타데이터의 링크 所有者임을 檢證할 수 있습니다</strong>. 이것을 하기
+      爲해서는, 링크 된 웹사이트에서 當身의 마스토돈 프로필을 逆으로 링크해야 합니다. 逆링크는 <strong>반드시</strong> <code>rel="me"</code>
+      屬性을 가지고 있어야 합니다. 링크의 텍스트는 相關이 없습니다. 여기 例示가 있습니다:'
+    verification: 檢證
+  webauthn_credentials:
+    add: 保安 키 追加
+    create:
+      error: 保安 키를 追加하는데 問題가 發生했습니다. 다시 試圖해보십시오.
+      success: 保安 키가 成功的으로 追加되었습니다.
+    delete: 削除
+    delete_confirmation: 正말로 이 保安 키를 削除하시겠습니까?
+    description_html: "<strong>保安 키 認證</strong>을 活性化 하면, 로그인 時 保安 키 中 하나가 必要합니다."
+    destroy:
+      error: 保安 키를 削除하는데 問題가 發生했습니다. 다시 試圖해보십시오.
+      success: 保安 키가 成功的으로 削除되었습니다.
+    invalid_credential: 올바르지 않은 保安 키
+    nickname_hint: 새 保安 키의 別名을 入力해 주세요
+    not_enabled: 아직 WebAuthn을 活性化 하지 않았습니다.
+    not_supported: 이 브라우저는 保安 키를 支援하지 않습니다
+    otp_required: 保安 키를 使用하기 爲해서는 2段階 認證을 먼저 活性化 해 주세요
+    registered_on: "%{date} 에 登錄됨"
