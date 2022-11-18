@@ -154,52 +154,52 @@ ko-Kore:
     rules: {}
     settings:
       about:
-        manage_rules: 서버 규칙 관리
-        preamble: 이 서버가 어떻게 운영되고, 중재되고, 자금을 조달하는지 등에 관한 자세한 정보를 기입하세요.
-        rules_hint: 사용자들이 준수해야 할 규칙들을 위한 전용 공간입니다.
-        title: 정보
+        manage_rules: 서버 規則 管理
+        preamble: 이 서버가 어떻게 運營되고, 仲裁되고, 資金을 調達하는지 等에 關한 仔細한 情報를 記入하세요.
+        rules_hint: 使用者들이 遵守해야 할 規則들을 爲한 專用 空間입니다.
+        title: 情報
       appearance:
-        preamble: 마스토돈의 웹 인터페이스를 변경
-        title: 외관
+        preamble: 마스토돈의 웹 인터페이스를 變更
+        title: 外觀
       branding:
-        preamble: 이 서버의 브랜딩은 네트워크의 다른 서버와 차별점을 부여합니다. 이 정보는 여러 환경에서 보여질 수 있는데, 예를 들면
-          마스토돈 인터페이스, 네이티브 앱, 다른 웹사이트나 메시지 앱에서 보이는 링크 미리보기, 기타 등등이 있습니다. 이러한 이유로
-          인해, 이 정보를 명확하고 짧고 간결하게 유지하는 것이 가장 좋습니다.
+        preamble: 이 서버의 브랜딩은 네트워크의 다른 서버와 差別點을 附與합니다. 이 情報는 여러 環境에서 보여질 수 있는데, 예를 들면
+          마스토돈 인터페이스, 네이티브 앱, 다른 웹사이트나 메시지 앱에서 보이는 링크 미리보기, 其他 等等이 있습니다. 이러한 理由로
+          因해, 이 情報를 明確하고 짧고 簡潔하게 維持하는 것이 가장 좋습니다.
         title: 브랜딩
       content_retention:
-        preamble: 마스토돈에 저장된 사용자 콘텐츠를 어떻게 다룰지 제어합니다.
-        title: 콘텐츠 보존기한
+        preamble: 마스토돈에 貯藏된 使用者 콘텐츠를 어떻게 다룰지 制御합니다.
+        title: 콘텐츠 保存期限
       discovery:
-        follow_recommendations: 팔로우 추천
-        preamble: 흥미로운 콘텐츠를 노출하는 것은 마스토돈을 알지 못할 수도 있는 신규 사용자를 유입시키는 데 중요합니다. 이 서버에서 작동하는
-          다양한 발견하기 기능을 제어합니다.
-        profile_directory: 프로필 책자
-        public_timelines: 공개 타임라인
-        title: 발견하기
-        trends: 유행
+        follow_recommendations: 팔로우 推薦
+        preamble: 興味로운 콘텐츠를 露出하는 것은 마스토돈을 알지 못할 수도 있는 新規 使用者를 誘入시키는 데 重要합니다. 이 서버에서 作動하는
+          多樣한 發見하기 機能을 制御합니다.
+        profile_directory: 프로필 冊子
+        public_timelines: 公開 타임라인
+        title: 發見하기
+        trends: 流行
       domain_blocks: {}
       registrations:
-        preamble: 누가 이 서버에 계정을 만들 수 있는 지 제어합니다.
-        title: 가입
+        preamble: 누가 이 서버에 計定을 만들 수 있는 지 制御합니다.
+        title: 加入
       registrations_mode:
         modes: {}
     site_uploads: {}
     statuses:
-      account: 작성자
+      account: 作成者
       application: 애플리케이션
       batch: {}
       favourites: 좋아요
-      history: 버전 이력
-      in_reply_to: "회신 대상:"
-      language: 언어
+      history: 버전 履歷
+      in_reply_to: "回信 對象:"
+      language: 言語
       media: {}
       metadata: 메타데이터
-      open: 게시물 열기
-      original_status: 원본 게시물
+      open: 揭示物 열기
+      original_status: 原本 揭示物
       reblogs: 리블로그
-      status_changed: 게시물 변경됨
-      trending: 유행중
-      visibility: 공개 설정
+      status_changed: 揭示物 變更됨
+      trending: 流行中
+      visibility: 公開 設定
     strikes:
       actions: {}
     system_checks:
@@ -211,38 +211,38 @@ ko-Kore:
     tags: {}
     trends:
       links:
-        no_link_selected: 아무 것도 선택 되지 않아 어떤 링크도 바뀌지 않았습니다
+        no_link_selected: 아무 것도 選擇되지 않아 어떤 링크도 바뀌지 않았습니다
         publishers:
-          no_publisher_selected: 아무 것도 선택 되지 않아 어떤 게시자도 바뀌지 않았습니다
+          no_publisher_selected: 아무 것도 選擇되지 않아 어떤 揭示者도 바뀌지 않았습니다
         shared_by_over_week: {}
       preview_card_providers: {}
       statuses:
-        no_status_selected: 아무 것도 선택 되지 않아 어떤 유행중인 게시물도 바뀌지 않았습니다
+        no_status_selected: 아무 것도 選擇되지 않아 어떤 流行中인 揭示物도 바뀌지 않았습니다
         shared_by: {}
       tags:
         dashboard: {}
-        no_tag_selected: 아무 것도 선택 되지 않아 어떤 태그도 바뀌지 않았습니다
+        no_tag_selected: 아무 것도 選擇되지 않아 어떤 태그도 바뀌지 않았습니다
         used_by_over_week: {}
     warning_presets: {}
     webhooks:
-      add_new: 엔드포인트 추가
-      delete: 삭제
-      description_html: <strong>웹훅</strong>은 선택한 이벤트에 대해 마스토돈이 <strong>실시간
-        알림</strong>을 각자의 응용프로그램에게 보냄으로서, 당신의 응용프로그램이 <strong>자동으로 반응</strong>을 할
+      add_new: 엔드포인트 追加
+      delete: 削除
+      description_html: <strong>웹훅</strong>은 選擇한 이벤트에 對해 마스토돈이 <strong>實時間
+        알림</strong>을 各自의 應用프로그램에게 보냄으로서, 當身의 應用프로그램이 <strong>自動으로 反應</strong>을 할
         수 있도록 만듧니다.
-      disable: 비활성화
-      disabled: 비활성화됨
-      edit: 엔드포인트 수정
-      empty: 아직 설정한 웹훅 엔드포인트가 없습니다.
-      enable: 활성화
-      enabled: 활성화됨
+      disable: 非活性化
+      disabled: 非活性化됨
+      edit: 엔드포인트 修正
+      empty: 아직 設定한 웹훅 엔드포인트가 없습니다.
+      enable: 活性化
+      enabled: 活性化됨
       enabled_events:
-        other: "%{count}개의 이벤트가 활성화되어 있습니다"
+        other: "%{count}個의 이벤트가 活性化되어 있습니다"
       events: 이벤트
       new: 새 웹훅
-      rotate_secret: 비밀키 회전
-      secret: 비밀키 서명
-      status: 상태
+      rotate_secret: 秘密키 回轉
+      secret: 秘密키 署名
+      status: 狀態
       title: 웹훅
       webhook: 웹훅
   admin_mailer:
@@ -261,15 +261,15 @@ ko-Kore:
   applications: {}
   auth:
     description: {}
-    privacy_policy_agreement_html: <a href="%{privacy_policy_path}" target="_blank">개인정보 보호정책</a>을 읽었고 동의합니다
+    privacy_policy_agreement_html: <a href="%{privacy_policy_path}" target="_blank">個人情報 保護政策</a>을 읽었고 同意합니다
     providers: {}
     rules:
-      preamble: 다음은 %{domain}의 중재자들에 의해 설정되고 적용되는 규칙들입니다.
-      title: 몇 개의 규칙이 있습니다.
+      preamble: 다음은 %{domain}의 仲裁者들에 의해 設定되고 適用되는 規則들입니다.
+      title: 몇 個의 規則이 있습니다.
     setup: {}
     sign_up:
-      preamble: 이 마스토돈 서버의 계정을 통해, 네트워크에 속한 다른 사람들을, 그들이 어떤 서버에 있든 팔로우 할 수 있습니다.
-      title: "%{domain}에 가입하기 위한 정보들을 입력하세요."
+      preamble: 이 마스토돈 서버의 計定을 通해, 네트워크에 屬한 다른 사람들을, 그들이 어떤 서버에 있든 팔로우 할 수 있습니다.
+      title: "%{domain}에 加入하기 爲한 情報들을 入力하세요."
     status: {}
   authorize_follow:
     post_follow: {}
@@ -298,43 +298,43 @@ ko-Kore:
   filters:
     contexts: {}
     edit:
-      add_keyword: 키워드 추가
+      add_keyword: 키워드 追加
       keywords: 키워드
-      statuses: 개별 게시물
-      statuses_hint_html: 이 필터는 아래의 키워드에 매칭되는지 여부와 관계 없이 몇몇개의 게시물들에 별개로 적용되었습니다. <a
-        href="%{path}">검토하거나 필터에서 삭제하세요</a>
+      statuses: 個別 揭示物
+      statuses_hint_html: 이 필터는 아래의 키워드에 매칭되는지 與否와 關係 없이 몇몇個의 揭示物들에 別個로 適用되었습니다. <a
+        href="%{path}">檢討하거나 필터에서 削除하세요</a>
     errors:
-      deprecated_api_multiple_keywords: 이 파라미터들은 하나를 초과하는 필터 키워드에 적용되기 때문에 이 응용프로그램에서
-        수정될 수 없습니다. 더 최신의 응용프로그램이나 웹 인터페이스를 사용하세요.
+      deprecated_api_multiple_keywords: 이 파라미터들은 하나를 超過하는 필터 키워드에 適用되기 때문에 이 應用프로그램에서
+        修正될 수 없습니다. 더 最新의 應用프로그램이나 웹 인터페이스를 使用하세요.
     index:
-      contexts: "%{contexts}에 대한 필터"
-      expires_in: "%{distance} 안에 만료됨"
-      expires_on: "%{date}에 만료됨"
+      contexts: "%{contexts}에 對한 필터"
+      expires_in: "%{distance} 안에 滿了됨"
+      expires_on: "%{date}에 滿了됨"
       keywords:
-        other: "%{count}개의 키워드"
+        other: "%{count}個의 키워드"
       statuses:
-        other: "%{count}개의 게시물"
+        other: "%{count}個의 揭示物"
       statuses_long:
-        other: "%{count}개의 개별적인 게시물 숨겨짐"
+        other: "%{count}個의 個別的인 揭示物 숨겨짐"
     new:
-      save: 새 필터 저장
+      save: 새 필터 貯藏
     statuses:
       back_to_filter: 필터로 돌아가기
       batch:
-        remove: 필터에서 제거
+        remove: 필터에서 除去
       index:
-        hint: 이 필터는 다른 기준에 관계 없이 선택된 개별적인 게시물들에 적용됩니다. 웹 인터페이스에서 더 많은 게시물들을 이 필터에 추가할 수
+        hint: 이 필터는 다른 基準에 關係 없이 選擇된 個別的인 揭示物들에 適用됩니다. 웹 인터페이스에서 더 많은 揭示物들을 이 필터에 追加할 수
           있습니다.
-        title: 필터링된 게시물
+        title: 필터링된 揭示物
   footer: {}
   generic:
     all_items_on_page_selected_html:
-      other: 현재 페이지에서 <strong>%{count}</strong>개의 항목이 선택되었습니다
+      other: 現在 페이지에서 <strong>%{count}</strong>個의 項目이 選擇되었습니다
     all_matching_items_selected_html:
-      other: 검색에 잡힌 <strong>%{count}</strong>개의 항목이 모두 선택되었습니다
-    deselect: 전체 선택 해제
+      other: 檢索에 잡힌 <strong>%{count}</strong>個의 항목이 모두 選擇되었습니다
+    deselect: 全體 選擇 解除
     select_all_matching_items:
-      other: 검색에 잡힌 %{count}개의 항목을 모두 선택하기
+      other: 檢索에 잡힌 %{count}個의 項目을 모두 選擇하기
     validation_errors: {}
   html_validator: {}
   imports:
@@ -361,7 +361,7 @@ ko-Kore:
   notification_mailer:
     admin:
       report:
-        subject: "%{name} 님이 신고를 제출했습니다"
+        subject: "%{name} 님이 申告를 提出했습니다"
       sign_up: {}
     favourite: {}
     follow: {}
@@ -382,7 +382,7 @@ ko-Kore:
     errors: {}
   preferences: {}
   privacy_policy:
-    title: 개인정보 정책
+    title: 個人情報 政策
   reactions:
     errors: {}
   relationships: {}
