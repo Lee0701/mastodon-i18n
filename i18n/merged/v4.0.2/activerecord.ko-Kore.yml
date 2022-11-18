@@ -1,0 +1,54 @@
+ko:
+  activerecord:
+    attributes:
+      poll:
+        expires_at: 마감 期限
+        options: 選擇
+      user:
+        agreement: 利用約款
+        email: 이메일 住所
+        locale: 言語
+        password: 暗號
+      user/account:
+        username: 使用者名
+      user/invite_request:
+        text: 理由
+    errors:
+      models:
+        account:
+          attributes:
+            username:
+              invalid: 英文字, 數字, _만 使用 可能
+              reserved: 이미 豫約되어 있습니다
+        admin/webhook:
+          attributes:
+            url:
+              invalid: 올바른 URL이 아닙니다
+        doorkeeper/application:
+          attributes:
+            website:
+              invalid: 올바른 URL이 아닙니다
+        import:
+          attributes:
+            data:
+              malformed: 데이터가 올바르지 않습니다
+        status:
+          attributes:
+            reblog:
+              taken: 이미 揭示物이 存在합니다
+        user:
+          attributes:
+            email:
+              blocked: 許容되지 않은 이메일 提供者입니다
+              unreachable: 存在하지 않는 것 같습니다
+            role_id:
+              elevated: 當身의 現在 役割보다 높을 수 없습니다
+        user_role:
+          attributes:
+            permissions_as_keys:
+              dangerous: 基本 役割로 使用하기에 安全하지 않은 權限을 包含하고 있습니다
+              elevated: 當身의 現在 役割이 가지고 있지 않은 權限은 包含할 수 없습니다
+              own_role: 當身의 現在 役割을 變更할 수 없습니다
+            position:
+              elevated: 當身의 現在 役割보다 높을 수 없습니다
+              own_role: 當身의 現在 役割을 變更할 수 없습니다

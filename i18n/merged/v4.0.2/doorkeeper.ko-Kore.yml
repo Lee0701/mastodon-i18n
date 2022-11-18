@@ -51,7 +51,7 @@ ko:
         callback_urls: 콜백 URL
         scopes: 範圍
         secret: 클라이언트 秘密키
-        title: '애플리케이션: %{name}'
+        title: "애플리케이션: %{name}"
     authorizations:
       buttons:
         authorize: 承認
@@ -59,8 +59,8 @@ ko:
       error:
         title: 에러가 發生하였습니다
       new:
-        prompt_html: "%{client_name}이 當身의 計定에 對한 接近 權限을 要請합니다. 이것은 弟3者의 應用프로그램입니다.\
-          \ <strong>이것을 信賴하지 않는다면, 權限을 承認하지 말아야 합니다.</strong>"
+        prompt_html: "%{client_name}이 當身의 計定에 對한 接近 權限을 要請합니다. 이것은 弟3者의 應用프로그램입니다.
+          <strong>이것을 信賴하지 않는다면, 權限을 承認하지 말아야 합니다.</strong>"
         review_permissions: 權限 檢討
         title: 承認 必要
       show:
@@ -72,8 +72,8 @@ ko:
         revoke: 確實합니까?
       index:
         authorized_at: "%{date}에 承認됨"
-        description_html: 當身의 計定에 API를 通해 接近 可能한 應用프로그램의 目錄입니다. 알 수 없는 應用프로그램, 혹은
-          잘못된 行動을 하고 있는 應用프로그램이 있다면, 權限을 取消할 수 있습니다.
+        description_html: 當身의 計定에 API를 通해 接近 可能한 應用프로그램의 目錄입니다. 알 수 없는 應用프로그램, 혹은 잘못된
+          行動을 하고 있는 應用프로그램이 있다면, 權限을 取消할 수 있습니다.
         last_used_at: "%{date}에 마지막으로 使用됨"
         never_used: 使用되지 않음
         scopes: 權限
@@ -84,13 +84,13 @@ ko:
         access_denied: 리소스 所有者 또는 權限 附與 서버가 要請을 拒否했습니다.
         credential_flow_not_configured: Doorkeeper.configure.resource_owner_from_credentials의
           設定이 되어있지 않아 리소스 所有者 패스워드 資格證明이 失敗하였습니다.
-        invalid_client: 알 수 없는 클라이언트이기 때문에 클라이언트 認證이 失敗하였습니다, 클라이언트 資格證明이 包含되지 않았거나,
-          支援 되지 않는 메소드입니다.
+        invalid_client: 알 수 없는 클라이언트이기 때문에 클라이언트 認證이 失敗하였습니다, 클라이언트 資格證明이 包含되지 않았거나, 支援
+          되지 않는 메소드입니다.
         invalid_grant: 提供된 權限 附與가 잘못되거나, 滿了되었거나, 取消되었거나, 權限 附與 要請에 使用된 리디렉션 URI가 一致하지
           않거나, 다른 클라이언트에 指定되었습니다.
         invalid_redirect_uri: 리디렉션 URI가 올바르지 않습니다
         invalid_request:
-          missing_param: '必須 媒介變數 漏落: %{value}.'
+          missing_param: "必須 媒介變數 漏落: %{value}."
           request_not_authorized: 認證이 必要한 要請입니다. 認證 要請에 必要한 必須 媒介 因子가 없거나 올바르지 않습니다.
           unknown: 要請에 必要한 媒介變數가 없거나, 支援 되지 않는 媒介變數가 있거나, 形式이 잘못되었습니다.
         invalid_resource_owner: 提供 된 리소스 所有者 資格證明이 올바르지 않거나 리소스 所有者를 찾을 수 없습니다
