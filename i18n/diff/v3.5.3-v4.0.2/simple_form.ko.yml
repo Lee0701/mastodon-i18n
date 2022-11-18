@@ -13,31 +13,31 @@ ko:
       email_domain_block: {}
       featured_tag: {}
       filters:
-        action: 게시물이 필터에 걸러질 때 어떤 동작을 수행할 지 고르세요
+        action: 揭示物이 필터에 걸러질 때 어떤 動作을 遂行할 지 고르세요
         actions:
-          hide: 필터에 걸러진 글을 처음부터 없었던 것처럼 완전히 가리기
-          warn: 필터에 걸러진 글을 필터 제목과 함께 경고 뒤에 가리기
+          hide: 필터에 걸러진 글을 처음부터 없었던 것처럼 完全히 가리기
+          warn: 필터에 걸러진 글을 필터 題目과 함께 警告 뒤에 가리기
       form_admin_settings:
-        backups_retention_period: 생성된 사용자 아카이브를 며칠동안 저장할 지.
-        bootstrap_timeline_accounts: 이 계정들은 팔로우 추천 목록 상단에 고정됩니다.
-        closed_registrations_message: 새 가입을 차단했을 때 표시됩니다
-        content_cache_retention_period: 양수로 설정되었다면 다른 서버의 게시물은 여기서 설정된 일수가 지나면 삭제될 것입니다. 되돌릴 수 없는 작업일 수 있습니다.
-        custom_css: 사용자 지정 스타일을 웹 버전의 마스토돈에 지정할 수 있습니다.
-        mascot: 고급 사용자 인터페이스에 있는 일러스트를 교체합니다.
-        media_cache_retention_period: 양수로 설정된 경우 다운로드된 미디어 파일들은 지정된 일수가 지나면 삭제될 것이고 필요할 때 다시 다운로드 될 것입니다.
-        profile_directory: 프로필 책자는 발견되기를 희망하는 모든 사람들의 목록을 나열합니다.
-        require_invite_text: 가입이 수동 승인을 필요로 할 때, "왜 가입하려고 하나요?" 항목을 선택사항으로 두는 것보다는 필수로 두는 것이 낫습니다
-        site_contact_email: 사람들이 법적이나 도움 요청을 위해 당신에게 연락할 방법.
-        site_contact_username: 사람들이 마스토돈에서 당신에게 연락할 방법.
-        site_extended_description: 방문자와 사용자에게 유용할 수 있는 추가정보들. 마크다운 문법을 사용할 수 있습니다.
-        site_short_description: 이 서버를 특별하게 구분할 수 있는 짧은 설명. 누가 운영하고, 누구를 위한 것인가요?
-        site_terms: 자신만의 개인정보 정책을 사용하거나 비워두는 것으로 기본값을 사용할 수 있습니다. 마크다운 문법을 사용할 수 있습니다.
-        site_title: 사람들이 이 서버를 도메인 네임 대신에 부를 이름.
-        theme: 로그인 하지 않은 사용자나 새로운 사용자가 보게 될 테마.
-        thumbnail: 대략 2:1 비율의 이미지가 서버 정보 옆에 표시됩니다.
-        timeline_preview: 로그아웃 한 사용자들이 이 서버에 있는 최신 공개글들을 볼 수 있게 합니다.
-        trendable_by_default: 유행하는 콘텐츠에 대한 수동 승인을 건너뜁니다. 이 설정이 적용된 이후에도 각각의 항목들을 삭제할 수 있습니다.
-        trends: 트렌드는 어떤 게시물, 해시태그 그리고 뉴스 기사가 이 서버에서 인기를 끌고 있는지 보여줍니다.
+        backups_retention_period: 生成된 使用者 아카이브를 며칠동안 貯藏할 지.
+        bootstrap_timeline_accounts: 이 計定들은 팔로우 推薦 目錄 上段에 固定됩니다.
+        closed_registrations_message: 새 加入을 遮斷했을 때 表示됩니다
+        content_cache_retention_period: 陽數로 設定되었다면 다른 서버의 揭示物은 여기서 設定된 日數가 지나면 削除될 것입니다. 되돌릴 수 없는 作業일 수 있습니다.
+        custom_css: 使用者 指定 스타일을 웹 버전의 마스토돈에 指定할 수 있습니다.
+        mascot: 高級 使用者 인터페이스에 있는 일러스트를 交替합니다.
+        media_cache_retention_period: 陽數로 設定된 境遇 다운로드된 미디어 파일들은 指定된 日數가 지나면 削除될 것이고 必要할 때 다시 다운로드 될 것입니다.
+        profile_directory: 프로필 冊子는 發見되기를 希望하는 모든 사람들의 目錄을 羅列합니다.
+        require_invite_text: 加入이 手動 承認을 必要로 할 때, "왜 加入하려고 하나요?" 項目을 選擇事項으로 두는 것보다는 必須로 두는 것이 낫습니다
+        site_contact_email: 사람들이 法的이나 도움 要請을 爲해 當身에게 連絡할 方法.
+        site_contact_username: 사람들이 마스토돈에서 當身에게 連絡할 方法.
+        site_extended_description: 訪問者와 使用者에게 有用할 수 있는 追加情報들. 마크다운 文法을 使用할 수 있습니다.
+        site_short_description: 이 서버를 特別하게 區分할 수 있는 짧은 說明. 누가 運營하고, 누구를 爲한 것인가요?
+        site_terms: 自身만의 個人情報 政策을 使用하거나 비워두는 것으로 基本값을 使用할 수 있습니다. 마크다운 文法을 使用할 수 있습니다.
+        site_title: 사람들이 이 서버를 도메인 네임 代身에 부를 이름.
+        theme: 로그인 하지 않은 使用者나 새로운 使用者가 보게 될 테마.
+        thumbnail: 大略 2:1 比率의 이미지가 서버 情報 옆에 表示됩니다.
+        timeline_preview: 로그아웃 한 使用者들이 이 서버에 있는 最新 公開글들을 볼 수 있게 합니다.
+        trendable_by_default: 流行하는 콘텐츠에 對한 手動 承認을 건너뜁니다. 이 設定이 適用된 以後에도 各各의 項目들을 削除할 수 있습니다.
+        trends: 트렌드는 어떤 揭示物, 해시태그 그리고 뉴스 記事가 이 서버에서 人氣를 끌고 있는지 보여줍니다.
       form_challenge: {}
       imports: {}
       invite_request: {}
@@ -48,12 +48,12 @@ ko:
       sessions: {}
       tag: {}
       user:
-        role: 역할은 사용자가 어떤 권한을 가지게 될 지 결정합니다
+        role: 역할은 使用者가 어떤 권한을 가지게 될 지 결정합니다
       user_role:
-        color: 색상은 사용자 인터페이스에서 역할을 나타내기 위해 사용되며, RGB 16진수 형식입니다
+        color: 색상은 使用者 인터페이스에서 역할을 나타내기 위해 사용되며, RGB 16진수 형식입니다
         highlighted: 이 역할이 공개적으로 보이도록 설정합니다
         name: 역할이 배지로 표시될 경우, 그 역할에 대한 공개적인 이름입니다
-        permissions_as_keys: 이 역할을 가진 사용자는 다음에 접근할 수 있게 됩니다...
+        permissions_as_keys: 이 역할을 가진 使用者는 다음에 접근할 수 있게 됩니다...
         position: 특정 상황에서 충돌이 발생할 경우 더 높은 역할이 충돌을 해결합니다. 특정 작업은 우선순위가 낮은 역할에 대해서만 수행될 수
           있습니다
       webhook:
@@ -78,12 +78,12 @@ ko:
           hide: 완전히 숨기기
           warn: 경고와 함께 숨기기
       form_admin_settings:
-        backups_retention_period: 사용자 아카이브 유지 기한
-        bootstrap_timeline_accounts: 새로운 사용자들에게 추천할 계정들
-        closed_registrations_message: 가입이 불가능 할 때의 사용자 지정 메시지
+        backups_retention_period: 使用者 아카이브 유지 기한
+        bootstrap_timeline_accounts: 새로운 使用者들에게 추천할 계정들
+        closed_registrations_message: 가입이 불가능 할 때의 使用者 지정 메시지
         content_cache_retention_period: 콘텐츠 캐시 유지 기한
-        custom_css: 사용자 정의 CSS
-        mascot: 사용자 정의 마스코트 (legacy)
+        custom_css: 使用者 정의 CSS
+        mascot: 使用者 정의 마스코트 (legacy)
         media_cache_retention_period: 미디어 캐시 유지 기한
         profile_directory: 프로필 책자 활성화
         registrations_mode: 누가 가입할 수 있는지
@@ -91,7 +91,7 @@ ko:
         show_domain_blocks: 도메인 차단 보여주기
         show_domain_blocks_rationale: 왜 도메인이 차단되었는지 보여주기
         site_contact_email: 연락처 이메일
-        site_contact_username: 연락 받을 관리자 사용자명
+        site_contact_username: 연락 받을 관리자 使用者명
         site_extended_description: 확장된 설명
         site_short_description: 서버 설명
         site_terms: 개인정보 정책
@@ -114,7 +114,7 @@ ko:
         role: 역할
       user_role:
         color: 배지 색상
-        highlighted: 역할 배지를 사용자 프로필에 표시
+        highlighted: 역할 배지를 使用者 프로필에 표시
         name: 이름
         permissions_as_keys: 권한
         position: 우선순위
