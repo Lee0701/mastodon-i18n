@@ -87,7 +87,7 @@
 	"navigation_bar.search": "檢索",
 	"not_signed_in_indicator.not_signed_in": "이 情報에 接近하려면 로그인을 해야 합니다.",
 	"notification.admin.report": "{name} 님이 {target}를 申告했습니다",
-	"notifications.column_settings.admin.report": "새 신고:",
+	"notifications.column_settings.admin.report": "새 申告:",
 	"privacy_policy.last_updated": "{date}에 마지막으로 업데이트됨",
 	"privacy_policy.title": "個人情報 政策",
 	"report_notification.attached_statuses": "{count}개의 揭示物 添附됨",
