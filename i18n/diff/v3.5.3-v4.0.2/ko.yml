@@ -11,44 +11,44 @@ ko-Kore:
     accounts:
       change_email: {}
       change_role:
-        changed_msg: 역할이 성공적으로 변경되었습니다!
-        label: 역할 변경
-        no_role: 역할 없음
+        changed_msg: 役割이 成功的으로 變更되었습니다!
+        label: 役割 變更
+        no_role: 役割 없음
         title: "%{username}의 역할 변경"
       location: {}
       moderation:
-        silenced: 제한됨
-      no_role_assigned: 할당된 역할 없음
+        silenced: 制限됨
+      no_role_assigned: 割當된 役割 없음
       previous_strikes_description_html: {}
       resend_confirmation: {}
       security_measures: {}
       show: {}
     action_logs:
       action_types:
-        change_role_user: 사용자 역할 변경
-        create_canonical_email_block: 이메일 차단 생성
-        create_user_role: 역할 생성
-        destroy_canonical_email_block: 이메일 차단 삭제
-        destroy_user_role: 역할 삭제
-        resend_user: 확인 메일 다시 보내기
-        update_ip_block: IP 규칙 수정
-        update_user_role: 역할 수정
+        change_role_user: 使用者 役割 變更
+        create_canonical_email_block: 이메일 遮斷 生成
+        create_user_role: 役割 生成
+        destroy_canonical_email_block: 이메일 遮斷 削除
+        destroy_user_role: 役割 削除
+        resend_user: 確認 메일 다시 보내기
+        update_ip_block: IP 規則 修正
+        update_user_role: 役割 修正
       actions:
-        change_role_user_html: "%{name} 님이 %{target} 님의 역할을 수정했습니다"
-        create_canonical_email_block_html: "%{name} 님이 %{target} 해시를 가진 이메일을 차단했습니다"
-        create_user_role_html: "%{name} 님이 %{target} 역할을 생성했습니다"
-        destroy_canonical_email_block_html: "%{name} 님이 %{target} 해시를 가진 이메일을 차단 해제했습니다"
-        destroy_user_role_html: "%{name} 님이 %{target} 역할을 삭제했습니다"
-        resend_user_html: "%{name} 님이 %{target} 님에 대한 확인 메일을 다시 보냈습니다"
-        update_ip_block_html: "%{name} 님이 IP 규칙 %{target}을 수정했습니다"
-        update_user_role_html: "%{name} 님이 %{target} 역할을 수정했습니다"
-      deleted_account: 계정을 삭제했습니다
+        change_role_user_html: "%{name} 님이 %{target} 님의 役割을 修正했습니다"
+        create_canonical_email_block_html: "%{name} 님이 %{target} 해시를 가진 이메일을 遮斷했습니다"
+        create_user_role_html: "%{name} 님이 %{target} 役割을 生成했습니다"
+        destroy_canonical_email_block_html: "%{name} 님이 %{target} 해시를 가진 이메일을 遮斷 解除했습니다"
+        destroy_user_role_html: "%{name} 님이 %{target} 役割을 削除했습니다"
+        resend_user_html: "%{name} 님이 %{target} 님에 대한 確認 메일을 다시 보냈습니다"
+        update_ip_block_html: "%{name} 님이 IP 규칙 %{target}을 修正했습니다"
+        update_user_role_html: "%{name} 님이 %{target} 役割을 修正했습니다"
+      deleted_account: 計定을 削除했습니다
     announcements:
       edit: {}
       new: {}
     custom_emojis:
       new: {}
-      no_emoji_selected: 아무 것도 선택 되지 않아 어떤 에모지도 바뀌지 않았습니다
+      no_emoji_selected: 아무 것도 選擇되지 않아 어떤 繪文字도 바뀌지 않았습니다
     dashboard:
       pending_appeals_html: {}
       pending_reports_html: {}
@@ -58,7 +58,7 @@ ko-Kore:
       appeals: {}
     domain_allows: {}
     domain_blocks:
-      existing_domain_block: 이미 %{name}에 대한 더 강력한 제한이 있습니다.
+      existing_domain_block: 이미 %{name}에 대한 더 强力한 制限이 있습니다.
       new:
         severity: {}
     email_domain_blocks:
@@ -96,61 +96,61 @@ ko-Kore:
       assigned_users:
         other: "%{count}명의 사용자"
       categories:
-        administration: 관리
+        administration: 管理
         devops: 데브옵스
-        invites: 초대
-        moderation: 중재
-        special: 특수
-      delete: 삭제
-      description_html: <strong>사용자 역할</strong>을 통해, 사용자들이 마스토돈의 어떤 기능과 영역에 접근할 수 있을지 설정할 수 있습니다.
-      edit: "%{name} 역할 수정"
-      everyone: 기본 권한
-      everyone_full_description_html: 이것은 <strong>모든 사용자</strong>에게 적용될 <strong>기본
-        역할</strong>이며, 역할을 지정하지 않아도 적용됩니다. 다른 모든 역할들은 여기에서 권한을 상속합니다.
+        invites: 招待
+        moderation: 仲裁
+        special: 特殊
+      delete: 削除
+      description_html: <strong>使用者 役割</strong>을 通해, 使用者들이 마스토돈의 어떤 機能과 領域에 接近할 수 있을지 設定할 수 있습니다.
+      edit: "%{name} 役割 修正"
+      everyone: 基本 權限
+      everyone_full_description_html: 이것은 <strong>모든 使用者</strong>에게 適用될 <strong>基本
+        役割</strong>이며, 役割을 指定하지 않아도 適用됩니다. 다른 모든 役割들은 여기에서 權限을 相續합니다.
       permissions_count:
-        other: "%{count}개의 권한"
+        other: "%{count}個의 權限"
       privileges:
-        administrator: 관리자
-        administrator_description: 이 권한을 가진 사용자는 모든 권한을 우회합니다
-        delete_user_data: 사용자 데이터 삭제
-        delete_user_data_description: 사용자가 다른 사용자의 데이터를 지체 없이 삭제할 수 있도록 허용
-        invite_users: 사용자 초대
-        invite_users_description: 사용자가 다른 사람들을 서버에 초대할 수 있도록 허용
-        manage_announcements: 공지 관리
-        manage_announcements_description: 사용자가 서버의 공지사항을 관리할 수 있도록 허용
-        manage_appeals: 이의제기 관리
-        manage_appeals_description: 사용자가 중재에 대한 이의제기를 리뷰할 수 있도록 허용
-        manage_blocks: 차단 관리
-        manage_blocks_description: 사용자가 이메일 제공자와 IP 주소를 차단할 수 있도록 허용
-        manage_custom_emojis: 커스텀 에모지 관리
-        manage_custom_emojis_description: 사용자가 서버의 커스텀 에모지를 관리할 수 있도록 허용
-        manage_federation: 연합 관리
-        manage_federation_description: 사용자가 다른 도메인과의 연합을 차단하거나 허용할 수 있도록 하고, 전달 가능 여부를 조정할 수 있도록 허용
-        manage_invites: 초대 관리
-        manage_invites_description: 사용자가 초대 링크를 보고 비활성화 할 수 있도록 허용
-        manage_reports: 신고 관리
-        manage_reports_description: 사용자가 신고를 리뷰하고 해당 사용자에 대한 중재활동을 수행할 수 있도록 허용
-        manage_roles: 역할 관리
-        manage_roles_description: 사용자가 그들 이하의 권한에 대해 관리하고 할당할 수 있도록 허용
-        manage_rules: 규칙 관리
-        manage_rules_description: 사용자가 서버 규칙을 수정할 수 있도록 허용합니다
-        manage_settings: 설정 관리
-        manage_settings_description: 사용자가 서버 설정을 수정할 수 있도록 허용합니다
-        manage_taxonomies: 분류 관리
-        manage_taxonomies_description: 사용자가 트렌드를 리뷰하고 해시태그 설정을 수정할 수 있도록 허용합니다
-        manage_user_access: 사용자 접근 관리
-        manage_user_access_description: 사용자가 다른 사용자의 2차 인증을 비활성화 하거나, 이메일 주소를 바꾸거나, 암호를 초기화 할 수 있도록 허용
-        manage_users: 사용자 관리
-        manage_users_description: 사용자가 다른 사용자의 상세정보를 보고 해당 사용자에 대한 중재활동을 할 수 있도록 허용
-        manage_webhooks: 웹훅 관리
-        manage_webhooks_description: 사용자가 관리용 웹훅을 설정할 수 있도록 허용
-        view_audit_log: 감사 기록 보기
-        view_audit_log_description: 사용자가 서버의 감사 기록을 볼 수 있도록 허용
+        administrator: 管理者
+        administrator_description: 이 權限을 가진 使用者는 모든 權限을 迂廻합니다
+        delete_user_data: 使用者 데이터 削除
+        delete_user_data_description: 使用者가 다른 使用者의 데이터를 遲滯 없이 削除할 수 있도록 許容
+        invite_users: 使用者 招待
+        invite_users_description: 使用者가 다른 사람들을 서버에 招待할 수 있도록 許容
+        manage_announcements: 公知 管理
+        manage_announcements_description: 使用者가 서버의 公知事項을 管理할 수 있도록 許容
+        manage_appeals: 異議提起 管理
+        manage_appeals_description: 使用者가 仲裁에 對한 異議提起를 리뷰할 수 있도록 許容
+        manage_blocks: 遮斷 管理
+        manage_blocks_description: 使用者가 이메일 提供者와 IP 住所를 遮斷할 수 있도록 許容
+        manage_custom_emojis: 커스텀 繪文字 管理
+        manage_custom_emojis_description: 使用者가 서버의 커스텀 繪文字를 管理할 수 있도록 許容
+        manage_federation: 聯合 管理
+        manage_federation_description: 使用者가 다른 도메인과의 聯合을 遮斷하거나 許容할 수 있도록 하고, 傳達 可能 與否를 調整할 수 있도록 許容
+        manage_invites: 招待 管理
+        manage_invites_description: 使用者가 招待 링크를 보고 非活性化 할 수 있도록 許容
+        manage_reports: 申告 管理
+        manage_reports_description: 使用者가 申告를 리뷰하고 해당 使用者에 對한 仲裁活動을 遂行할 수 있도록 許容
+        manage_roles: 役割 管理
+        manage_roles_description: 使用者가 그들 以下의 權限에 對해 管理하고 割當할 수 있도록 許容
+        manage_rules: 規則 管理
+        manage_rules_description: 使用者가 서버 規則을 修正할 수 있도록 許容합니다
+        manage_settings: 設定 管理
+        manage_settings_description: 使用者가 서버 設定을 修正할 수 있도록 許容합니다
+        manage_taxonomies: 分類 管理
+        manage_taxonomies_description: 使用者가 트렌드를 리뷰하고 해시태그 設定을 修正할 수 있도록 許容합니다
+        manage_user_access: 使用者 接近 管理
+        manage_user_access_description: 使用者가 다른 使用者의 2次 認證을 非活性化하거나, 이메일 住所를 바꾸거나, 暗號를 初期化 할 수 있도록 許容
+        manage_users: 使用者 管理
+        manage_users_description: 使用者가 다른 使用者의 詳細情報를 보고 該當 使用者에 對한 仲裁活動을 할 수 있도록 許容
+        manage_webhooks: 웹훅 管理
+        manage_webhooks_description: 使用者가 管理用 웹훅을 設定할 수 있도록 許容
+        view_audit_log: 監査 記錄 보기
+        view_audit_log_description: 使用者가 서버의 監査 記錄을 볼 수 있도록 許容
         view_dashboard: 대시보드 보기
-        view_dashboard_description: 사용자가 여러 통계정보를 볼 수 있는 대시보드에 접근할 수 있도록 허용
+        view_dashboard_description: 使用者가 여러 統計情報를 볼 수 있는 대시보드에 接近할 수 있도록 許容
         view_devops: 데브옵스
-        view_devops_description: Sidekiq과 pgHero 대시보드에 접근할 수 있도록 허용
-      title: 역할
+        view_devops_description: Sidekiq과 pgHero 대시보드에 接近할 수 있도록 許容
+      title: 役割
     rules: {}
     settings:
       about:
