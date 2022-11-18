@@ -1,5 +1,4 @@
 
-const fs = require('fs')
 const file = require('./file')
 
 const [baseFile, diffFile] = process.argv.slice(2)

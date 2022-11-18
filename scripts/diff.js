@@ -1,5 +1,4 @@
 
-const fs = require('fs')
 const file = require('./file')
 
 const [baseFile, updatedFile, outFile] = process.argv.slice(2)
