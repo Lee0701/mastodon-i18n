@@ -43,22 +43,22 @@ ko:
       invite_request: {}
       ip_block:
         severities:
-          sign_up_block: 새 가입이 불가능하게 됩니다
+          sign_up_block: 새 加入이 不可能하게 됩니다
       rule: {}
       sessions: {}
       tag: {}
       user:
-        role: 역할은 使用者가 어떤 권한을 가지게 될 지 결정합니다
+        role: 役割은 使用者가 어떤 權限을 가지게 될 지 決定합니다
       user_role:
-        color: 색상은 使用者 인터페이스에서 역할을 나타내기 위해 사용되며, RGB 16진수 형식입니다
-        highlighted: 이 역할이 공개적으로 보이도록 설정합니다
-        name: 역할이 배지로 표시될 경우, 그 역할에 대한 공개적인 이름입니다
-        permissions_as_keys: 이 역할을 가진 使用者는 다음에 접근할 수 있게 됩니다...
-        position: 특정 상황에서 충돌이 발생할 경우 더 높은 역할이 충돌을 해결합니다. 특정 작업은 우선순위가 낮은 역할에 대해서만 수행될 수
+        color: 色相은 使用者 인터페이스에서 役割을 나타내기 爲해 使用되며, RGB 16진수 型式입니다
+        highlighted: 이 役割이 公開的으로 보이도록 設定합니다
+        name: 役割이 배지로 表示될 경우, 그 역할에 對한 公開的인 이름입니다
+        permissions_as_keys: 이 役割을 가진 使用者는 다음에 接近할 수 있게 됩니다...
+        position: 特定 狀況에서 衝突이 發生할 境遇 더 높은 役割이 衝突을 解決합니다. 特定 作業은 優先順位가 낮은 役割에 對해서만 遂行될 수
           있습니다
       webhook:
-        events: 전송할 이벤트를 선택하세요
-        url: 이벤트가 어디로 전송될 지
+        events: 傳送할 이벤트를 選擇하세요
+        url: 이벤트가 어디로 傳送될 지
     labels:
       account:
         fields: {}
@@ -70,58 +70,58 @@ ko:
       announcement: {}
       appeal: {}
       defaults:
-        title: 제목
+        title: 題目
       email_domain_block: {}
       featured_tag: {}
       filters:
         actions:
-          hide: 완전히 숨기기
-          warn: 경고와 함께 숨기기
+          hide: 完全히 숨기기
+          warn: 警告와 함께 숨기기
       form_admin_settings:
-        backups_retention_period: 使用者 아카이브 유지 기한
-        bootstrap_timeline_accounts: 새로운 使用者들에게 추천할 계정들
-        closed_registrations_message: 가입이 불가능 할 때의 使用者 지정 메시지
-        content_cache_retention_period: 콘텐츠 캐시 유지 기한
-        custom_css: 使用者 정의 CSS
-        mascot: 使用者 정의 마스코트 (legacy)
-        media_cache_retention_period: 미디어 캐시 유지 기한
-        profile_directory: 프로필 책자 활성화
-        registrations_mode: 누가 가입할 수 있는지
-        require_invite_text: 가입 하는 이유를 필수로 입력하게 하기
-        show_domain_blocks: 도메인 차단 보여주기
-        show_domain_blocks_rationale: 왜 도메인이 차단되었는지 보여주기
-        site_contact_email: 연락처 이메일
-        site_contact_username: 연락 받을 관리자 使用者명
-        site_extended_description: 확장된 설명
-        site_short_description: 서버 설명
-        site_terms: 개인정보 정책
+        backups_retention_period: 使用者 아카이브 維持 期限
+        bootstrap_timeline_accounts: 새로운 使用者들에게 推薦할 計定들
+        closed_registrations_message: 加入이 不可能할 때의 使用者 指定 메시지
+        content_cache_retention_period: 콘텐츠 캐시 維持 期限
+        custom_css: 使用者 定義 CSS
+        mascot: 使用者 定義 마스코트 (legacy)
+        media_cache_retention_period: 미디어 캐시 維持 期限
+        profile_directory: 프로필 冊子 活性化
+        registrations_mode: 누가 加入할 수 있는지
+        require_invite_text: 加入 하는 理由를 必須로 入力하게 하기
+        show_domain_blocks: 도메인 遮斷 보여주기
+        show_domain_blocks_rationale: 왜 도메인이 遮斷되었는지 보여주기
+        site_contact_email: 連絡處 이메일
+        site_contact_username: 連絡 받을 管理者 使用者名
+        site_extended_description: 擴張된 說明
+        site_short_description: 서버 說明
+        site_terms: 個人情報 政策
         site_title: 서버 이름
-        theme: 기본 테마
+        theme: 基本 테마
         thumbnail: 서버 썸네일
-        timeline_preview: 로그인 하지 않고 공개 타임라인에 접근하는 것을 허용
-        trendable_by_default: 사전 리뷰 없이 트렌드에 오르는 것을 허용
-        trends: 유행 활성화
+        timeline_preview: 로그인 하지 않고 公開 타임라인에 接近하는 것을 許容
+        trendable_by_default: 事前 리뷰 없이 트렌드에 오르는 것을 許容
+        trends: 流行 活性化
       interactions: {}
       invite: {}
       invite_request: {}
       ip_block:
         severities:
-          sign_up_block: 가입 차단
+          sign_up_block: 加入 遮斷
       notification_emails: {}
       rule: {}
       tag: {}
       user:
-        role: 역할
+        role: 役割
       user_role:
-        color: 배지 색상
-        highlighted: 역할 배지를 使用者 프로필에 표시
+        color: 배지 色相
+        highlighted: 役割 배지를 使用者 프로필에 表示
         name: 이름
-        permissions_as_keys: 권한
-        position: 우선순위
+        permissions_as_keys: 權限
+        position: 優先順位
       webhook:
-        events: 활성화된 이벤트
+        events: 活性化된 이벤트
         url: 엔드포인트 URL
-    not_recommended: 추천하지 않음
+    not_recommended: 推薦하지 않음
     required: {}
     title:
       sessions: {}
