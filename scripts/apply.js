@@ -1,7 +1,7 @@
 
 const file = require('./file')
 
-const [baseFile, diffFile] = process.argv.slice(2)
+const [baseFile, diffFile, outFile] = process.argv.slice(2)
 
 const base = file.read(baseFile)
 const diff = file.read(diffFile)
@@ -19,4 +19,4 @@ const apply = (base, diff) => {
 }
 
 const out = apply(base, diff)
-file.write(baseFile, out)
+file.write(outFile, out)
