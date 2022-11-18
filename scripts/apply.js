@@ -1,10 +1,11 @@
 
 const fs = require('fs')
+const file = require('./file')
 
 const [baseFile, diffFile] = process.argv.slice(2)
 
-const base = JSON.parse(fs.readFileSync(baseFile).toString())
-const diff = JSON.parse(fs.readFileSync(diffFile).toString())
+const base = file.read(baseFile)
+const diff = file.read(diffFile)
 
 const apply = (base, diff) => {
     const entries = Object.keys(base).map((key) => {
@@ -18,5 +19,5 @@ const apply = (base, diff) => {
     return Object.fromEntries(entries)
 }
 
-const out = JSON.stringify(apply(base, diff), null, '\t')
-fs.writeFileSync(baseFile, out)
+const out = apply(base, diff)
+file.write(baseFile, out)
