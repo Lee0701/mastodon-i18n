@@ -1,0 +1,47 @@
+ko:
+  activerecord:
+    attributes:
+      doorkeeper/application: {}
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri: {}
+  doorkeeper:
+    applications:
+      buttons: {}
+      confirmations: {}
+      edit: {}
+      form: {}
+      help: {}
+      index: {}
+      new: {}
+      show: {}
+    authorizations:
+      buttons: {}
+      error: {}
+      new: {}
+      show: {}
+    authorized_applications:
+      buttons: {}
+      confirmations: {}
+      index: {}
+    errors:
+      messages:
+        invalid_request: {}
+        invalid_token: {}
+    flash:
+      applications:
+        create: {}
+        destroy: {}
+        update: {}
+      authorized_applications:
+        destroy: {}
+    grouped_scopes:
+      access: {}
+      title: {}
+    layouts:
+      admin:
+        nav: {}
+      application: {}
+    scopes: {}

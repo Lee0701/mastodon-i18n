@@ -1,0 +1,27 @@
+ko:
+  devise:
+    confirmations: {}
+    failure: {}
+    mailer:
+      confirmation_instructions: {}
+      email_changed: {}
+      password_change: {}
+      reconfirmation_instructions: {}
+      reset_password_instructions: {}
+      two_factor_disabled: {}
+      two_factor_enabled: {}
+      two_factor_recovery_codes_changed: {}
+      unlock_instructions: {}
+      webauthn_credential:
+        added: {}
+        deleted: {}
+      webauthn_disabled: {}
+      webauthn_enabled: {}
+    omniauth_callbacks: {}
+    passwords: {}
+    registrations: {}
+    sessions: {}
+    unlocks: {}
+  errors:
+    messages:
+      not_saved: {}
