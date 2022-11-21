@@ -1,0 +1,34 @@
+ko:
+  activerecord:
+    attributes:
+      poll: {}
+      user: {}
+      user/account: {}
+      user/invite_request: {}
+    errors:
+      models:
+        account:
+          attributes:
+            username:
+              invalid: 영문자와 숫자, 밑줄만 사용 가능합니다
+              reserved: 예약되어 있습니다
+        admin/webhook:
+          attributes:
+            url: {}
+        doorkeeper/application:
+          attributes:
+            website: {}
+        import:
+          attributes:
+            data: {}
+        status:
+          attributes:
+            reblog: {}
+        user:
+          attributes:
+            email: {}
+            role_id: {}
+        user_role:
+          attributes:
+            permissions_as_keys: {}
+            position: {}

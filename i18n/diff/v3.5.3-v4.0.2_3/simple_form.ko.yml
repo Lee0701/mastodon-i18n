@@ -1,0 +1,134 @@
+ko:
+  simple_form:
+    hints:
+      account_alias: {}
+      account_migration: {}
+      account_warning_preset: {}
+      admin_account_action:
+        types: {}
+      announcement: {}
+      appeal: {}
+      defaults:
+        discoverable: 추천, 트렌드 및 기타 기능을 통해 낯선 사람이 내 계정을 발견할 수 있도록 허용합니다
+        locked: 팔로우 요청을 승인제로 두어 누가 당신을 팔로우 할 수 있는지를 수동으로 제어합니다.
+      domain_allow: {}
+      email_domain_block: {}
+      featured_tag:
+        name: "이것들은 최근에 많이 쓰인 해시태그들입니다:"
+      filters:
+        action: 揭示物이 필터에 걸러질 때 어떤 動作을 遂行할 지 고르세요
+        actions:
+          hide: 필터에 걸러진 글을 처음부터 없었던 것처럼 完全히 가리기
+          warn: 필터에 걸러진 글을 필터 題目과 함께 警告 뒤에 가리기
+      form_admin_settings:
+        backups_retention_period: 生成된 使用者 아카이브를 며칠동안 貯藏할 지.
+        bootstrap_timeline_accounts: 이 計定들은 팔로우 推薦 目錄 上段에 固定됩니다.
+        closed_registrations_message: 새 加入을 遮斷했을 때 表示됩니다
+        content_cache_retention_period: 陽數로 設定되었다면 다른 서버의 揭示物은 여기서 設定된 日數가 지나면 削除될 것입니다. 되돌릴 수 없는 作業일 수 있습니다.
+        custom_css: 使用者 指定 스타일을 웹 버전의 마스토돈에 指定할 수 있습니다.
+        mascot: 高級 使用者 인터페이스에 있는 일러스트를 交替합니다.
+        media_cache_retention_period: 陽數로 設定된 境遇 다운로드된 미디어 파일들은 指定된 日數가 지나면 削除될 것이고 必要할 때 다시 다운로드 될 것입니다.
+        profile_directory: 프로필 冊子는 發見되기를 希望하는 모든 사람들의 目錄을 羅列합니다.
+        require_invite_text: 加入이 手動 承認을 必要로 할 때, "왜 加入하려고 하나요?" 項目을 選擇事項으로 두는 것보다는 必須로 두는 것이 낫습니다
+        site_contact_email: 사람들이 法的이나 도움 要請을 爲해 當身에게 連絡할 方法.
+        site_contact_username: 사람들이 마스토돈에서 當身에게 連絡할 方法.
+        site_extended_description: 訪問者와 使用者에게 有用할 수 있는 追加情報들. 마크다운 文法을 使用할 수 있습니다.
+        site_short_description: 이 서버를 特別하게 區分할 수 있는 짧은 說明. 누가 運營하고, 누구를 爲한 것인가요?
+        site_terms: 自身만의 個人情報 政策을 使用하거나 비워두는 것으로 基本값을 使用할 수 있습니다. 마크다운 文法을 使用할 수 있습니다.
+        site_title: 사람들이 이 서버를 도메인 네임 代身에 부를 이름.
+        theme: 로그인 하지 않은 使用者나 새로운 使用者가 보게 될 테마.
+        thumbnail: 大略 2:1 比率의 이미지가 서버 情報 옆에 表示됩니다.
+        timeline_preview: 로그아웃 한 使用者들이 이 서버에 있는 最新 公開글들을 볼 수 있게 합니다.
+        trendable_by_default: 流行하는 콘텐츠에 對한 手動 承認을 건너뜁니다. 이 設定이 適用된 以後에도 各各의 項目들을 削除할 수 있습니다.
+        trends: 트렌드는 어떤 揭示物, 해시태그 그리고 뉴스 記事가 이 서버에서 人氣를 끌고 있는지 보여줍니다.
+      form_challenge: {}
+      imports: {}
+      invite_request: {}
+      ip_block:
+        severities:
+          sign_up_block: 새 加入이 不可能하게 됩니다
+      rule: {}
+      sessions: {}
+      tag: {}
+      user:
+        role: 役割은 使用者가 어떤 權限을 가지게 될 지 決定합니다
+      user_role:
+        color: 色相은 使用者 인터페이스에서 役割을 나타내기 爲해 使用되며, RGB 16진수 型式입니다
+        highlighted: 이 役割이 公開的으로 보이도록 設定합니다
+        name: 役割이 배지로 表示될 경우, 그 역할에 對한 公開的인 이름입니다
+        permissions_as_keys: 이 役割을 가진 使用者는 다음에 接近할 수 있게 됩니다...
+        position: 特定 狀況에서 衝突이 發生할 境遇 더 높은 役割이 衝突을 解決합니다. 特定 作業은 優先順位가 낮은 役割에 對해서만 遂行될 수
+          있습니다
+      webhook:
+        events: 傳送할 이벤트를 選擇하세요
+        url: 이벤트가 어디로 傳送될 지
+    labels:
+      account:
+        fields: {}
+      account_alias: {}
+      account_migration: {}
+      account_warning_preset: {}
+      admin_account_action:
+        types: {}
+      announcement: {}
+      appeal: {}
+      defaults:
+        setting_default_sensitive: 미디어를 언제나 민감한 콘텐츠로 설정
+        setting_system_font_ui: 시스템의 기본 글꼴을 사용
+        title: 題目
+      email_domain_block: {}
+      featured_tag: {}
+      filters:
+        actions:
+          hide: 完全히 숨기기
+          warn: 警告와 함께 숨기기
+      form_admin_settings:
+        backups_retention_period: 使用者 아카이브 維持 期限
+        bootstrap_timeline_accounts: 새로운 使用者들에게 推薦할 計定들
+        closed_registrations_message: 加入이 不可能할 때의 使用者 指定 메시지
+        content_cache_retention_period: 콘텐츠 캐시 維持 期限
+        custom_css: 使用者 定義 CSS
+        mascot: 使用者 定義 마스코트 (legacy)
+        media_cache_retention_period: 미디어 캐시 維持 期限
+        profile_directory: 프로필 冊子 活性化
+        registrations_mode: 누가 加入할 수 있는지
+        require_invite_text: 加入 하는 理由를 必須로 入力하게 하기
+        show_domain_blocks: 도메인 遮斷 보여주기
+        show_domain_blocks_rationale: 왜 도메인이 遮斷되었는지 보여주기
+        site_contact_email: 連絡處 이메일
+        site_contact_username: 連絡 받을 管理者 使用者名
+        site_extended_description: 擴張된 說明
+        site_short_description: 서버 說明
+        site_terms: 個人情報 政策
+        site_title: 서버 이름
+        theme: 基本 테마
+        thumbnail: 서버 썸네일
+        timeline_preview: 로그인 하지 않고 公開 타임라인에 接近하는 것을 許容
+        trendable_by_default: 事前 리뷰 없이 트렌드에 오르는 것을 許容
+        trends: 流行 活性化
+      interactions: {}
+      invite: {}
+      invite_request: {}
+      ip_block:
+        severities:
+          sign_up_block: 加入 遮斷
+      notification_emails:
+        follow_request: 누군가 나를 팔로우 하길 요청할 때
+        reblog: 누군가 내 게시물을 부스트 했을 때
+      rule: {}
+      tag: {}
+      user:
+        role: 役割
+      user_role:
+        color: 배지 色相
+        highlighted: 役割 배지를 使用者 프로필에 表示
+        name: 이름
+        permissions_as_keys: 權限
+        position: 優先順位
+      webhook:
+        events: 活性化된 이벤트
+        url: 엔드포인트 URL
+    not_recommended: 推薦하지 않음
+    required: {}
+    title:
+      sessions: {}

@@ -1,0 +1,65 @@
+ko:
+  simple_form:
+    hints:
+      account_alias: {}
+      account_migration: {}
+      account_warning_preset: {}
+      admin_account_action:
+        types: {}
+      announcement: {}
+      appeal: {}
+      defaults:
+        discoverable: 추천, 트렌드 및 기타 기능을 통해 낯선 사람이 내 계정을 발견할 수 있도록 허용합니다
+        locked: 팔로우 요청을 승인제로 두어 누가 당신을 팔로우 할 수 있는지를 수동으로 제어합니다.
+      domain_allow: {}
+      email_domain_block: {}
+      featured_tag:
+        name: "이것들은 최근에 많이 쓰인 해시태그들입니다:"
+      filters:
+        actions: {}
+      form_admin_settings: {}
+      form_challenge: {}
+      imports: {}
+      invite_request: {}
+      ip_block:
+        severities: {}
+      rule: {}
+      sessions: {}
+      tag: {}
+      user: {}
+      user_role: {}
+      webhook: {}
+    labels:
+      account:
+        fields: {}
+      account_alias: {}
+      account_migration: {}
+      account_warning_preset: {}
+      admin_account_action:
+        types: {}
+      announcement: {}
+      appeal: {}
+      defaults:
+        setting_default_sensitive: 미디어를 언제나 민감한 콘텐츠로 설정
+        setting_system_font_ui: 시스템의 기본 글꼴을 사용
+      email_domain_block: {}
+      featured_tag: {}
+      filters:
+        actions: {}
+      form_admin_settings: {}
+      interactions: {}
+      invite: {}
+      invite_request: {}
+      ip_block:
+        severities: {}
+      notification_emails:
+        follow_request: 누군가 나를 팔로우 하길 요청할 때
+        reblog: 누군가 내 게시물을 부스트 했을 때
+      rule: {}
+      tag: {}
+      user: {}
+      user_role: {}
+      webhook: {}
+    required: {}
+    title:
+      sessions: {}

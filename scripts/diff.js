@@ -14,6 +14,7 @@ const diff = (base, updated) => {
         } else {
             if(!base[key] && updated[key]) return [key, updated[key]]
             else if(base[key] && !updated[key]) return [key, null]
+            else if(base[key] != updated[key]) return [key, updated[key]]
             else return null
         }
     }).filter((entry) => entry)

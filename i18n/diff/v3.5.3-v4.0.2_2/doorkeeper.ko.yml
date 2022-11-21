@@ -1,0 +1,50 @@
+ko:
+  activerecord:
+    attributes:
+      doorkeeper/application: {}
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri: {}
+  doorkeeper:
+    applications:
+      buttons: {}
+      confirmations: {}
+      edit: {}
+      form: {}
+      help: {}
+      index:
+        title: 내 응용프로그램
+      new: {}
+      show: {}
+    authorizations:
+      buttons: {}
+      error: {}
+      new: {}
+      show: {}
+    authorized_applications:
+      buttons: {}
+      confirmations: {}
+      index:
+        title: 승인된 응용프로그램
+    errors:
+      messages:
+        access_denied: 리소스 소유자 또는 인증 서버가 요청을 거부했습니다.
+        invalid_request: {}
+        invalid_token: {}
+    flash:
+      applications:
+        create: {}
+        destroy: {}
+        update: {}
+      authorized_applications:
+        destroy: {}
+    grouped_scopes:
+      access: {}
+      title: {}
+    layouts:
+      admin:
+        nav: {}
+      application: {}
+    scopes: {}

@@ -1,0 +1,33 @@
+ko:
+  devise:
+    confirmations: {}
+    failure:
+      inactive: 계정이 아직 활성화 되지 않았습니다.
+    mailer:
+      confirmation_instructions: {}
+      email_changed: {}
+      password_change: {}
+      reconfirmation_instructions: {}
+      reset_password_instructions: {}
+      two_factor_disabled: {}
+      two_factor_enabled: {}
+      two_factor_recovery_codes_changed: {}
+      unlock_instructions: {}
+      webauthn_credential:
+        added: {}
+        deleted: {}
+      webauthn_disabled: {}
+      webauthn_enabled: {}
+    omniauth_callbacks:
+      success: "%{kind} 계정을 성공적으로 인증했습니다."
+    passwords: {}
+    registrations:
+      signed_up_but_inactive: 성공적으로 가입했습니다. 하지만 계정이 활성화되지 않았기 때문에 아직 로그인할 수 없습니다.
+      signed_up_but_locked: 성공적으로 가입했습니다. 하지만 계정이 잠겨있기 때문에 아직 로그인할 수 없습니다.
+      update_needs_confirmation: 계정 정보를 성공적으로 업데이트했으며, 새 이메일 주소에 대한 확인이 필요합니다. 이메일로
+        전달된 링크를 따라 새 이메일을 확인하세요. 메일을 받지 못하셨다면 스팸 폴더를 확인해 주세요.
+    sessions: {}
+    unlocks: {}
+  errors:
+    messages:
+      not_saved: {}
