@@ -11,4 +11,4 @@ Updating locale file(s) on new version release
 ## example
 node scripts/apply.js i18n/vanilla/v4.0.2/ko.yml i18n/diff/v3.5.3-v4.0.2/ko.yml i18n/temp/ko.yml
 
-node scripts/update.js i18n/custom/v3.5.3/ko-Kore.yml i18n/temp/ko.yml i18n/merged/ko-Kore.yml
+node scripts/update.js i18n/custom/v3.5.3/ko-Kore.yml i18n/temp/ko.yml i18n/merged/v4.0.2/ko-Kore.yml

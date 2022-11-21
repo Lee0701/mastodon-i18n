@@ -15,7 +15,7 @@ const update = (base, updated) => {
             if(base[key] == updated[key]) return [key, base[key]]
             else if(!base[key] && updated[key]) return [key, updated[key]]
             else if(base[key] && !updated[key]) return null
-            else return [key, base[key]]
+            else return [key, updated[key] || base[key]]
         }
     }).filter((entry) => entry)
     return Object.fromEntries(entries)
