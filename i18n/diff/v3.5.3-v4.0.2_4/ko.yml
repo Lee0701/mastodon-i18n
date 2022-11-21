@@ -9,53 +9,53 @@ ko:
     account_moderation_notes: {}
     accounts:
       change_email:
-        changed_msg: 이메일이 성공적으로 변경되었습니다!
+        changed_msg: 이메일이 成功的으로 變更되었습니다!
       change_role: {}
-      display_name: 표시되는 이름
+      display_name: 表示되는 이름
       location: {}
       moderation:
-        pending: 대기 중
-      most_recent_activity: 최근 활동순
-      no_account_selected: 아무 것도 선택 되지 않아 어떤 계정도 변경 되지 않았습니다
-      perform_full_suspension: 정지
+        pending: 待機 中
+      most_recent_activity: 最近 活動順
+      no_account_selected: 아무것도 選擇되지 않아 어떤 計定도 變更되지 않았습니다
+      perform_full_suspension: 停止
       previous_strikes_description_html:
-        other: 이 계정에는 <strong>%{count}</strong>번의 처벌이 있었습니다.
+        other: 이 計定에는 <strong>%{count}</strong>番의 處罰이 있었습니다.
       resend_confirmation: {}
-      role: 역할
+      role: 役割
       security_measures: {}
-      sensitive: 민감함 강제
+      sensitive: 敏感함 强制
       show: {}
-      unconfirmed_email: 확인되지 않은 이메일 주소
+      unconfirmed_email: 確認되지 않은 이메일 住所
     action_logs:
       action_types:
-        reject_appeal: 이의 제기 거절
+        reject_appeal: 異議提起 拒絶
       actions:
-        approve_appeal_html: "%{name} 님이 %{target}의 중재 결정에 대한 이의 제기를 승인했습니다"
-        destroy_custom_emoji_html: "%{name} 님이 에모지 %{target}를 삭제했습니다"
-        disable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 비활성화했습니다"
-        disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 인증을 비활성화했습니다"
-        disable_user_html: "%{name} 님이 사용자 %{target}의 로그인을 비활성화했습니다"
-        enable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 활성화했습니다"
-        enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 인증을 활성화했습니다"
-        enable_user_html: "%{name} 님이 사용자 %{target}의 로그인을 활성화했습니다"
-        reject_appeal_html: "%{name} 님이 %{target}의 중재 결정에 대한 이의 제기를 거절했습니다"
-        unblock_email_account_html: "%{name} 님이 %{target}의 이메일 주소를 차단 해제했습니다"
-        update_status_html: "%{name} 님이 %{target}의 게시물을 업데이트했습니다"
+        approve_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 承認했습니다"
+        destroy_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 削除했습니다"
+        disable_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 非活性化했습니다"
+        disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 非活性化했습니다"
+        disable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 非活性化했습니다"
+        enable_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 活性化했습니다"
+        enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 活性化했습니다"
+        enable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 活性化했습니다"
+        reject_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 拒絶했습니다"
+        unblock_email_account_html: "%{name} 님이 %{target}의 이메일 住所를 遮斷 解除했습니다"
+        update_status_html: "%{name} 님이 %{target}의 揭示物을 업데이트했습니다"
     announcements:
       edit: {}
       new: {}
     custom_emojis:
-      enabled: 활성화됨
+      enabled: 活性化됨
       new: {}
     dashboard:
       pending_appeals_html:
-        other: <strong>%{count}</strong>개의 대기 중인 이의 제기
+        other: <strong>%{count}</strong>個의 待機中인 이의 제기
       pending_reports_html:
-        other: <strong>%{count}</strong>건의 대기 중인 신고
+        other: <strong>%{count}</strong>件의 待機中인 신고
       pending_tags_html:
-        other: <strong>%{count}</strong>개의 대기 중인 해시태그
+        other: <strong>%{count}</strong>個의 待機中인 해시태그
       pending_users_html:
-        other: <strong>%{count}</strong>명의 대기 중인 사용자
+        other: <strong>%{count}</strong>名의 待機中인 使用者
     disputes:
       appeals: {}
     domain_allows: {}
@@ -63,13 +63,13 @@ ko:
       new:
         severity:
           desc_html: >-
-            <strong>침묵</strong>은 계정을 팔로우 하지 않고 있는 사람들에겐 계정의 게시물을 보이지 않게 합니다.
-            <strong>정지</strong>는 계정의 콘텐츠, 미디어, 프로필 데이터를 삭제합니다.
+            <strong>沈默</strong>은 計定을 팔로우 하지 않고 있는 사람들에겐 計定의 揭示物을 보이지 않게 합니다.
+            <strong>停止</strong>는 計定의 콘텐츠, 미디어, 프로필 데이터를 削除합니다.
 
-            미디어 파일만을 거부하고 싶다면 <strong>없음</strong>으로 두세요.
+            미디어 파일만을 拒否하고 싶다면 <strong>없음</strong>으로 두세요.
     email_domain_blocks:
       attempts_over_week:
-        other: 지난 주 동안 %{count}건의 가입 시도가 있었습니다
+        other: 지난 週 동안 %{count}件의 加入 試圖가 있었습니다
       dns:
         types: {}
       new: {}
@@ -82,12 +82,12 @@ ko:
         policies: {}
       dashboard: {}
       delivery: {}
-      delivery_error_hint: 만약 %{count}일 동안 전달이 불가능하다면, 자동으로 전달 불가로 표시됩니다.
+      delivery_error_hint: 萬若 %{count}日 동안 傳達이 不可能하다면, 自動으로 傳達 不可로 표시됩니다.
       known_accounts:
-        other: "%{count}개의 알려진 계정"
+        other: "%{count}個의 알려진 計定"
       moderation: {}
-      purge_description_html: 이 도메인이 영구적으로 오프라인 상태라고 생각되면, 스토리지에서 이 도메인의 모든 계정 레코드와 관련
-        데이터를 삭제할 수 있습니다. 이 작업은 시간이 좀 걸릴 수 있습니다.
+      purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 생각되면, 스토리지에서 이 도메인의 모든 計定 레코드와 關聯
+        데이터를 削除할 수 있습니다. 이 作業은 時間이 좀 걸릴 수 있습니다.
     invites:
       filter: {}
     ip_blocks:
@@ -95,23 +95,23 @@ ko:
       new: {}
     relationships: {}
     relays:
-      pending: 릴레이의 승인 대기 중
+      pending: 릴레이의 承認 待機 中
     report_notes: {}
     reports:
       account:
         notes: {}
       actions:
-        suspend_description_html: 프로필과 모든 콘텐츠가 최종적으로 삭제될 때까지 접근 불가상태가 됩니다. 이 계정과의 상호작용은
-          불가능해집니다. 30일 이내에 되돌릴 수 있습니다.
-      actions_description_html: 이 신고를 해결하기 위해 취해야 할 조치를 지정해주세요. 신고된 계정에 대해 처벌 조치를 취하면,
-        <strong>스팸</strong> 카테고리가 선택된 경우를 제외하고 해당 계정으로 이메일 알림이 전송됩니다.
-      assigned: 할당된 중재자
+        suspend_description_html: 프로필과 모든 콘텐츠가 最終的으로 削除될 때까지 接近 不可狀態가 됩니다. 이 計定과의 相互作用은
+          不可能해집니다. 30日 以內에 되돌릴 수 있습니다.
+      actions_description_html: 이 申告를 解決하기 爲해 取해야 할 措置를 指定해주세요. 申告된 計定에 對해 處罰 措置를 取하면,
+        <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 該當 計定으로 이메일 알림이 傳送됩니다.
+      assigned: 割當된 仲裁者
       comment: {}
       notes: {}
-      notes_description_html: 확인하고 다른 중재자나 미래의 자신을 위해 노트를 작성합니다
-      quick_actions_description_html: "빠른 조치를 취하거나 아래로 스크롤해서 신고된 콘텐츠를 확인하세요:"
-      statuses: 신고된 콘텐츠
-      statuses_description_html: 문제가 되는 콘텐츠는 신고된 계정에게 인용되어 전달됩니다
+      notes_description_html: 確認하고 다른 仲裁者나 未來의 自身을 爲해 노트를 作成합니다
+      quick_actions_description_html: "빠른 措置를 取하거나 아래로 스크롤해서 申告된 콘텐츠를 確認하세요:"
+      statuses: 申告된 콘텐츠
+      statuses_description_html: 問題가 되는 콘텐츠는 申告된 計定에게 引用되어 傳達됩니다
     roles:
       assigned_users: {}
       categories: {}
@@ -133,12 +133,12 @@ ko:
     statuses:
       batch: {}
       media: {}
-      no_status_selected: 아무 것도 선택 되지 않아 어떤 게시물도 바뀌지 않았습니다
+      no_status_selected: 아무 것도 選擇되지 않아 어떤 揭示物도 바뀌지 않았습니다
     strikes:
       actions: {}
     system_checks:
       database_schema_check:
-        message_html: 대기 중인 데이터베이스 마이그레이션이 있습니다. 애플리케이션이 예상대로 동작할 수 있도록 마이그레이션을 실행해 주세요
+        message_html: 待機中인 데이터베이스 마이그레이션이 있습니다. 애플리케이션이 豫想대로 動作할 수 있도록 마이그레이션을 實行해 주세요
       elasticsearch_running_check: {}
       elasticsearch_version_check: {}
       rules_check: {}
@@ -162,7 +162,7 @@ ko:
       actions: {}
     new_pending_account: {}
     new_report:
-      body: "%{reporter} 님이 %{target}를 신고했습니다"
+      body: "%{reporter} 님이 %{target}를 申告했습니다"
     new_trends:
       new_trending_links: {}
       new_trending_statuses: {}
@@ -173,14 +173,14 @@ ko:
   application_mailer: {}
   applications: {}
   auth:
-    apply_for_account: 대기자 명단에 들어가기
+    apply_for_account: 待機者 名單에 들어가기
     description: {}
     providers: {}
     rules: {}
     setup: {}
     sign_up: {}
     status:
-      pending: 당신의 가입 신청은 스태프의 검사를 위해 대기 중입니다. 시간이 조금 걸릴 수 있습니다. 가입 신청이 승인되면 이메일을 받게
+      pending: 當身의 加入申請은 스태프의 檢査를 爲해 待機中입니다. 時間이 조금 걸릴 수 있습니다. 加入申請이 承認되면 이메일을 받게
         됩니다.
   authorize_follow:
     post_follow: {}
@@ -193,11 +193,11 @@ ko:
     distance_in_words: {}
   deletes:
     warning:
-      caches: 다른 서버에 캐싱된 정보들은 남아있을 수 있습니다
+      caches: 다른 서버에 캐싱된 情報들은 남아있을 수 있습니다
   disputes:
     strikes:
       appeals: {}
-      reject_appeal: 이의 제기 거절
+      reject_appeal: 異議提起 拒絶
       title_actions: {}
   domain_validator: {}
   errors:
@@ -230,7 +230,7 @@ ko:
   imports:
     errors: {}
     modes: {}
-    success: 파일이 정상적으로 업로드되었으며, 현재 처리 중입니다
+    success: 파일이 正常的으로 업로드되었으며, 現在 處理中입니다
     types: {}
   invites:
     expires_in: {}
@@ -276,7 +276,7 @@ ko:
   privacy_policy: {}
   reactions:
     errors:
-      limit_reached: 리액션 갯수 제한에 도달했습니다
+      limit_reached: 리액션 個數 制限에 到達했습니다
   relationships: {}
   remote_follow: {}
   reports:
@@ -287,7 +287,7 @@ ko:
   sessions:
     browsers:
       uc_browser: UC 브라우저
-    explanation: 내 마스토돈 계정에 로그인되어 있는 웹 브라우저 목록입니다.
+    explanation: 내 마스토돈 計定에 로그인되어 있는 웹 브라우저 目錄입니다.
     platforms:
       windows: 윈도우
       windows_mobile: 윈도우 모바일
@@ -297,7 +297,7 @@ ko:
     attached:
       audio: {}
       image:
-        other: "%{count}장의 이미지"
+        other: "%{count}張의 이미지"
       video: {}
     disallowed_hashtags: {}
     errors: {}
@@ -309,7 +309,7 @@ ko:
   statuses_cleanup:
     min_age: {}
   stream_entries:
-    sensitive_content: 민감한 콘텐츠
+    sensitive_content: 敏感한 콘텐츠
   strikes:
     errors: {}
   tags: {}
@@ -320,28 +320,28 @@ ko:
   user_mailer:
     appeal_approved: {}
     appeal_rejected:
-      title: 이의 제기가 거절되었습니다
+      title: 異議提起가 拒絶되었습니다
     backup_ready: {}
     suspicious_sign_in: {}
     warning:
       categories:
-        violation: 콘텐츠가 다음의 커뮤니티 규정을 위반합니다
+        violation: 콘텐츠가 다음의 커뮤니티 規定을 違反합니다
       explanation:
-        delete_statuses: 귀하의 게시물 중 일부가 하나 이상의 커뮤니티 가이드라인을 위반한 것으로 확인되어 %{instance}의 중재자에
-          의해 삭제되었습니다.
+        delete_statuses: 貴下의 揭示物 中 一部가 하나 以上의 커뮤니티 가이드라인을 違反한 것으로 確認되어 %{instance}의 仲裁者에
+          依해 削除되었습니다.
       subject: {}
       title: {}
     welcome:
-      edit_profile_step: 프로필 사진을 업로드하고, 사람들에게 표시 될 이름을 바꾸는 것 등으로 당신의 프로필을 커스텀 할 수
-        있습니다. 사람들이 당신을 팔로우 하기 전에 리뷰를 거치게 할 수도 있습니다.
-      final_step: "게시물을 올리세요! 팔로워가 없더라도, 공개 게시물들은 다른 사람에게 보여질 수 있습니다, 예를 들자면 로컬이나 연합
-        타임라인 등이 있습니다. 사람들에게 자신을 소개하고 싶다면 #툿친소 해시태그를 이용해보세요."
-      full_handle: 내 전체 핸들
+      edit_profile_step: 프로필 寫眞을 업로드하고, 사람들에게 表示될 이름을 바꾸는 것 等으로 當身의 프로필을 커스텀 할 수
+        있습니다. 사람들이 當身을 팔로우 하기 前에 리뷰를 거치게 할 수도 있습니다.
+      final_step: "揭示物을 올리세요! 팔로워가 없더라도, 公開 揭示物들은 다른 사람에게 보여질 수 있습니다, 例를 들자면 로컬이나 聯合
+        타임라인 等이 있습니다. 사람들에게 自身을 紹介하고 싶다면 #툿친소 해시태그를 利用해보세요."
+      full_handle: 내 全體 핸들
   users:
-    seamless_external_login: 외부 서비스를 이용해 로그인했으므로 이메일과 암호는 설정할 수 없습니다.
+    seamless_external_login: 外部 서비스를 利用해 로그인했으므로 이메일과 暗號는 設定할 수 없습니다.
   verification: {}
   webauthn_credentials:
     create:
-      error: 보안 키를 추가하는 데 문제가 발생했습니다. 다시 시도해보십시오.
+      error: 保安 키를 追加하는 데 問題가 發生했습니다. 다시 試圖해보십시오.
     destroy:
-      error: 보안 키를 삭제하는 데 문제가 발생했습니다. 다시 시도해보십시오.
+      error: 保安 키를 削除하는 데 問題가 發生했습니다. 다시 試圖해보십시오.
