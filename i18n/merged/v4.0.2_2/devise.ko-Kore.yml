@@ -1,0 +1,128 @@
+ko:
+  devise:
+    confirmations:
+      confirmed: 이메일이 成功的으로 承認 되었습니다.
+      send_instructions: 몇 分 以內로 確認 이메일이 發送 됩니다. 이메일을 받지 못한 境遇, 스팸 폴더를 確認하세요.
+      send_paranoid_instructions: 當身의 이메일이 우리의 DB에 있을 境遇 몇 分 以內로 確認 메일이 發送 됩니다. 이메일을
+        받지 못 한 境遇, 스팸 폴더를 確認하세요.
+    failure:
+      already_authenticated: 이미 로그인 된 狀態입니다.
+      inactive: 計定이 아직 活性化되지 않았습니다.
+      invalid: 올바르지 않은 %{authentication_keys} 或은 패스워드입니다.
+      last_attempt: 計定이 잠기기까지 한 番의 試圖가 남았습니다.
+      locked: 計定이 잠겼습니다.
+      not_found_in_database: 올바르지 않은 %{authentication_keys} 或은 패스워드입니다.
+      pending: 計定이 아직 審査 中입니다.
+      timeout: 세션이 滿了 되었습니다. 다시 로그인 해 주세요.
+      unauthenticated: 繼續 하려면 로그인을 해야 합니다.
+      unconfirmed: 繼續 하려면 이메일을 確認 받아야 합니다.
+    mailer:
+      confirmation_instructions:
+        action: 이메일 確認
+        action_with_app: 確認하고 %{app}으로 돌아가기
+        explanation: 當身은 %{host}에서 이 이메일로 加入하셨습니다. 클릭만 하시면 計定이 活性化 됩니다. 萬若 當身이 加入한 게
+          아니라면 이 메일을 無視해 주세요.
+        explanation_when_pending: 當身은 %{host}에 加入 要請을 하셨습니다. 이 이메일이 確認 되면 우리가 加入 要請을
+          리뷰하고 勝因할 수 있습니다. 그 前까지는 로그인을 할 수 없습니다. 當身의 加入 要請이 拒否 될 境遇 當身에 對한 情報는
+          모두 削除 되며 따로 要請 할 必要는 없습니다. 萬若 當身이 加入 要請을 한 게 아니라면 이 메일을 無視해 주세요.
+        extra_html: <a href="%{terms_path}">서버의 規則</a>과 <a href="%{policy_path}">利用
+          約款</a>도 確認해 주세요.
+        subject: "마스토돈: %{instance}에 對한 確認 메일"
+        title: 이메일 住所 確認
+      email_changed:
+        explanation: "當身의 計定에 對한 이메일이 다음과 같이 바뀌려고 합니다:"
+        extra: 萬若 當身이 메일을 바꾸지 않았다면 누군가가 當身의 計定에 對한 接近 權限을 얻은 것입니다. 卽時 패스워드를 바꾼 후, 計定이
+          잠겼다면 서버의 管理者에게 連落 하세요.
+        subject: "마스토돈: 이메일이 變更 되었습니다"
+        title: 새 이메일 住所
+      password_change:
+        explanation: 當身의 計定 패스워드가 變更되었습니다.
+        extra: 萬若 패스워드 變更을 하지 않았다면 누군가가 當身의 計定에 對한 接近 權限을 얻은 것입니다. 卽時 패스워드를 바꾼 후, 計定이
+          잠겼다면 서버의 管理者에게 連落 하세요.
+        subject: "마스토돈: 패스워드가 變更 되었습니다"
+        title: 패스워드가 變更 되었습니다
+      reconfirmation_instructions:
+        explanation: 이메일 住所를 바꾸려면 새 이메일 住所를 確認해야 합니다.
+        extra: 當身이 試圖한 것이 아니라면 이 메일을 無視해 주세요. 위 링크를 클릭하지 않으면 이메일 變更은 일어나지 않습니다.
+        subject: "마스토돈: %{instance}에 對한 이메일 確認"
+        title: 이메일 住所 確認
+      reset_password_instructions:
+        action: 패스워드 變更
+        explanation: 計定에 對한 패스워드 變更을 要請하였습니다.
+        extra: 萬若 當身이 試圖한 것이 아니라면 이 메일을 無視해 주세요. 위 링크를 클릭해 패스워드를 새로 設定하기 前까지는 패스워드가 바뀌지
+          않습니다.
+        subject: "마스토돈: 패스워드 再設定 方法"
+        title: 패스워드 再設定
+      two_factor_disabled:
+        explanation: 當身의 計定에 設定된 二重 認證이 非活性化 되었습니다. 이제 이메일과 暗號만으로 로그인이 可能합니다.
+        subject: "마스토돈: 二重 認證 非活性化"
+        title: 2FA 非活性化 됨
+      two_factor_enabled:
+        explanation: 當身의 計定에 二重 認證이 活性化되었습니다. 로그인時 페어링된 T-OTP 앱에서 生成된 토큰이 必要합니다.
+        subject: "마스토돈: 二重 認證 活性化"
+        title: 2FA 活性化 됨
+      two_factor_recovery_codes_changed:
+        explanation: 以前 復舊 코드가 無效化되고 새 코드가 生成되었습니다
+        subject: "마스토돈: 二重 認證 復舊 코드 再生成 됨"
+        title: 2FA 復舊 코드 變更됨
+      unlock_instructions:
+        subject: "마스토돈: 잠금 解除 方法"
+      webauthn_credential:
+        added:
+          explanation: 計定에 다음 保安 키가 登錄되었습니다
+          subject: "마스토돈: 새로운 保安 키"
+          title: 새 保安 키가 追加되었습니다
+        deleted:
+          explanation: 計定에서 다음 保安 키가 削除되었습니다
+          subject: "마스토돈: 保安 키 削除"
+          title: 保安 키가 削除되었습니다
+      webauthn_disabled:
+        explanation: 保安 키를 利用한 認證이 當身의 計定에 對해 非活性化 되어 있습니다. TOTP 앱의 토큰만으로 로그인 할 수 있습니다.
+        subject: "마스토돈: 保安 키를 利用한 人證이 非活性化 됨"
+        title: 保安 키 非活性化 됨
+      webauthn_enabled:
+        explanation: 保安 키 認證이 當身의 計定에 對해 活性化 되어 있습니다. 保安 키를 通해 로그인 할 수 있습니다.
+        subject: "마스토돈: 保安 키 認證 活性化 됨"
+        title: 保安 키 活性化 됨
+    omniauth_callbacks:
+      failure: '"%{reason}" 때문에 當身을 %{kind}에서 認證할 수 없습니다.'
+      success: "%{kind} 計定을 成功的으로 認證했습니다."
+    passwords:
+      no_token: 패스워드 再設定 이메일을 거치지 않고는 여기에 올 수 없습니다. 萬若 패스워드 再設定 메일에서 온 것이라면 URL이 맞는지
+        確認해 주세요.
+      send_instructions: 當身의 이메일 住所가 우리의 DB에 있다면 패스워드 復舊 링크가 몇 分 以內에 메일로 發送 됩니다. 萬若
+        메일을 받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      send_paranoid_instructions: 當身의 이메일 住所가 우리의 DB에 있다면 패스워드 復舊 링크가 몇 分 以內에 메일로 發送
+        됩니다. 만약 메일을 받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      updated: 패스워드가 再設定 되었습니다. 로그인 되었습니다.
+      updated_not_active: 패스워드가 成功的으로 變更 되었습니다.
+    registrations:
+      destroyed: 安寧히 가세요! 計定이 成功的으로 除去되었습니다. 다시 만나기를 希望합니다.
+      signed_up: 安寧하세요! 成功的으로 加入했습니다.
+      signed_up_but_inactive: 成功的으로 加入했습니다. 하지만 計定이 活性化되지 않았기 때문에 아직 로그인할 수 없습니다.
+      signed_up_but_locked: 成功的으로 加入했습니다. 하지만 計定이 잠겨있기 때문에 아직 로그인할 수 없습니다.
+      signed_up_but_pending: 確認 링크를 包含한 메일이 發送 되었습니다. 링크를 클릭한 以後, 우리가 當身의 申請樣式을 檢討합니다.
+        承認이 되면 알림을 發送합니다.
+      signed_up_but_unconfirmed: 確認 링크를 包含한 메일이 發送 되었습니다. 링크를 클릭해 計定을 活性化 하세요. 메일을 받지
+        못 하신 경우 스팸 폴더를 確認해 주세요.
+      update_needs_confirmation: 計定情報를 成功的으로 업데이트했으며, 새 이메일 住所에 대한 確認이 必要합니다. 이메일로 傳達된
+        링크를 따라 새 이메일을 確認하세요. 메일을 받지 못하셨다면 스팸 폴더를 確認해 주세요.
+      updated: 計定 情報가 成功的으로 업데이트 되었습니다.
+    sessions:
+      already_signed_out: 成功的으로 로그아웃 되었습니다.
+      signed_in: 成功的으로 로그인 되었습니다.
+      signed_out: 成功的으로 로그아웃 되었습니다.
+    unlocks:
+      send_instructions: 몇 分 以內로 計定 잠금 解除에 對한 案內 메일이 發送 됩니다. 메일을 받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      send_paranoid_instructions: 計定이 存在한다면 몇 分 以內로 計定 잠금 解除에 對한 案內 메일이 發送 됩니다. 메일을 받지
+        못 하신 境遇 스팸 폴더를 確認해 주세요.
+      unlocked: 計定이 成功的으로 잠금 解除 되었습니다. 繼續 하려면 로그인 하세요.
+  errors:
+    messages:
+      already_confirmed: 이미 確認 되었습니다, 로그인 하세요
+      confirmation_period_expired: "%{period} 안에 確認을 해야 합니다, 새로 要請하세요"
+      expired: 滿了되었습니다, 새로 要請하세요
+      not_found: 찾을 수 없습니다
+      not_locked: 잠기지 않았습니다
+      not_saved:
+        other: "%{count}個의 에러로 인해 %{resource}가 貯藏 될 수 없습니다:"
