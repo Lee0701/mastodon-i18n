@@ -15,7 +15,7 @@ ko:
       form: {}
       help: {}
       index:
-        title: 내 응용프로그램
+        title: 내 應用프로그램
       new: {}
       show: {}
     authorizations:
@@ -27,10 +27,10 @@ ko:
       buttons: {}
       confirmations: {}
       index:
-        title: 승인된 응용프로그램
+        title: 承認된 應用프로그램
     errors:
       messages:
-        access_denied: 리소스 소유자 또는 인증 서버가 요청을 거부했습니다.
+        access_denied: 리소스 所有者 또는 認證 서버가 要請을 拒否했습니다.
         invalid_request: {}
         invalid_token: {}
     flash:
