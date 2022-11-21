@@ -10,8 +10,8 @@ ko:
         account:
           attributes:
             username:
-              invalid: 영문자와 숫자, 밑줄만 사용 가능합니다
-              reserved: 예약되어 있습니다
+              invalid: 英文字와 數字, 밑줄만 使用 可能합니다
+              reserved: 豫約되어 있습니다
         admin/webhook:
           attributes:
             url: {}
